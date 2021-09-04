@@ -1,0 +1,827 @@
+<!DOCTYPE html><html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="x-apple-disable-message-reformatting">
+<!--FIX FOR OUTLOOK DPI SCALING-->
+<!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if !mso]><!-- -->
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<!--<![endif]-->
+<title></title>
+
+<!-- [START] WEB FONTS -->
+<style type="text/css">
+
+@font-face {
+  font-family: 'Dunkin-Serif-Bold';
+  src: url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.eot') format('embedded-opentype'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.woff') format('woff'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.woff2') format('woff2'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.ttf') format('truetype');
+}
+[style*="Dunkin-Serif-Bold"] {
+  font-family: 'Dunkin-Serif-Bold', Bookman, Georgia, serif !important;
+}
+/* use style="font-family:Bookman, Georgia, serif, 'Dunkin-Serif-Bold';" */
+
+@font-face {
+  font-family: 'Dunkin-Sans-Display';
+  src: url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.eot') format('embedded-opentype'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.woff') format('woff'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.woff2') format('woff2'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.ttf') format('truetype');
+  font-style: normal;
+}
+[style*="Dunkin-Sans-Display"] {
+  font-family: 'Dunkin-Sans-Display', Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important; /* override bold to prevent double bold - keep headlines bold if no custom font */
+}
+/* use style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display';" */
+
+@font-face {
+  font-family: 'Dunkin-Sans-Book';
+  src: url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.eot') format('embedded-opentype'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.woff') format('woff'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.woff2') format('woff2'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.ttf') format('truetype');
+  font-style: normal;
+}
+[style*="Dunkin-Sans-Book"] {
+  font-family: 'Dunkin-Sans-Book', Helvetica, Arial, sans-serif !important;
+}
+/* use style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book';" */
+
+</style>
+<!--[if gt mso 9]>
+<style type="text/css">
+[style*="Dunkin-Serif-Bold"] {font-family: Bookman, Georgia, serif !important;}
+[style*="Dunkin-Sans-Display"] {font-family: Helvetica, Arial, sans-serif !important;}
+[style*="Dunkin-Sans-Book"] {font-family: Helvetica, Arial, sans-serif !important;}
+</style>
+<![endif]-->
+<!-- [END] WEB FONTS -->
+
+<style type="text/css">
+* {
+  -webkit-text-size-adjust: none;
+}
+
+/*** prevent iOS font upsizing ***/
+.ExternalClass * {
+  line-height: 100%;
+}
+
+/*** force Outlook.com to honor line-height ***/
+td {
+  mso-line-height-rule: exactly;
+}
+
+/*** prevent iOS auto-linking ***/
+.applefix a {
+  /* use on a span around the text */
+  color: #333333;
+  text-decoration: none;
+}
+
+/*** override blue links in apple mail ***/
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+a:active, a:focus { 
+  outline: 0!important;
+}
+
+.show { 
+  display: none;
+}
+
+/*** media queries ***/
+@media only screen and (max-width: 600px) {
+
+/*** removes the extra right margin in the Gmail app ***/
+/*** NOTE: must have .class after div and add class to every table with .width100 ***/
+u ~ div .wrapper {
+  min-width: 100vw;
+}
+/*** apple links ***/
+.appleLinksWhite a {
+  color: #ffffff!important;
+  text-decoration: none!important;
+}
+.appleLinksPurp a {
+  color: #664f8c!important;
+  text-decoration: none!important;
+}
+.appleLinksGrey a {
+  color: #525252!important;
+  text-decoration: none!important;
+}
+
+/*** fixes samsung blue underline ***/
+#MessageViewBody a {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+/*** hide/show ***/
+.hide {
+  display: none!important;
+}
+.show {
+  display: block!important;
+  height: auto!important;
+  overflow: visible!important;
+  visibility: visible!important;
+  max-height: none!important;
+  width: 100%!important;
+}
+.show-inline {
+  display: inline-block!important;
+  height: auto!important;
+  overflow: visible!important;
+  visibility: visible!important;
+  max-height: none!important;
+}
+
+/*** content stacking ***/
+.stackTable {
+  width: 100% !important;
+  display: table !important;
+}
+
+/*** centering ***/
+.header-center {
+ margin:0 auto!important;
+ float:none!important;
+}
+.center-block {
+  display: inline-block!important;
+  margin: 0 auto!important;
+}
+.center {
+  float: none;
+  margin: 0 auto!important;
+}
+.text-center {
+  text-align: center!important;
+}
+
+/*** width ***/
+.width100 {
+  float: none!important;
+  width: 100%!important;
+  height: auto!important;
+}
+.width50 {
+  width: 50%!important;
+}
+
+/*** height ***/
+.autoHeight {
+  height: auto !important;
+}
+
+/*** padding ***/
+.width-padding {
+  width: auto!important;
+  height: auto!important;
+  padding: 0 6%!important;
+}
+.width-padding-sm {
+  width: auto!important;
+  height: auto!important;
+  padding: 0 3%!important;
+}
+.padding0 {
+   padding: 0px 0px 0px 0px!important; 
+}
+.paddingTop10 {
+  padding-top: 10px!important;
+}
+.paddingBottom10 {
+  padding-bottom: 10px!important;
+}
+.paddingTop20 {
+  padding-top: 20px!important;
+}
+.paddingBottom20 {
+  padding-bottom: 20px!important;
+}
+.paddingTop30 {
+  padding-top: 40px!important;
+}
+.paddingBottom30 {
+  padding-bottom: 40px!important;
+}
+.paddingRight0 {
+  padding-right: 0px!important;
+}
+.paddingLeft0 {
+  padding-left: 0px!important;
+}
+.paddingRight20 {
+  padding-right: 20px!important;
+}
+.paddingLeft20 {
+  padding-left: 20px!important;
+}
+.paddingRight30 {
+  padding-right: 30px!important;
+}
+.paddingLeft30 {
+  padding-left: 30px!important;
+}
+
+/*** fonts ***/
+.font-size-16 {
+  font-size: 16px !important;
+}
+.align-left {
+  text-align: left!important;
+}
+/*** borders ***/
+.no-border {
+  border: 0!important;
+}
+.border0 {
+  border: 0px!important;
+}
+.borderTop0 {
+  border-top: 0px!important;
+}
+.borderTop3 {
+  border-top: solid 3px #F56200!important;
+}
+.borderRightOrange {
+  border-right: solid 2px #F56200!important;
+}
+/*** backgrounds ***/
+.bgPink {
+  background-color: #E60073!important;
+}
+
+/* IMAGE SWAPS */
+.imgReplaceBG {
+  background-image: url(images/102819_HalloweenPickYourTreat_bg-gradient-1x.jpg) !important;
+  width: 100%!important;
+  height: 326px!important;
+  /* update height here */
+  background-size: cover!important;
+  background-position: center top!important;
+  background-repeat: no-repeat!important;
+  display: block!important;
+}
+.imgReplaceBGRound {
+  background-image: url(images/102819_HalloweenPickYourTreat_bg-round-table-1x.jpg) !important;
+  width: 100%!important;
+  height: 110px!important;
+  /* update height here */
+  background-size: contain!important;
+  background-position: center top!important;
+  background-repeat: no-repeat!important;
+  display: block!important;
+}
+/*** DUNKIN LOGO WIDTH ***/
+.width82 {
+  width: 82px!important;
+  height: auto!important;
+}
+.width96 {
+  width: 96px!important;
+}
+
+/*** MESSAGE-SPECIFIC CSS GOES HERE ***/
+.font16 {
+  font-size: 16px!important;
+  line-height: 22px!important;
+}
+
+.font18 {
+  font-size: 18px!important;
+  line-height: 22px!important;
+}
+
+.width52 {
+  width: 52px!important;
+  height: auto!important;
+}
+.width78 {
+  width:78px!important;
+}
+
+.width90 {
+  width:90px!important;
+} 
+.width98 {
+  width:98px!important;
+} 
+.widthP70 {
+  max-width: 70%!important;
+}
+.width122 {
+  width:122px!important;
+}
+.widthProducts {
+  width: 240px!important;
+}
+.textPadding20 {
+  padding-right: 10px!important;
+  padding-left: 10px!important;
+}
+.textPadding18 {
+  padding-left:10px!important;
+}
+/*** END Responsive CSS ***/
+}
+@media only screen and (max-width: 360px) {
+  .width-padding {
+    padding:0 4% 0 4% !important;
+  }
+  .width52 {
+    width: 42px!important;
+  }
+  .width78 {
+    width: 60px!important;
+  }
+  .fontSm {
+    font-size: 16px!important;
+  }
+  .widthTblSm {
+  width: 68px!important;
+  }
+}
+</style>
+<!--FIXED OUTLOOK 2013 120DPI ISSUES-->
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+</head>
+
+<body style="padding:0px; margin:0px; -webkit-text-size-adjust:none !important;">
+  <!-- CONTENT CONTAINER -->
+  <div class="width100" style="font-family:Helvetica, Arial, sans-serif; width:100%; margin-left:auto; margin-right:auto;"> 
+    <!-- INNER CONTAINER - place all modules below -->
+
+    <!-- preheader -->
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px; background-color:#FFFFFF;" class="width100 wrapper">
+      <tr>
+        <td align="center" valign="top" style="padding:10px 0px 10px 0px;">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td valign="top" align="left" style="color:#6d6e71; font-size:12px; line-height:normal; font-family:Helvetica, Arial, sans-serif; text-align:center; padding:0px 0px 0px 0px;"><strong>Earn big on the Halloween treat of your choice!</strong></td>
+            </tr>
+            <tr>
+              <td style="color:#9B9B9B; font-size:11px; line-height:normal; font-family:Helvetica, Arial, sans-serif; text-align:center; padding:0px 0px 0px 0px;">If you have trouble viewing this email, <a href="#" target="_blank" style="color:#4A90E2; text-decoration:underline;"><span style="color:#4A90E2;">view it online</span></a>.
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- end preheader -->
+
+    <!-- [START] Header -->
+ <!-- promotional header - member -->
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px; background-color:#FFFFFF;" class="width100 wrapper">
+      <tr>
+        <td align="center" valign="top" style="padding:20px 20px 20px 20px;" class="paddingTop10 paddingBottom10">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <!-- header logo -->
+              <td width="128" align="left" valign="middle" style="width:128px; padding:8px 0px 8px 0px;" class="width82">
+                <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc3/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WN3tE2y06zyqk7AGPcn7d9FlRTpdk-BJSi7c1nORY2KXmTRxZQLhiCcSIwWGuhSNhJKvyoVUGY6j17R7b90sPQpIJHtoiR3yNouZE8JpkZF53XEbL3uzdsPbLeJWrC0JptaZeCsmZ6u8zFHDdVksz8ini3-yOkxR6BT_lyOZ4ggmhys_0OsVKWcIikwqMmp4v41wnKKwlMy7J0Vwk1yTvDoTuYnTC-1zsA=" target="_blank"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=33b47703-52d1-4031-a1ac-baf4a0b31fe3" width="128" height="23" border="0" style="display:block; height:auto;" class="width82" alt="DUNKIN’"></a>
+              </td>
+              <!-- end header logo -->
+              <!-- member name -->
+              <td class="borderRightOrange" width="14" style="min-width:14px; width:14px;">&nbsp;</td>
+              <td width="430" align="left" valign="middle" style="padding:0px 0px 0px 14px; width:430px;">
+                <table width="430" border="0" cellspacing="0" cellpadding="0" class="width100" style="width:430px;">
+                    <tr>
+                        <td class="align-left" style="text-align:right;"><span style="color:#E60073; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:18px; font-weight:bold; text-decoration:none; text-transform:uppercase; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;">Hello, <span style="color:#F56200;">SMILES DAVIS</span>!</span></td>
+                    </tr>
+                </table>
+              </td>
+              <!-- end member name -->
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px; background-color:#FFFFFF;" class="width100 wrapper">
+      <tr>
+        <td width="638" align="center" style="width:638px; border-right:1px solid #9B9B9B; border-left:solid 1px #9B9B9B;" class="width100 no-border">
+          <table role="presentation" align="center" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td width="319" align="center" bgcolor="#FFFFFF" style="width:319px; border-right:2px solid #FFFFFF; border-bottom:4px solid #FFFFFF;" class="width50">
+                <table role="presentation" align="center" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td width="100%" align="center" bgcolor="#F56200" style="padding:11px 0px 11px 0px;">
+                      <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc4/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g9snPMH4XnLmPTBMAX1RSdVB1AgN3e18IgHdUeaWDU2busOESB44RhGC48_ste6Nuog9TDX7mStDaA2Tc5yVstx6ulGCigsF8caV0Bva7o5GR9pXuYmPCRsmzMoUMRkehylrkOHD9uURwCPXLVgDtM-23PgIp2f8FLmjwNbDvNSNKacGYzB9ydiliQJTMvdsM8bJkxPd6HWmxK5heMWPP2wWOrpXjnjePt2sG63kYxpaT9t1kyWhXy1s7SnQi5LeoVWg9Zl8ADLwpJ1h6kUj5i6c9NTLjq7gZoCSFBkwYux7FWg_afvbzZb26tc-5uk-w0RlQLl9dEDb6hEY2fKQaDjU9id64TJtWL66T8_4FEck7d83RK6pI" target="blank" style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:18px; font-weight:bold; text-decoration:none; text-align:center; text-transform:uppercase; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;"><span style="display:block; color:#FFFFFF;">My Account</span></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="319" align="center" bgcolor="#FFFFFF" style="width:319px; border-left:2px solid #FFFFFF; border-bottom:4px solid #FFFFFF;" class="width50">
+                <table role="presentation" align="center" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td width="100%" align="center" bgcolor="#E60073" style="padding:11px 0px 11px 0px;">
+                      <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc5/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g9snPMH4XnLmPTBMAX1RSdVB1AgN3e18IgHdUeaWDU2busOESB44RhGC48_ste6Nuog9TDX7mStDaA2Tc5yVstx6ulGCigsF8caV0Bva7o5GR9pXuYmPCRsmzMoUMRkfX9G7QceFfxx00lErYArK1p1KF7Cj6N0YFLmjwNbDvNSNKacGYzB9ydiliQJTMvdsM8bJkxPd6HWmxK5heMWPP2wWOrpXjnjePt2sG63kYxpaT9t1kyWhXy1s7SnQi5LeoVWg9Zl8ADLwpJ1h6kUj5i6c9NTLjq7gZoCSFBkwYux7FWg_afvbzZb26tc-5uk9_5jInXLdTerC5EEzFk3eM_xHCvC3QZxq69zavVZo1QBz0exBaoQHb" target="blank" style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:18px; font-weight:bold; text-decoration:none; text-align:center; text-transform:uppercase; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;"><span style="display:block; color:#FFFFFF;">My Rewards</span></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- end promotional header - member -->
+    <!-- [END] Header -->
+
+    <!-- content container -->
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px;" class="width100 wrapper">
+      <tr>
+        <td width="638" align="center" style="width:638px; border-top:1px solid #9B9B9B; border-right:1px solid #9B9B9B; border-left:solid 1px #9B9B9B;" class="width100 no-border">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#402E7A">
+            <!-- headline -->
+            <tr>
+              <td align="center" valign="top">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" valign="top">
+                      <img src="http://images.harmony.epsilon.com/ContentHandler/images?id=4f30fb27-c125-4ddf-95c1-ebc8800b0bfb" width="638" height="326" border="0" style="display:block; height:auto;" class="width100" alt="">
+                    </td>
+                  </tr>
+                  
+                </table>
+              </td>
+            </tr>
+            <!-- end headline -->
+            <!-- message area -->
+            <tr>
+              <td align="center" valign="top" class="width-padding">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" valign="bottom" style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:20px; line-height:26px; padding:10px 20px 0 20px;" class="paddingLeft0 paddingRight0 font-size-16">
+                      Click a Halloween treat below to earn <span style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;">3X points*</span><br class="hide"> with purchase, today through Thursday, October 31.<br class="hide"> No frights, just delights!
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="bottom" style="color:#FF6E0D; font-family:Bookman, Georgia, serif, 'Dunkin-Serif-Bold'; font-size:24px; line-height:28px; font-weight:bold; padding:30px 20px 30px 20px;" class="paddingLeft0 paddingRight0">
+                      <div style="font-size:10px; line-height:10px;" class="hide">&nbsp;</div>
+                      Click one of three offers below now!
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- end message area -->
+            <!-- offer selections -->
+            <!-- ICED COFFEE -->
+            <tr>
+              <td align="center" align="center" background="" bgcolor="#402E7A" width="638" height="130" valign="middle" class="width-padding" style="width:638px; height: 130px;">
+
+              <!-- ROUNDED TEST -->
+
+              <!--[if gte mso 9]>
+                  <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); display: inline-block; position: absolute; width: 476px; height: 110px; top: 0; left: 81; border: 0; z-index: 1;" src="http://images.harmony.epsilon.com/ContentHandler/images?id=026899da-58f4-4c43-91ef-b0232f9f2c4e" />                             
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; width: 476px; height: 130px; top: 0; left: 81; border: 0; z-index: 2;">
+                  <v:fill opacity="0%" style="z-index: 1;"/> 
+                  <v:textbox inset="0,0,0,0">                       
+                <![endif]--> 
+                <table width="476" border="0" align="center" cellspacing="0" cellpadding="0" class="width100" style="width:476px; border-collapse:collapse;">
+                  <tr>
+                    <!--[if !mso]>-->
+                    <td height="110" width="368" valign="middle" align="center" bgcolor="white" class="width100" style="border-radius:8px 0 0 8px;"> 
+                    <!--<![endif]-->
+                    <!--[if gte mso 9]>
+                    <td height="110" align="center" width="368" style="width:368px;">
+                    <![endif]-->                 
+                        <table width="368" border="0" align="center" cellspacing="0" cellpadding="0" class="width100" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#675428; line-height:normal; text-align:center; width:368px;">
+                        <tr>
+                          <td style="padding:0px 0px 0px 0px;" valign="middle" align="center" width="106" class="width78" style="width:106px"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=e1247866-20b1-4060-8ad4-35110cf5b910" alt="" width="61" height="98" style="display:block;" class="width52"></td>
+                          <td class="paddingRight20 paddingLeft20 font16 textPadding20" style="color:#333333; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:20px; line-height:26px; text-align:center;">
+                            Earn 3X points on any <span class="font16" style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-transform:uppercase;">coffee</span> or <span class="font16" style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-transform:uppercase;">espresso</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <!--[if !mso]>-->
+                    <td height="110" width="108" bgcolor="#F56200" class="font18 textPadding18 fontSm" style="border-radius:0px 8px 8px 0px; width:108px; color:#ffffff; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:0px 0px 0px 14px; text-transform:uppercase;">
+                    <!--<![endif]-->
+                    <!--[if gte mso 9]>
+                    <td height="110" width="108" style="color:#ffffff; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:0px 0px 0px 14px; text-transform:uppercase; width:108px;">
+                    <![endif]-->
+                      <table width="94" border="0" align="center" cellspacing="0" cellpadding="0" class="widthTblSm" style="width:94px;">
+                        <tr>
+                          <!--[if !mso]>-->
+                          <td>
+                          <!--<![endif]-->
+                          <!--[if gte mso 9]>
+                          <td style="padding:0px 0px 0px 14px;">
+                          <![endif]-->
+                          <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc6/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g3dRD1DWLuNLO7J8O6rzMrLYhTG-IzXKYCC6J7qmXqGfZopgFDFRUylaPDL8J0F7KrJ7v6sHSou9YnZmzv1WtzxcnqeLDDux8pOvlneNzcTkiiW4FZIlb3npFrcLv-AxAM15wT42Rrz0JpE8cI8XqsUftbWU5SEVdCFu3mtH4nLGf0ejpsznfrryac7xaMTK7lXyTDBhR3__vK820tanl3gAZ-m8p65IQaxC0b6MS2AdB8Rep0eg41SlcIQ5FYiJYdMjqM00n7KF04_YYHDAhjnPdklKWp1O_SZ3OGe73cwgnHLCR6GF4LLh2mo6cefqUQubC0L7_yjMB8_dfiBh3koWuV25GUqufXb2afb48OcprZjUO_5gzM_3AyxIe214=" style="color:#ffffff; text-decoration:none; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; text-transform:uppercase;" target="_blank"><span style="color:#ffffff;">Select offer&nbsp;&gt;</span></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if gte mso 9]>
+                </v:textbox></v:fill></v:rect><![endif]-->
+                <div style="font-size:20px; line-height:20px;">&nbsp;</div>
+              </td>
+            </tr>
+            <!-- DONUT -->
+            <tr>
+              <td align="center" align="center" background="" bgcolor="#402E7A" width="638" height="130" valign="middle" class="width-padding" style="width:638px; height: 130px;">
+
+              <!-- ROUNDED TEST -->
+
+              <!--[if gte mso 9]>
+                  <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); display: inline-block; position: absolute; width: 476px; height: 110px; top: 0; left: 81; border: 0; z-index: 1;" src="http://images.harmony.epsilon.com/ContentHandler/images?id=026899da-58f4-4c43-91ef-b0232f9f2c4e" />                             
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; width: 476px; height: 130px; top: 0; left: 81; border: 0; z-index: 2;">
+                  <v:fill opacity="0%" style="z-index: 1;"/> 
+                  <v:textbox inset="0,0,0,0">                       
+                <![endif]--> 
+                <table width="476" border="0" align="center" cellspacing="0" cellpadding="0" class="width100" style="width:476px; border-collapse:collapse;">
+                  <tr>
+                    <!--[if !mso]>-->
+                    <td height="110" width="368" valign="middle" align="center" bgcolor="white" class="width100" style="border-radius:8px 0 0 8px;"> 
+                    <!--<![endif]-->
+                    <!--[if gte mso 9]>
+                    <td height="110" align="center" width="368" style="width:368px;">
+                    <![endif]-->                 
+                        <table width="368" border="0" align="center" cellspacing="0" cellpadding="0" class="width100" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#675428; line-height:normal; text-align:center; width:368px;">
+                        <tr>
+                          <td style="padding:0px 0px 0px 0px;" valign="middle" align="center" width="106" class="width78" style="width:106px"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=b1d354f5-9814-4b9a-8c2c-dc59e5d2ddfd" alt="" width="73" height="64" style="display:block;" class="width52"></td>
+                          <td class="paddingRight20 paddingLeft20 font16 textPadding20" style="color:#333333; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:20px; line-height:26px; text-align:center;">
+                            Earn 3X points on any <span class="font16" style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-transform:uppercase;">donut</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <!--[if !mso]>-->
+                    <td height="110" width="108" bgcolor="#F56200" class="font18 textPadding18 fontSm" style="border-radius:0px 8px 8px 0px; width:108px; color:#ffffff; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:0px 0px 0px 14px; text-transform:uppercase;">
+                    <!--<![endif]-->
+                    <!--[if gte mso 9]>
+                    <td height="110" width="108" style="color:#ffffff; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:0px 0px 0px 14px; text-transform:uppercase; width:108px;">
+                    <![endif]-->
+                      <table width="94" border="0" align="center" cellspacing="0" cellpadding="0" class="widthTblSm" style="width:94px;">
+                        <tr>
+                          <!--[if !mso]>-->
+                          <td>
+                          <!--<![endif]-->
+                          <!--[if gte mso 9]>
+                          <td style="padding:0px 0px 0px 14px;">
+                          <![endif]-->
+                          <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc7/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g3dRD1DWLuNLO7J8O6rzMrLYhTG-IzXKYCC6J7qmXqGfZopgFDFRUylaPDL8J0F7KrJ7v6sHSou9YnZmzv1WtzxcnqeLDDux8pOvlneNzcTkiiW4FZIlb3npFrcLv-AyzznKnzYsQnfJEAGKYphEAsCIhTLZy6EOJF_TcqOVpVpfznz9m1q5Wrryac7xaMTK7lXyTDBhR3__vK820tanl3gAZ-m8p65IQaxC0b6MS2AdB8Rep0eg41SlcIQ5FYiJYdMjqM00n7KF04_YYHDAhjnPdklKWp1O_SZ3OGe73cwgnHLCR6GF4LLh2mo6cefqUQubC0L7_ypmgPhAZQeRGDAp0X5_3vVGg_vdLj_kPHv3PZloizsn-uTUsBdS4vMA=" style="color:#ffffff; text-decoration:none; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; text-transform:uppercase;" target="_blank"><span style="color:#ffffff;">Select offer&nbsp;&gt;</span></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if gte mso 9]>
+                </v:textbox></v:fill></v:rect><![endif]-->
+                <div style="font-size:20px; line-height:20px;">&nbsp;</div>
+              </td>
+            </tr>
+            <!-- HOT COCOA -->
+            <tr>
+              <td align="center" align="center" background="" bgcolor="#402E7A" width="638" height="130" valign="middle" class="width-padding" style="width:638px; height: 130px;">
+
+              <!-- ROUNDED TEST -->
+
+              <!--[if gte mso 9]>
+                  <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); display: inline-block; position: absolute; width: 476px; height: 110px; top: 0; left: 81; border: 0; z-index: 1;" src="http://images.harmony.epsilon.com/ContentHandler/images?id=026899da-58f4-4c43-91ef-b0232f9f2c4e" />                             
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; width: 476px; height: 130px; top: 0; left: 81; border: 0; z-index: 2;">
+                  <v:fill opacity="0%" style="z-index: 1;"/> 
+                  <v:textbox inset="0,0,0,0">                       
+                <![endif]--> 
+                <table width="476" border="0" align="center" cellspacing="0" cellpadding="0" class="width100" style="width:476px; border-collapse:collapse;">
+                  <tr>
+                    <!--[if !mso]>-->
+                    <td height="110" width="368" valign="middle" align="center" bgcolor="white" class="width100" style="border-radius:8px 0 0 8px;"> 
+                    <!--<![endif]-->
+                    <!--[if gte mso 9]>
+                    <td height="110" align="center" width="368" style="width:368px;">
+                    <![endif]-->                 
+                        <table width="368" border="0" align="center" cellspacing="0" cellpadding="0" class="width100" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#675428; line-height:normal; text-align:center; width:368px;">
+                        <tr>
+                          <td style="padding:0px 0px 0px 0px;" valign="middle" align="center" width="106" class="width78" style="width:106px"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=40037598-3ef0-4a92-b904-324e57c0a199" alt="" width="50" height="78" style="display:block;" class="width52"></td>
+                          <td class="paddingRight20 paddingLeft20 font16 textPadding20" style="color:#333333; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:20px; line-height:26px; text-align:center; padding:0px 10px 0px 10px;">
+                            Earn 3X points on any <span class="font16" style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-transform:uppercase;">hot chocolate</span> or <span class="font16" style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-transform:uppercase;">Dunkaccino</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <!--[if !mso]>-->
+                    <td height="110" width="108" bgcolor="#F56200" class="font18 textPadding18 fontSm" style="border-radius:0px 8px 8px 0px; width:108px; color:#ffffff; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:0px 0px 0px 14px; text-transform:uppercase;">
+                    <!--<![endif]-->
+                    <!--[if gte mso 9]>
+                    <td height="110" width="108" style="color:#ffffff; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:20px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:0px 0px 0px 14px; text-transform:uppercase; width:108px;">
+                    <![endif]-->
+                      <table width="94" border="0" align="center" cellspacing="0" cellpadding="0" class="widthTblSm" style="width:94px;">
+                        <tr>
+                          <!--[if !mso]>-->
+                          <td>
+                          <!--<![endif]-->
+                          <!--[if gte mso 9]>
+                          <td style="padding:0px 0px 0px 14px;">
+                          <![endif]-->
+                            <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc8/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g3dRD1DWLuNLO7J8O6rzMrLYhTG-IzXKYCC6J7qmXqGfZopgFDFRUylaPDL8J0F7KrJ7v6sHSou9YnZmzv1WtzxcnqeLDDux8pOvlneNzcTkiiW4FZIlb3npFrcLv-Ax5aYstnS1yXTdPeb6XOez_XnRcAscUZSl9FpvSSwZDnkCgARjqxYFdrryac7xaMTK7lXyTDBhR3__vK820tanl3gAZ-m8p65IQaxC0b6MS2AdB8Rep0eg41SlcIQ5FYiJYdMjqM00n7KF04_YYHDAhjnPdklKWp1O_SZ3OGe73cwgnHLCR6GF4LLh2mo6cefqUQubC0L7_yvjAOJCrAUU7tqJj2qNSo72Ab4B_gb-lLzZ0qls8YEEjsHns1v59-6E=" style="color:#ffffff; text-decoration:none; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; text-transform:uppercase;" target="_blank"><span style="color:#ffffff;">Select offer&nbsp;&gt;</span></a></td>
+                        </tr>
+                      </table>
+                      
+                    </td>
+                  </tr>
+                </table>
+                <!--[if gte mso 9]>
+                </v:textbox></v:fill></v:rect><![endif]-->
+                <div style="font-size:20px; line-height:20px;">&nbsp;</div>
+              </td>
+            </tr>
+            <!-- reminder -->
+            <tr>
+              <td align="center" valign="top" style="padding:26px 0px 60px 0px;" class="paddingRight30 paddingBottom30 paddingLeft30">
+                <table width="354" cellpadding="0" cellspacing="0" border="0" style="width:354px;" class="width100">
+                  <tr>
+                    <!-- hand icon -->
+                    <td width="41" align="left" valign="top" style="width:41px;">
+                      <img src="http://images.harmony.epsilon.com/ContentHandler/images?id=9c164c40-8696-436c-8571-52c5c6620910" width="41" height="31" border="0" style="display:block; height:auto;" class="width100" alt="">
+                    </td>
+                    <!-- end hand icon -->
+                    <!-- text -->
+                    <td align="left" valign="top" style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:16px; line-height:20px; padding:0px 0px 0px 20px;">
+                      <span style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:18px; font-weight:bold; -webkit-text-size-adjust:none; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;">Remember:</span> Select an offer before you purchase to earn 3X points.
+                    </td>
+                    <!-- end text -->
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- end reminder -->
+            <!-- end content without background image -->
+          </table>
+        </td>
+      </tr>
+                                        
+    </table>
+    <!-- end content container -->
+
+  <!-- [START] Footer -->
+ <!-- america runs on dunkin' banner -->
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px; background-color:#FFFFFF;" class="width100 wrapper">
+      <tr>
+        <td align="center" class="paddingTop20 paddingBottom20 borderTop3" style="border-top:solid 6px #F56200; padding:40px 20px 40px 20px;">
+          <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc9/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WN3tE2y06zyqk7AGPcn7d9FlRTpdk-BJSi7c1nORY2KXmTRxZQLhiCcSIwWGuhSNhJKvyoVUGY6j17R7b90sPQpIJHtoiR3yNouZE8JpkZF53XEbL3uzdsPbLeJWrC0JptaZeCsmZ6u8zFHDdVksz8ini3-yOkxR6ChiD4t-aShIkQVMrMpI9BxSUg7BqkkQ9aLSOklcudvk4z3NQ9BJ6fDTuYnTC-1zsA=" style="text-decoration:none;" target="_blank"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=39f117bb-d82f-4094-9a69-6ce7af72d363" width="415" height="50" border="0" style="display:block; height:auto;" class="width50" alt="America Runs on Dunkin’"></a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <!-- mobile order now banner -->
+          <div class="show width100 bgPink" style="display:none; visibility:hidden; width:0; height:0; overflow:hidden; line-height:0; font-size:0; text-align:center; margin:0; padding:0; max-height:0;"><a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcca/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g9snPMH4XnLmPTBMAX1RSdVB1AgN3e18IgHdUeaWDU2busOESB44RhGC48_ste6Nuog9TDX7mStDaA2Tc5yVstx6ulGCigsF8caV0Bva7o5GR9pXuYmPCRsmzMoUMRkecl0oVuLkyRKxBp1ADs12mSJISuzePq9UFLmjwNbDvNSNKacGYzB9ydiliQJTMvdsM8bJkxPd6HWmxK5heMWPP2wWOrpXjnjePt2sG63kYxpaT9t1kyWhXy1s7SnQi5LeoVWg9Zl8ADLwpJ1h6kUj5i6c9NTLjq7gZoCSFBkwYux7FWg_afvbzZb26tc-5uk-5AmrDNOeZK1FcxuHx23_tNzEMHSspe3Hqlb20AxI3CfUUuyLwOEqj" style="display:block; text-decoration:none;" target="_blank"><div class="show"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=ace04686-4bab-4c08-b731-338a68306320" width="20" height="21" style="display:none; height:auto; vertical-align:middle;" class="show-inline" alt="DD Perks"><span style="color:#FFFFFF; vertical-align:middle; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display'; font-size:16px; line-height:46px; font-weight:bold; text-decoration:none; text-transform:uppercase; padding:0px 0px 0px 10px;" class="show-inline">Order Now</span></div></a></div>
+          <!-- end mobile order now banner -->
+        </td>
+      </tr>
+    </table>
+    <!-- end america runs on dunkin' banner -->
+
+    <!-- footer navigation -->
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px; background-color:#FFFFFF;" class="width100 wrapper">
+      <tr>
+        <td align="center" valign="top" style="padding:0px 20px 0px 20px;">
+          <table role="presentation" align="center" width="598" cellspacing="0" cellpadding="0" border="0" style="width:598px; background-color:#FFFFFF; border-top:solid 2px #E60073; border-bottom:solid 2px #E60073;" class="width100 wrapper borderTop0">
+            <tr>
+              <td align="center" valign="top" style="padding:20px 0px 20px 0px;" class="paddingTop20 paddingBottom20">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                  <tr>
+                    <td width="26%" align="left">
+                      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                          <td align="left" valign="middle" style="color:#E60073; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:18px; line-height:21px; text-transform:uppercase; text-align:right;" class="font-size-16">
+                            <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bccb/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g9snPMH4XnLmPTBMAX1RSdVB1AgN3e18IgHdUeaWDU2busOESB44RhGC48_ste6Nuog9TDX7mStDaA2Tc5yVstx6ulGCigsF8caV0Bva7o5GR9pXuYmPCRsmzMoUMRkdRZfEjuPHOl9CGnVSrorSq_qTkJ4A1casFLmjwNbDvNSNKacGYzB9ydiliQJTMvdsM8bJkxPd6HWmxK5heMWPP2wWOrpXjnjePt2sG63kYxpaT9t1kyWhXy1s7SnQi5LeoVWg9Zl8ADLwpJ1h6kUj5i6c9NTLjq7gZoCSFBkwYux7FWg_afvbzZb26tc-5uk_mFiP7Gu802zl049rA2mfIh6k2gtKSES8RsjNvC3RiWQhnQBIrIxH-" style="color:#E60073; text-decoration:none;" target="_blank">Menu</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td width="47%" align="center" style="padding:0px 10px 0px 10px;">
+                      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                          <td align="left" valign="middle" style="color:#E60073; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:18px; line-height:21px; text-transform:uppercase; text-align:center;" class="font-size-16">
+                            <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bccc/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g9snPMH4XnLmPTBMAX1RSdVB1AgN3e18IgHdUeaWDU2busOESB44RhGC48_ste6Nuog9TDX7mStDaA2Tc5yVstx6ulGCigsF8caV0Bva7o5GR9pXuYmPCRsmzMoUMRkf9kDyzXnAYb2rX5CPPqhpwrYnyQxPnlsAFLmjwNbDvNSNKacGYzB9ydiliQJTMvdsM8bJkxPd6HWmxK5heMWPP2wWOrpXjnjePt2sG63kYxpaT9t1kyWhXy1s7SnQi5LeoVWg9Zl8ADLwpJ1h6kUj5i6c9NTLjq7gZoCSFBkwYux7FWg_afvbzZb26tc-5uk90S7A6TcAnyPMnh8tlTysKtuWMfv-QMdwfM8EFWvarGMk7d83RK6pI" style="color:#E60073; text-decoration:none;" target="_blank">Locations</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td width="26%" align="right">
+                      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                          <td align="left" valign="middle" style="color:#E60073; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:18px; line-height:21px; text-transform:uppercase; text-align:left;" class="show font-size-16">
+                            <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bccd/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_3g9snPMH4XnLmPTBMAX1RSdVB1AgN3e18IgHdUeaWDU2busOESB44RhGC48_ste6Nuog9TDX7mStDaA2Tc5yVstx6ulGCigsF8caV0Bva7o5GR9pXuYmPCRsmzMoUMRke6utUDRkxM6l7MeyEYYY9CTmM8K1NFeAoFLmjwNbDvNSNKacGYzB9ydiliQJTMvdsM8bJkxPd6HWmxK5heMWPP2wWOrpXjnjePt2sG63kYxpaT9t1kyWhXy1s7SnQi5LeoVWg9Zl8ADLwpJ1h6kUj5i6c9NTLjq7gZoCSFBkwYux7FWg_afvbzZb26tc-5uk-irscU1pSjRdITYaA9CmvGBpee-aECpRrClTksDzAHXLdXEftHfNGb" style="color:#E60073; text-decoration:none;" target="_blank" class="show">Deals</a>
+                          </td>
+                          <td align="left" valign="middle" style="color:#E60073; font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book'; font-size:18px; line-height:21px; text-transform:uppercase; text-align:left;" class="hide">
+                             <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcce/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WPaodhaAQSTbq7ygLE4WuUp74zIR7xlX6CjctYPPxchB668mnO8WjEyu5V8kwwYUd__7yvNtLWp5d4AGfpvKeuSEGsQtG-jEtgHQfEXqdHoONUpXCEORWIiWHTI6jNNJ-yhdOP2GBwwIY5z3ZJSlqdTv0mdzhnu93MIJxywkehheCy4dpqOnHn6lELmwtC-_8o2Pa4_qY4DVQnaFIKgp2DeOZON8s4DXpaMY-jy5Y0w1A8idP5np-W5" style="color:#E60073; text-decoration:none;" target="_blank" class="hide">Rewards</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- end footer navigation -->
+
+    <!-- social icons -->
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px; background-color:#FFFFFF;" class="width100 wrapper">
+      <tr>
+        <td align="center" valign="middle" style="padding:20px 20px 20px 20px;">
+          <table align="center" width="236" cellpadding="0" cellspacing="0" border="0" style="width:236px;">
+            <tr>
+              <td align="center" valign="middle" style="padding:0px 10px 0px 10px;">
+                <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bccf/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_1P8SSwvgaM7Bj1wKVct32ARTZ98rpq0E9gZs4uRf04bCutnoDyw5yy7R2IPInmx_yYpCv2TuXW05a1r7MuIAmypn3-U_xqW9bpsQDAp7Dv3t-nTvJlTlJJYd94Bclm6rjGKq-RMonZaydbJ8qUHMLfOxyUtU5NWnU_-Qx7CqInQt6BEsxhmLo_PoVHFAMpSUgSg85x4IFaE7YI9kAw1FuEb61tTBEv97ysW3NBWRuk10BJ5J68oBFYv2AfFsaqKSo=" style="text-decoration:none;" target="_blank"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=88d80768-c10f-4e43-89ad-e880d28fceda" width="31" height="31" border="0" style="display: block;" alt="Twitter"></a>
+              </td>
+              <td align="center" valign="middle" style="padding:0px 10px 0px 10px;">
+                <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd0/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF9OJQbzKjWJqjvxdDSaKpQbyLgBr37_-UTiLnG5wtGd1AVc7m22K0TJSRwuxGNgpt-SgqwrF_3XLac7C7l1fJ1ROFza_HdZm6RY3XzG2vWCevvQzMlN3-2XLwYnqyuw-Qh-2yOH6_Bh3c55oxGKhFK6xEEv3GioI87-HTvXaFJYZ7XabDbkV3xwChLi4Ns00NNsDQoWb-EF8MgNy9rOlNu5qxpSVpnsgB8cRqDV9fzEL9xTISMe58c5M6Xu4qvxfYivcuQ8XdU3AcRWc3DClpME=" style="text-decoration:none;" target="_blank"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=934a6e73-b840-41fb-9c37-ff296986a220" width="31" height="31" border="0" style="display: block;" alt="Facebook"></a>
+              </td>
+              <td align="center" valign="middle" style="padding:0px 10px 0px 10px;">
+                <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd1/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzTPygqj10tC9mIRFbTK0-J_IdBDjhrNjnby5hTnr-FtTsAY9yft30WVFOl2T4ElKLtzWc5FjYpeZNHFlAuGIJxIjBYa6FI2Ekq_KhVQZjqPXtHtv3Sw9Ckgke2iJHfI2i5kTwmmRkXndcRsve7N2w9st4lasLQmm1pl4KyZnq7zMUcN1WSzPyKeLf7I6TFHoImf-hzHuoMHRYuXLlqUDst8I9bL8K2wODuxrgHKrWKGxKB30pGuEXRO5idML7XOwA==" style="text-decoration:none;" target="_blank"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=b7d6287f-1906-4076-b44f-ef4869c7f712" width="31" height="31" border="0" style="display: block;" alt="Pinterest"></a>
+              </td>
+              <td align="center" valign="middle" style="padding:0px 10px 0px 10px;">
+                <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd2/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF4zau-oFBc2TNlTq7z8LKg1OvxYnJDmJ36qk3-ksF_ffTsAY9yft30WVFOl2T4ElKLtzWc5FjYpeZNHFlAuGIJxIjBYa6FI2Ekq_KhVQZjqPXtHtv3Sw9Ckgke2iJHfI2i5kTwmmRkXndcRsve7N2w9st4lasLQmm1pl4KyZnq7zMUcN1WSzPyKeLf7I6TFHoJ_fQSni5dARMdv2iWK6APkoLF69kdPFEqO_5EB2Wg2Q7lkKIGxfvOJO5idML7XOwA==" style="text-decoration:none;" target="_blank"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=1135bd4b-aa4a-4d7c-b16d-824f555bea4f" width="31" height="31" border="0" style="display: block;" alt="Instagram"></a>
+              </td>
+              <td align="center" valign="middle" style="padding:0px 10px 0px 10px;">
+                <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd3/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF3j72pbgVqisfWER2rskpOeU3UvaQJ4qMaxstBdqxVIrBS5o8DWw7zUjSmnBmMwfcnYpYkCUzL3bDPGyZMT3eh1psSuYXjFjz9sFjq6V4543j7drBut5GMZbwr_jYEt0FxUBitVDvO2hPkWdVzgoxxoywEIn-nMwhuN0SUOb8SGZf9gkAqVRr1gakLM-WjT6-28_oIzktSoIYl_vA2atDGS8bpDNsYwfexyqnQlxZn_FS2qcBXWjgBFojTfMIXhkIQ==" style="text-decoration:none;" target="_blank"><img src="http://images.harmony.epsilon.com/ContentHandler/images?id=ef07cac5-d05b-4296-a214-058061fe636b" width="31" height="31" border="0" style="display: block;" alt="Snapchat"></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- end social icons -->
+
+    <!-- footer legal -->
+    <table role="presentation" align="center" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px; background-color:#FFFFFF;" class="width100 wrapper">
+      <tr>
+        <td width="640" align="left" style="width:640px; color:#000000; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:15px; padding:0px 20px 20px 20px;" class="width100 wrapper">
+          <span style="line-height: 0px; font-size: 9px; vertical-align: 3px;">†</span>Point balance as of 10/28/2019.
+          <div style="font-size:15px; line-height:15px;">&nbsp;</div>
+          *Offer valid 10/28/19–10/31/19. Must click through the offer to participate before purchase. Bonus Point Offers can only be earned on eligible purchases made during the promotion period by DD Perks members who pay with an enrolled DD Card, scan their loyalty ID at checkout, or order On-the-Go. Valid at participating Dunkin’ restaurants. No substitutions allowed. While supplies last. May not be combined with other offers. DD Perks Program accepted only at U.S. participating Dunkin’ Donuts stores. For full DD Perks Program terms please visit <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcc2/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WN28otYywDA026696rhEMcAgQbDnyP8KzwvLPAGF0VZ3S8m_7SBgMUv4UsgfwfvFKqN-gnO2By8bR3BF8buQZIBrwCIIv9r7gP9Hv-m3suiHc-wnTneEvNzX-lrrHxh6rcJZU3JmYQl_NbHlcKJ0hVxmoiTWxzAn1DilCoBUTgaWjkhCUTGOdaPcjXcFGv5tb95QeVpRfF5S1MPU0pLxoqt53gvDrsRnRn4VVUoMIxD0g==" target="_blank" style="color:#4A90E2; text-decoration: underline;"><span style="color:#4A90E2;" class="link">dunkindonuts.com/terms</span></a>.
+          <div style="font-size:15px; line-height:15px;">&nbsp;</div>
+          Did you get this email from a friend? Skip the middle man. <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd4/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WMZLh3tsptQV5WO8O3AkHm0K62egPLDnLLtHYg8iebH_JikK_ZO5dbTlrWvsy4gCbKmff5T_Gpb1umxAMCnsO_e36dO8mVOUklh33gFyWbquMYqr5EyidlrJ1snypQcwt87HJS1Tk1adT_5DHsKoidC3oESzGGYuj8-hUcUAylJSMpemrNRNLoX8U4WdiVx1NtpmCPW2Rxw29fIPsN_-d9lQWlm-agsNt6_YB8WxqopKg==" alias="Enroll in DD Perks Reward Program" target="_blank" style="color:#4A90E2; text-decoration: underline;"><span style="color:#4A90E2;" class="link">Enroll in DD Perks Rewards Program</span></a>.
+          <div style="font-size:15px; line-height:15px;">&nbsp;</div>
+          For more information, please visit <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd5/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WN3tE2y06zyqk7AGPcn7d9FlRTpdk-BJSi7c1nORY2KXmTRxZQLhiCcSIwWGuhSNhJKvyoVUGY6j17R7b90sPQpIJHtoiR3yNouZE8JpkZF53XEbL3uzdsPbLeJWrC0JptaZeCsmZ6u8zFHDdVksz8ini3-yOkxR6CJn_ocx7qDB1-Ym7X6auUby5nWhGgq7leFDMTE4vQptOKgf1nfcg8vTuYnTC-1zsA=" alias="DunkingDonuts.com" target="_blank" style="color:#4A90E2; text-decoration: underline;"><span style="color:#4A90E2;" class="link">DunkinDonuts.com</span></a>. <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd6/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WPqINIbE2HWJNRTAcnhze9L9OdHZOJj2rVpzsLuXV8nVE4XNr8d1mbpFjdfMba9YJ6-9DMyU3f7ZcvBierK7D5CH7bI4fr8GHdznmjEYqEUrrEQS_caKgjzv4dO9doUlhntdpsNuRXfHAKEuLg2zTQ02wNChZv4QXwyA3L2s6U27mrGlJWmeyAHoHXbmrpp3ZBUsCbj8RRKagXuLgqadmm5GG1lSZPYMnm203GrOECDKg==" alias="Read our privacy statement" target="_blank" style="color:#4A90E2; text-decoration: underline;"><span style="color:#4A90E2;" class="link">Read our privacy statement</span></a>. 
+          <div style="font-size:15px; line-height:15px;">&nbsp;</div>
+          © 2019 DD IP Holder LLC. All rights reserved. The Dunkin’ Donuts trademarks, logos and designs are registered trademarks of DD IP Holder LLC. PLEASE DO NOT REPLY TO THIS EMAIL.                
+          <div style="font-size:15px; line-height:15px;">&nbsp;</div>
+          If you believe you received this message in error and/or do not wish to receive further emails, please <a href="#" target="new" style="text-decoration:none; color:#179be0;"><u>click&nbsp;here</u></a>. Thank you.                
+          <div style="font-size:15px; line-height:15px;">&nbsp;</div>
+          Dunkin’ Brands 130 Royall Street Canton, MA, 02021, USA                
+          <div style="font-size:15px; line-height:15px;">&nbsp;</div>
+          If you prefer to contact us via the Web, please visit the <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd8/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WPaodhaAQSTbqUD5im437ozgALLPtPsPKorrZ6A8sOcsu0diDyJ5sf8mKQr9k7l1tOWta-zLiAJsqZ9_lP8alvW6bEAwKew797fp07yZU5SSWHfeAXJZuq4xiqvkTKJ2WsnWyfKlBzC3zsclLVOTVp1P_kMewqiJ0LegRLMYZi6Pz6FRxQDKUlIr3XTHz0fygMxYqHS2MEoy5mbH4TDBtdtrU3lzhcESiZHDTRYMnItmr9gHxbGqikq" alias="Contact Us" target="_blank" style="color:#4A90E2; text-decoration: underline;"><span style="color:#4A90E2;" class="link">Contact Us</span></a> page on <a href="https://emails.dunkindonuts.com/T/v40000016e13affb0b9aa4ed6e9666b528/9e104ea2f87f4e570000021ef3a0bcd9/9e104ea2-f87f-4e57-af69-28f1201c8cfd?__dU__=v0G4RBKTXg2GuIr-oTtT5LOaxstBdqxVIrXKVzP0NPIME=&amp;__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQF2GzfSsJ9gTUVhAZGnQS2WN3tE2y06zyqk7AGPcn7d9FlRTpdk-BJSi7c1nORY2KXmTRxZQLhiCcSIwWGuhSNhJKvyoVUGY6j17R7b90sPQpIJHtoiR3yNouZE8JpkZF53XEbL3uzdsPbLeJWrC0JptaZeCsmZ6u8zFHDdVksz8ini3-yOkxR6CpXshTXEADXfbz4mZzMh07DcH8aJlJeVjMjDVc6BqSM1HvUkER8EQZTuYnTC-1zsA=" alias="DunkinDonuts.com" target="_blank" style="color:#4A90E2; text-decoration: underline;"><span style="color:#4A90E2;" class="link">DunkinDonuts.com</span></a>.
+        </td>
+      </tr>
+    </table>
+    <!-- end footer legal -->
+  <!-- [END] Footer -->
+  </div>
+
+  <!-- prevent gmail from blowing out -->
+  <table role="presentation" aria-hidden="true" align="center" cellpadding="0" cellspacing="0" border="0" class="hide">
+    <tr>
+      <td height="1" class="hide" style="min-width:640px; font-size:0px; line-height:0px;">
+        <img height="1" src="http://images.harmony.epsilon.com/ContentHandler/images?id=21bd7a33-a706-46f6-b409-39f4e5e912e9" style="min-width: 640px; text-decoration: none; border: none; -ms-interpolation-mode: bicubic;">
+      </td>
+    </tr>
+  </table>
+  <!-- end prevent gmail from blowing out -->
+
+
+
+  
+  </body>
+</html>
