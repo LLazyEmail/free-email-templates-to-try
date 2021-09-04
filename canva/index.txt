@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:sch=
+   emas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"=
+   dir=3D"ltr">
+   <!--
+      -->
+   =09
+   <head>
+      =09=09
+      <title></title>
+      =09=09
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+      =09=09
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+         -8">
+      =09=09
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+         e=3D1">
+      =09=09
+      <style type=3D"text/css">
+         =09=09=09#outlook a{padding: 0;}
+         =09=09=09.ReadMsgBody{width: 100%;}
+         =09=09=09.ExternalClass{width: 100%;}
+         =09=09=09.ExternalClass *{line-height: 100%;}
+         =09=09=09body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-te=
+         xt-size-adjust: 100%;}
+         =09=09=09table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-ta=
+         ble-rspace: 0pt;}
+         =09=09=09img{border: 0; height: auto; line-height: 100%; outline: none; tex=
+         t-decoration: none; -ms-interpolation-mode: bicubic;}
+         =09=09=09p{display: block; margin: 13px 0;}
+         =09=09
+      </style>
+      =09=09<!--[if mso]>
+      =09=09
+      <xml>
+         =09=09=09
+         <o:OfficeDocumentSettings>
+            =09=09=09=09
+            <o:AllowPNG/>
+            =09=09=09=09
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            =09=09=09
+         </o:OfficeDocumentSettings>
+         =09=09
+      </xml>
+      =09=09<![endif]-->
+      =09=09<!--[if lte mso 11]>
+      =09=09
+      <style type=3D"text/css">
+         =09=09=09.outlook-group-fix{width:100% !important;}
+         =09=09
+      </style>
+      =09=09<![endif]-->
+      =09=09
+      <style type=3D"text/css">
+         @media only screen and (max-width:480px) {
+         =09=09=09  table.full-width-mobile { width: 100% !important; }
+         =09=09=09=09td.full-width-mobile { width: auto !important; }
+         }
+         @media only screen and (min-width:480px) {
+         .dys-column-per-100 {
+         =09width: 100.000000% !important;
+         =09max-width: 100.000000%;
+         }
+         }
+         u + #body a {color: #0E1318;text-decoration: underline;font-size: inherit; =
+         font-family: inherit; font-weight: inherit; line-height: inherit; }
+         a {color: #0E1318;text-decoration: underline;}
+         /* Buttery smooth fonts */ html { font-size: 100%; -webkit-text-size-ad=
+         just:
+         100%; font-variant-ligatures: none; -webkit-font-variant-ligatures: non=
+         e;
+         text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;
+         font-smoothing: antialiased; -webkit-font-smoothing: antialiased;
+         text-shadow: rgba(0, 0, 0, .01) 0 0 1px; }
+         =20
+         .button { background:#00C4CC !important; border-radius:4px; color:#ffff=
+         ff !important; display:inline-block;
+         font-family:Open Sans, Helvetica, Arial, sans serif; font-size:14px;
+         font-weight:600;line-height:160%;margin:0;padding:9px 16px; }
+         .show-for-mobile table { mso-hide: all }
+         .monoGreyLight { color: #edf0f2; } .monoBlack { color: #0e1318; }
+         .colorCanvaBrand { color: #00c4cc; } .monoBlackA100 { color: #565a5d; }
+         .monoBlackA150 { color: #6e7174; } .monoBlackA200 { color: #939597; }
+         .monoBlackA400 { color: #E8E9E9 } .monoBlackA500 { color: #eeeeef; }
+         .monoWhite { color: #fff; } .monoGrey { color: #293039; } .show-for-lar=
+         ge {
+         display: block } .hide-for-large { display: none } .wrapper {
+         background-color: #edf0f2; } .wrapper-padding { padding: 0 48px }
+         .wrapper-margin { width: 48px } .wrapper-typography { padding: 12px 48p=
+         x }
+         .header-bottom { height: 36px }
+         .card-image { width: 38.8% } .card-content { width: 61.2% }
+         .grid-cta { background: #F8F9F9; border-radius: 4px; border:
+         1px solid #E8E9E9} .word-break, word-break > div { word-break: break-al=
+         l }
+         .device-image-container table { margin: auto } .grid-cta-button { borde=
+         r:
+         1px solid #EDF0F2; border-radius: 4px }
+         =20
+         @media only screen and (max-width:480px) { .width-50-mobile { width: 50=
+         % !important } .wrapper-margin-mobile {
+         width: 24px !important} .top-10-copy-padding {
+         padding-left: 16px
+         !important; padding-right: 16px
+         !important; } .top-10-copy-margin { height: 16px !important;
+         line-height: 16px
+         !important }
+         .card-horizontal .card-image { width: 30% }
+         .card-horizontal .card-content { width: 70% }
+         .card-contained .card-image { display: table-footer-group !important; w=
+         idth: 100% !important}
+         .card-contained .card-content { display: table-caption; width: 100%
+         !important }
+         .card-template-stacked .card-image { width: calc(100% - 32px)
+         !important; display: table-caption !important; }
+         .card-template-stacked .card-content { display: table-footer-group !imp=
+         ortant; width: 100%
+         !important; }
+         .card-template-stacked .gutter { display: none !important; }
+         .card-template-stacked .card-content > p { margin-top: 16px !important;=
+         }
+         .card-horizontal-stacked, .card-horizontal-stacked-reversed { display: =
+         inline-block !important; width: 100%
+         !important } .card-horizontal-stacked .card-content { display: inline-b=
+         lock
+         !important; width: 100% !important; } .card-horizontal-stacked .card-im=
+         age {
+         display: inline-block !important; width: 100% !important; }
+         .card-horizontal-stacked .gutter { display: inline-block; width: 100%
+         !important; height: 16px !important }
+         .card-horizontal-stacked-reversed .card-content { display: table-captio=
+         n
+         !important; width: 300px !important; }
+         .card-horizontal-stacked-reversed .card-image {
+         display: table-footer-group !important; width: 300px !important; }
+         .card-horizontal-stacked-reversed .gutter {
+         display: table-header-group !important; width: 300px !important;
+         }
+         .hide-for-mobile { display: none !important }
+         .show-for-mobile { display: block !important; max-height: none !importa=
+         nt; }}
+         =20
+         @media only screen and (max-width:648px) { body { background-color: #ff=
+         ffff !important } body > div {
+         background-color: #ffffff !important } .wrapper { background-color: #ff=
+         ffff !important }
+         .footer-bg-mobile { background-color: #ffffff !important }
+         .header-top-padding { border-radius: 0 !important } .header-top-padding=
+         td {
+         height: 24px !important; line-height: 24px } .show-for-large { display:=
+         none
+         !important } .hide-for-large { display: block !important } .wrapper-pad=
+         ding
+         { padding: 0 24px !important } .wrapper-margin { width: 24px !important=
+         }
+         .header-bottom { height: 12px; line-height: 12px } .wrapper-typography =
+         {
+         padding: 12px 24px !important } .border-radius-for-large,
+         .border-radius-for-large img { border-radius: 0 !important }
+         .spacing-for-large { height: 1px !important; line-height: 0 !important =
+         }
+         .image_grid .col { width: 47% } .full-image-block-spacing { height: 24p=
+         x
+         !important} .card-horizontal-image > table > tbody > tr > td { padding:=
+         0px
+         24px 12px 24px !important } .card-horizontal-content > table > tbody > =
+         tr >
+         td { padding: 12px 24px 0 24px !important } .header-left { display: tab=
+         le-footer-group !important; width: 320px
+         !important } .header-right { width: 320px !important; display: table-ca=
+         ption !important } .header-right th {
+         text-align: left
+         !important; } .card-left { padding: 0
+         12px 0 24px !important } .card-right { padding: 0 24px 0 12px !importan=
+         t } }
+      </style>
+      =09=09<!--[if !mso]><!-->
+      <link href=3D"https://fonts.googleapis.com/css?fam=
+         ily=3DOpen+Sans:400,600,700" rel=3D"stylesheet" type=3D"text/css">
+      <style type=3D"text/css">@import url(https://fonts.googleapis.com/css?famil=
+         y=3DOpen+Sans:400,600,700);
+      </style>
+      <!--<![endif]-->
+      =09
+   </head>
+   =09<body id=3D"body" style=3D"background-color: #EDF0F2;">
+   <div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+   ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+   0;overflow:hidden;">
+   Learn how to upload video, audio, and more</div>
+   <div style=3D"background-color: #EDF0F2;">
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+      ass=3D"wrapper-outlook" style=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=
+            =3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+            <![endif]-->
+            <div class=3D"wrapper" style=3D"margin:0px auto;max-width:600px=
+               ;">
+               <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+                  role=3D"presentation" style=3D"width:100%;">
+                  <tbody>
+                     <tr>
+                        <td style=3D"direct=
+                        ion:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+                        <!--[if mso | IE]>
+                        <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+                           0">
+                           <tr>
+                              <td style=3D"vertical-align:top;width:600px;">
+                                 <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                                 rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                                 ign:top;width:100%;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                                    " role=3D"presentation" width=3D"100%">
+                                    <tbody>
+                                       <tr>
+                                          <td style=3D"padding:0;ve=
+                                             rtical-align:top;">
+                                             <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                                role=3D"presentation" style=3D"" width=3D"100%">
+                                                <tr>
+                                                   <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                                      eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                                      "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                                      -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                                <tr>
+                                                   <td>
+                                                      <table cellpadding=3D"0" cellspacing=3D"0" class=3D"show-for-la=
+                                                         rge">
+                                                         <tr>
+                                                            <td height=3D"16" style=3D"line-height: 16px">&nbsp;</td>
+                                                         </tr>
+                                                      </table>
+                                                      <table cellpadding=3D"0" cellspacing=3D"0" class=3D"header-top-=
+                                                      padding" style=3D"border-radius: 8px 8px 0 0; background: #ffffff; width: 1=
+                                                      00%">
+                                                <tr>
+                                                   <td height=3D"46">&nbsp;</td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <!--[if mso | IE]>
+         </td>
+      </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+         f;background-color:#ffffff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+                                       <th>
+                                          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+                                          =3D"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;l=
+                                          ine-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <th height=3D"56" width=3D"56">
+                                          =20
+                                          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+                                             role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px=
+                                             ;">
+                                             <tbody>
+                                                <tr>
+                                                   <td style=3D"width:56px;"><a href=3D"https://l.engage.canva.c=
+                                                      om/ss/c/N56jrjxtajclrFz56qumlWA2B_ZsJJEpsjkQpqnxp0QsZN9NvZAx5b_Lpy2Xmp-hnYI=
+                                                      2dmEfNFRUhwtujojQJwnCFzzEqwHUazirZAZax0_ULdDRAl9lB__8pzTs79bbEq56TN2_rsdJ1P=
+                                                      HLjdb7ZHsH_eDNOztoBQsOPomIcOs/3f1/graOadpmQa2ZNdLHatHNbg/h11/IZMVJ5Yky40GWu=
+                                                      NF4efpvam3sXNBc1dBCX3xIkTrxuo" universal=3D"=E2=80=98true=E2=80=99" target=
+                                                      =3D"=E2=80=98blank=E2=80=99"><img height=3D"=E2=80=98auto=E2=80=99" src=3D"=
+                                                      https://appboy-images.com/appboy/communication/assets/image_assets/images/5=
+                                                      dc0e7c9c2b47709850997ab/original.png?1572923337" style=3D"border:none;displ=
+                                                      ay:block;font-size:13px;height:auto;outline:none;text-decoration:none;width=
+                                                      :100%;" width=3D"56"></a>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          =20
+                                       </th>
+                                       <th width=3D"16px">&nbsp;</th>
+                                       <th style=3D"text-align: end">
+                                          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+                                          ole=3D"presentation" style=3D"border-collapse:separate;line-height:100%; ma=
+                                          rgin: 0; margin-left: auto">
+                                    <tbody>
+                                       <tr><td align=3D"center" bgcolor=3D"#fff=
+                                          fff" role=3D"presentation" style=3D"background:#ffffff;border:2px solid #E8=
+                                          E9E9;border-radius:4px;cursor:auto;mso-padding-alt:7px 14px;" valign=3D"mid=
+                                          dle"><a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlQutsr5=
+                                          J_0b-EtCZIlInmZSBn0wmQQjugutk0KKNp21266W0gVJp55cd5IMDYfR5REB3frD9DcDNBs2uaO=
+                                          LPTdxULRE3_FXOBFqTWQMd50qB0BAtOwJ-TvSoq2iXPcLFqisXWvCMm15FPXr75EON56o/3f1/g=
+                                          raOadpmQa2ZNdLHatHNbg/h12/N3Advv2Ko20imB_9saig4b14LPkMzVVVp3gS5v8fZNA" styl=
+                                          e=3D"background:#ffffff;border-radius:4px;color:#565a5d;display:inline-bloc=
+                                          k;font-family:Open Sans, Helvetica, Arial, sans serif;font-size:14px;font-w=
+                                          eight:600;line-height:160%;margin:0;mso-padding-alt:0px;padding:7px 14px;te=
+                                          xt-decoration:none;text-transform:none;" target=3D"_blank">Design on Canva<=
+                                          /a></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 </th>
+                           </tr>
+                     </table>
+                     </th>
+                  <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+               </tr>
+               <tr>
+                  <th class=3D"header-bottom" colspan=3D"4">&nbsp;</th>
+               </tr>
+            </table>
+            </td>
+         </tr>
+   </table>
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+         auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+         0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+         und-color:#fff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:ltr;font-size=
+            :0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                        <tr>
+                           <td align=3D"left" class=3D"wrapper-typography monoBlack" style=
+                           =3D"font-size:0px;padding:10px 25px;padding-bottom:0;padding-left:48px;padd=
+                           ing-right:48px;padding-top:0;word-break:break-word;"><div style=3D"color:#0=
+                           E1318;font-family:Open Sans, Helvetica, Arial, sans serif;font-size:12px;fo=
+                           nt-weight:600;letter-spacing:1px;line-height:160%;text-align:left;text-tran=
+                           sform:uppercase;">
+                           <p style=3D"margin-top:0;margin-bottom:0"><strong>Tip 1</=
+                              strong>
+                           </p>
+                           </div></td>
+                        </tr>
+                     </table>
+                     </div>
+                     <!--[if mso | IE]>
+                  </td>
+               </tr>
+            </table>
+            <![endif]-->
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   </div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+         f;background-color:#ffffff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+            center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+                                       <th>
+                                          <h1 style=3D"font-family: Open Sans, Helvetica, Arial, sans ser=
+                                          if; font-size: 32px; font-weight: 700; line-height: 130%; color: #0E1318; l=
+                                          etter-spacing: -0.5px; margin: 0 0 16px; text-align: left; text-align: star=
+                                          t">Make it personal<br>
+                                          </h1>     =20
+                                          <p style=3D"color: #0E1318; font-family: Open Sans, Helvetica, =
+                                          Arial, sans serif; font-weight: 400; line-height: 160%; font-size: 14px; ma=
+                                          rgin: 0; text-align: left; text-align: start">Looking to add your own touch=
+                                          to a design? Easily upload images, videos, gifs, or audio, and customize t=
+                                          hem like any other element in Canva. It could be a logo for your business o=
+                                          r a video of family and friends. Already have something uploaded online? Co=
+                                          nnect and grab content directly from your Google Drive, Dropbox, or social =
+                                          media accounts.<br></p>
+                                       </th>
+                                       =20
+                                       <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+                                    </tr>
+                                    =20
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+               </tbody>
+            </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+         </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+         f;background-color:#ffffff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+            center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+                                       <th style=3D"text-align: left; text-align: start">
+                                          <a href=3D"https://l.engage.canva.com/ss/c/EHjG0ECqk09MUrC_rqxr=
+                                          vL6mlxUFlWkGXvAE7wW9GGWxKuy4yqiJEvbYZfsila3NW3Mln3I5NkH0lbjvwTRbQnu5yDL4WpC=
+                                          HZ4zpzvLtvz9C4nhzA6lF2XpH20MNou9UrlFzA625CEgB40A52hHpzP4FfwZ8A7Yny3JmV2NQv_=
+                                          onABx7vX_VHZEttvqoBxvbzHvfy0Rl_y2ER-QKXEQ-iQ/3f1/graOadpmQa2ZNdLHatHNbg/h13=
+                                          /V_Qds9L8GKp9rP_v9m2RSxvbbRuSvdYbDXPwaL9myLo" style=3D"background:#7d2ae8;b=
+                                          order-radius:4px;color:#ffffff;display:inline-block;font-family:Open Sans, =
+                                          Helvetica, Arial, sans serif;font-size:14px;font-weight:600;line-height:160=
+                                          %;margin:0;mso-padding-alt:0px;padding:9px 16px;text-decoration:none;text-t=
+                                          ransform:none;" target=3D"_blank">Upload something</a>
+                                       </th>
+                                       <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+                                    </tr>
+                                    =20
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+               </tbody>
+            </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+         </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#edf0f2;background-color:#edf0f2;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#edf0f=
+         2;background-color:#edf0f2;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <td height=3D"36" style=3D"background: #ffffff">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                       <td class=3D"border-radius-for-large">
+                                          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+                                             "presentation" style=3D"border-collapse:collapse;border-spacing:0px;">
+                                             <tbod=
+                                             y>
+                                             <tr>
+                                                <td style=3D"width:600px;"><a href=3D"https://l.engage.canva.com/ss/c=
+                                                   /EHjG0ECqk09MUrC_rqxrvL6mlxUFlWkGXvAE7wW9GGWxKuy4yqiJEvbYZfsila3NW3Mln3I5Nk=
+                                                   H0lbjvwTRbQnu5yDL4WpCHZ4zpzvLtvz9C4nhzA6lF2XpH20MNou9UrlFzA625CEgB40A52hHpz=
+                                                   P4FfwZ8A7Yny3JmV2NQv_onABx7vX_VHZEttvqoBxvbzHvfy0Rl_y2ER-QKXEQ-iQ/3f1/graOa=
+                                                   dpmQa2ZNdLHatHNbg/h14/2dinG7ATgssE10eHuFuf2aU23jukR9TC5p7L1aItnec" target=
+                                                   =3D"_blank"><img height=3D"auto" src=3D"https://appboy-images.com/appboy/co=
+                                                   mmunication/assets/image_assets/images/612327277864aa769372ad99/original.gi=
+                                                   f?1629693735" style=3D"border:none;border-radius:0px 0px 8px 8px;display:bl=
+                                                   ock;font-size:13px;height:auto;outline:none;text-decoration:none;width:100%=
+                                                   ;" width=3D"600"></a>
+                                                </td>
+                                             </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class=3D"spacing-for-large" height=3D"24">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <table cellpadding=3D"0" cellspacing=3D"0" class=3D"border-radi=
+                                          us-for-large" style=3D"border-radius: 8px 8px 0 0; background: #ffffff; wid=
+                                          th: 100%">
+                                    <tr>
+                                       <td height=3D"36">&nbsp;</td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+            </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   </div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+         auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+         0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+         und-color:#fff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:ltr;font-size=
+            :0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                        <tr>
+                           <td align=3D"left" class=3D"wrapper-typography monoBlack" style=
+                           =3D"font-size:0px;padding:10px 25px;padding-bottom:0;padding-left:48px;padd=
+                           ing-right:48px;padding-top:0;word-break:break-word;"><div style=3D"color:#0=
+                           E1318;font-family:Open Sans, Helvetica, Arial, sans serif;font-size:12px;fo=
+                           nt-weight:600;letter-spacing:1px;line-height:160%;text-align:left;text-tran=
+                           sform:uppercase;">
+                           <p style=3D"margin-top:0;margin-bottom:0"><strong>Tip 2</=
+                              strong>
+                           </p>
+                           </div></td>
+                        </tr>
+                     </table>
+                     </div>
+                     <!--[if mso | IE]>
+                  </td>
+               </tr>
+            </table>
+            <![endif]-->
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   </div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+         auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+         0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+         und-color:#fff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:ltr;font-size=
+            :0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"background-c=
+                              olor:#fff;padding:0;vertical-align:top;">
+                              <table border=3D"0" cellpadding=3D=
+                                 "0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"100%">
+                                 <tr>
+                                    <td align=3D"left" class=3D"wrapper-typography" style=3D"font-siz=
+                                    e:0px;padding:10px 25px;padding-bottom:12px;padding-left:48px;padding-right=
+                                    :48px;padding-top:12px;word-break:break-word;"><div style=3D"color:#0E1318;=
+                                    font-family:Open Sans, Helvetica, Arial, sans serif;font-size:24px;font-wei=
+                                    ght:700;letter-spacing:-0.3px;line-height:130%;text-align:left;">
+                                    <p style=
+                                       =3D"margin-top:0;margin-bottom:0">Get creative with video<br></p>
+                                    </div></td=
+                                    >
+                                 </tr>
+                              </table>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </div>
+                     <!--[if mso | IE]>
+                  </td>
+               </tr>
+            </table>
+            <![endif]-->
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   </div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+         auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+         0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+         und-color:#fff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:ltr;font-size=
+            :0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;pa=
+                              dding-bottom:12px;padding-top:12px;vertical-align:top;">
+                              <table border=3D"0"=
+                                 cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=
+                                 =3D"100%">
+                                 <tr>
+                                    <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                       eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                       "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                       -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                 <tr>
+                                    <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+                                    <th style=3D"color:#0e1318;font-family:Open Sans, Helvetica, Aria=
+                                    l, sans serif;font-size:14px;font-weight: 400;line-height:160%;text-align:l=
+                                    eft;text-align:start;">Adding video footage is a great way to create powerf=
+                                    ul, eye-catching, and memorable designs. Browse through our massive library=
+                                    of royalty-free clips, use them as a backdrop with text on top, or even st=
+                                    itch some together with our new video editor. The creative possibilities ar=
+                                    e endless.</th>
+                                    <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+                                 </tr>
+                              </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+               </tbody>
+            </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+         </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+         f;background-color:#ffffff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+            center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+                                       <th style=3D"text-align: left; text-align: start">
+                                          <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qum=
+                                          lZ8ZLt1PKVHyoU8DWXkqM-uSYS3EYGtgSWzLpcGe-vV28uUVxJJx5Q31Hmgz8M4iP8Q2c1eBFmk=
+                                          H48juf_MmanLW0ELPjDAb4s5u4lr8m4fBhxpdsrHPpTAHVVAhL31Vjs3TJku-Qj1BfHnMxgFH90=
+                                          FESSevzkcZTAmVZi1ySRYqUgH7aoMk1vfdPlO5FTFgbg/3f1/graOadpmQa2ZNdLHatHNbg/h15=
+                                          /cq1Bh5_LYIjJw2qlH1T2-4Bfu0X51h9E-lq_rHOzjv4" style=3D"background:#7d2ae8;b=
+                                          order-radius:4px;color:#ffffff;display:inline-block;font-family:Open Sans, =
+                                          Helvetica, Arial, sans serif;font-size:14px;font-weight:600;line-height:160=
+                                          %;margin:0;mso-padding-alt:0px;padding:9px 16px;text-decoration:none;text-t=
+                                          ransform:none;" target=3D"_blank">Browse videos</a>
+                                       </th>
+                                       <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+                                    </tr>
+                                    =20
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+               </tbody>
+            </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+         </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#edf0f2;background-color:#edf0f2;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#edf0f=
+         2;background-color:#edf0f2;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <td height=3D"36" style=3D"background: #ffffff">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                       <td class=3D"border-radius-for-large">
+                                          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+                                             "presentation" style=3D"border-collapse:collapse;border-spacing:0px;">
+                                             <tbod=
+                                             y>
+                                             <tr>
+                                                <td style=3D"width:600px;"><a href=3D"https://l.engage.canva.com/ss/c=
+                                                   /N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU8DWXkqM-uSYS3EYGtgSWzLpcGe-vV28uUVxJJx5Q=
+                                                   31Hmgz8M4iP8Q2c1eBFmkH48juf_MmanLW0ELPjDAb4s5u4lr8m4fBhxpdsrHPpTAHVVAhL31Vj=
+                                                   s3TJku-Qj1BfHnMxgFH90FESSevzkcZTAmVZi1ySRYqUgH7aoMk1vfdPlO5FTFgbg/3f1/graOa=
+                                                   dpmQa2ZNdLHatHNbg/h16/QFPaYhRQBibbp4K7UINw1jxTit-9DDAUUDg9Dewv_QY" target=
+                                                   =3D"_blank"><img height=3D"auto" src=3D"https://appboy-images.com/appboy/co=
+                                                   mmunication/assets/image_assets/images/612327282359125b90c26891/original.gi=
+                                                   f?1629693736" style=3D"border:none;border-radius:0px 0px 8px 8px;display:bl=
+                                                   ock;font-size:13px;height:auto;outline:none;text-decoration:none;width:100%=
+                                                   ;" width=3D"600"></a>
+                                                </td>
+                                             </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class=3D"spacing-for-large" height=3D"24">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <table cellpadding=3D"0" cellspacing=3D"0" class=3D"border-radi=
+                                          us-for-large" style=3D"border-radius: 8px 8px 0 0; background: #ffffff; wid=
+                                          th: 100%">
+                                    <tr>
+                                       <td height=3D"36">&nbsp;</td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+            </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   </div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+         auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+         0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+         und-color:#fff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:ltr;font-size=
+            :0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                        <tr>
+                           <td align=3D"left" class=3D"wrapper-typography monoBlack" style=
+                           =3D"font-size:0px;padding:10px 25px;padding-bottom:0;padding-left:48px;padd=
+                           ing-right:48px;padding-top:0;word-break:break-word;"><div style=3D"color:#0=
+                           E1318;font-family:Open Sans, Helvetica, Arial, sans serif;font-size:12px;fo=
+                           nt-weight:600;letter-spacing:1px;line-height:160%;text-align:left;text-tran=
+                           sform:uppercase;">
+                           <p style=3D"margin-top:0;margin-bottom:0"><strong>Tip 3</=
+                              strong>
+                           </p>
+                           </div></td>
+                        </tr>
+                     </table>
+                     </div>
+                     <!--[if mso | IE]>
+                  </td>
+               </tr>
+            </table>
+            <![endif]-->
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   </div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+         f;background-color:#ffffff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+            center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+                                       <th>
+                                          <h2 style=3D"font-family: Open Sans, Helvetica, Arial, sans ser=
+                                          if; font-size: 24px; font-weight: 700; line-height: 130%; color: #0E1318; l=
+                                          etter-spacing: -0.3px; margin: 0 0 16px; text-align: left; text-align: star=
+                                          t">The power of music<br>
+                                          </h2>
+                                          <p style=3D"color: #0E1318; font-family: Open Sans, Helvetica, =
+                                          Arial, sans serif; font-weight: 400; line-height: 160%; font-size: 14px; ma=
+                                          rgin: 0; text-align: left; text-align: start">A great piece of music really=
+                                          sets the mood for your work. It=E2=80=99s also a great way to add a person=
+                                          al element, using a style that reflects what you love. Whether you=E2=80=99=
+                                          re into Pop, Rock, Electronica, Classical, or a genre that you=E2=80=99ve j=
+                                          ust discovered, you=E2=80=99ll find inspiration in our audio section under =
+                                          the Elements tab.</p>
+                                       </th>
+                                       <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+               </tbody>
+            </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+         </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+         f;background-color:#ffffff;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+            center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+                                       <th style=3D"text-align: left; text-align: start">
+                                          <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qum=
+                                          lZ8ZLt1PKVHyoU8DWXkqM-uSYS3EYGtgSWzLpcGe-vV2YfxuvjmCMkc9ljLKsOoAx6ZiHgdAJ6T=
+                                          nGIxyDzDUoVYUy038mqQbaXWkqVBbf3bhvnd6pabqif8X4fkDsKiil06dyJFLQ_EAx1ADEgEY41=
+                                          eSYfvthKKoC-ujtW0kPR4getQQSK6Npe7_zeLfSl2MN5bGrI-rz3djj_x_6az4sC4/3f1/graOa=
+                                          dpmQa2ZNdLHatHNbg/h17/EUuAQ4T7_M96rGOy-co_M0STgyhGIzJo3OBD_tSoXug" style=3D=
+                                          "background:#7d2ae8;border-radius:4px;color:#ffffff;display:inline-block;fo=
+                                          nt-family:Open Sans, Helvetica, Arial, sans serif;font-size:14px;font-weigh=
+                                          t:600;line-height:160%;margin:0;mso-padding-alt:0px;padding:9px 16px;text-d=
+                                          ecoration:none;text-transform:none;" target=3D"_blank">Add some audio</a>
+                                       </th>
+                                       <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+                                    </tr>
+                                    =20
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+               </tbody>
+            </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+         </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"background:#edf0f2;background-color:#edf0f2;margi=
+         n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+         ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#edf0f=
+         2;background-color:#edf0f2;width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:l=
+            tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;ve=
+                                 rtical-align:top;">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+                                    role=3D"presentation" style=3D"" width=3D"100%">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+                                          eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+                                          "color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+                                          -height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                                    <tr>
+                                       <td height=3D"36" style=3D"background: #ffffff">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                       <td class=3D"border-radius-for-large">
+                                          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+                                             "presentation" style=3D"border-collapse:collapse;border-spacing:0px;">
+                                             <tbod=
+                                             y>
+                                             <tr>
+                                                <td style=3D"width:600px;"><a href=3D"https://l.engage.canva.com/ss/c=
+                                                   /N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU8DWXkqM-uSYS3EYGtgSWzLpcGe-vV2YfxuvjmCMk=
+                                                   c9ljLKsOoAx6ZiHgdAJ6TnGIxyDzDUoVYUy038mqQbaXWkqVBbf3bhvnd6pabqif8X4fkDsKiil=
+                                                   06dyJFLQ_EAx1ADEgEY41eSYfvthKKoC-ujtW0kPR4getQQSK6Npe7_zeLfSl2MN5bGrI-rz3dj=
+                                                   j_x_6az4sC4/3f1/graOadpmQa2ZNdLHatHNbg/h18/E6QW68e6CN9n8nOxErhsPkgaBz1qYKhV=
+                                                   1qK3TiyGlJ4" target=3D"_blank"><img height=3D"auto" src=3D"https://appboy-i=
+                                                   mages.com/appboy/communication/assets/image_assets/images/612327278d484f415=
+                                                   fb9211f/original.gif?1629693735" style=3D"border:none;border-radius:0px 0px=
+                                                   8px 8px;display:block;font-size:13px;height:auto;outline:none;text-decorat=
+                                                   ion:none;width:100%;" width=3D"600"></a>
+                                                </td>
+                                             </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class=3D"spacing-for-large" height=3D"24">&nbsp;</td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                     </table>
+                  </td>
+               </tr>
+               </tbody>
+            </table>
+            </div>
+            <!--[if mso | IE]>
+            </td>
+         </tr>
+   </table>
+   <![endif]-->
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <!--
+      -->
+   <!--[if mso | IE]>
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+      yle=3D"width:600px;" width=3D"600">
+      <tr>
+         <td style=3D"line-height:0px;font-si=
+         ze:0px;mso-line-height-rule:exactly;">
+         <![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+         "center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+         ion" style=3D"width:100%;">
+      <tbody>
+         <tr>
+            <td style=3D"direction:ltr;font-size:=
+            0px;padding:0;text-align:center;vertical-align:top;">
+            <!--[if mso | IE]>
+            <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+               0">
+               <tr>
+                  <td style=3D"vertical-align:top;width:600px;">
+                     <![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+                     rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+                     ign:top;width:100%;">
+                     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+                        " role=3D"presentation" width=3D"100%">
+                        <tbody>
+                           <tr>
+                              <td style=3D"padding:0;vertical-align:top;">
+                                 <table border=3D"0" cellpad=
+                                    ding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"100%=
+                                    ">
+                                    <tr>
+                                       <td align=3D"left" style=3D"font-size:0px;padding:0;word-break:break-word;"=
+                                          >
+                                          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"color:#000=
+                                          000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22p=
+                                          x;table-layout:auto;width:100%;" width=3D"100%">
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td colspan=3D"3">
+                                 <div class=3D"footer-bg-mobile" style=3D"background-color: #edf=
+                                    0f2">
+                                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+                                    =3D"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;l=
+                                    ine-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                           <tr>
+                           <td height=3D"24">&nbsp;</td>
+                           </tr>
+                           <tr>
+                           <td width=3D"24">&nbsp;</td>
+                           <td>
+                           <div style=3D"color:#565a5d;font-family:Open Sans, Helv=
+                           etica, Arial, sans serif;font-size:14px;line-height:160%;text-align:center;=
+                           ">You are receiving this email because you signed up to Canva.</div>
+                           </td>
+                           <td width=3D"24">&nbsp;</td>
+                           </tr>
+                           <tr>
+                              <td colspan=3D"3" height=3D"24" style=3D"border-bottom: 1=
+                              px solid #DDE1E3">
+                              &nbsp;
+                              </td>
+                           </tr>
+                           <tr>
+                              <td height=3D"24">&nbsp;</td>
+                           </tr>
+                           <tr>
+                              <td width=3D"24">&nbsp;</td>
+                              <td>
+                                 <div style=3D"color:#565a5d;font-family:Open Sans, Helv=
+                                 etica, Arial, sans serif;font-size:14px;line-height:160%;text-align:center;=
+                                 ">
+                                 =20
+                                 <span>Made for you with <img src=3D'https://appboy-images.com/appboy/commu=
+                                 nication/assets/image_assets/images/5e0190dc6a8d637c8dd20cff/original.png?1=
+                                 577160924' alt=3D'love' style=3D'transform: translateY(2px)' /> from Canva<=
+                                 /span> <br>
+                                 <span>Canva Pty Ltd</span>, <span>110 Kippax St, NSW 2010, Australia</span>=
+                                 . <span>ABN 80 159 929 938</span>
+                                 <br><span>If you need assistance, get in touch with us via our <a href=3D'h=
+                                 ttps://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlTv40ni-iHwPBz6lxuihmfCf=
+                                 kiA7tyqN0tolHqeJuSgm/3f1/graOadpmQa2ZNdLHatHNbg/h19/Dbn_GlHc_UAMkE742wGH4KK=
+                                 yUp92l1WMkDwKQtY4UxQ' style=3D'color: #565a5d;  font-family: Open Sans, Hel=
+                                 vetica, Arial, sans serif; font-size: 14px; font-weight: 400; line-height: =
+                                 160%'>Help Center</a>.</span>
+                                 </div>
+                              </td>
+                              <td width=3D"24">&nbsp;</td>
+                           </tr>
+                           <tr>
+                              <td colspan=3D"3">
+                                 <table align=3D"center" cellpadding=3D"0" cellspacing=
+                                    =3D"0" width=3D"auto">
+                                    <tr>
+                                       <th>
+                                          <a href=3D"https://l.engage.canva.com/ss/c/N56jrj=
+                                          xtajclrFz56qumlQutsr5J_0b-EtCZIlInmZSBn0wmQQjugutk0KKNp21266W0gVJp55cd5IMDY=
+                                          fR5REB3frD9DcDNBs2uaOLPTdxULRE3_FXOBFqTWQMd50qB0BAtOwJ-TvSoq2iXPcLFqisXWvCM=
+                                          m15FPXr75EON56o/3f1/graOadpmQa2ZNdLHatHNbg/h20/hw9FUAOVetrRwvHLqkWgEg5dwI6E=
+                                          eT20QjuvFHOyX2I" style=3D"color: #565a5d;  font-family: Open Sans, Helvetic=
+                                          a, Arial, sans serif; font-size: 14px; font-weight: 400; line-height: 160%"=
+                                          >Visit canva.com</a>
+                                       </th>
+                                       <th width=3D"16px"></th>
+                                       <th>
+                                          <a href=3D"https://l.engage.canva.com/ss/c/SGIckv=
+                                          MXEMMWyyBsBumKhyFmXQQzIYONw2wHwEsCdVb8K2IvTUG7e0wTxwiJNi6BLf9B6M12cD1iHVuKX=
+                                          sTchdQyDN-I2M4cY9Kof4ers2VnirKkSF9RQxx0qK-7mmwQ-0EEf8J6TyoZgVFh9sYyFocIZ-Mm=
+                                          48Ztt4Gx4P2zcFIIdhtd0PuEWu6YThrXf3HwQidqLztWJFkMbrmbk1-vixe4TUyvr9-_7phBbgb=
+                                          73c5oXFK83aNqyjgEm0FXWFWknmYEO-3A8krMpbTsmBZmP3DSpeXHqR1QENnMZNgD1GUf57yv2Q=
+                                          7f3xQu2_mt6r8gjpnbtT5FAAjzjgktGDGEKQDjEufDOYYA9v3E2rlzLSTFbGXCrxhnjHJvx3GV0=
+                                          478pBG0aIErD6F9_Y6G3U_rVwlkXl_BK0s-1-UQ7pO6zAfq-TiOjgbYWSeBIX5zfztyPTYpZYiW=
+                                          dbLmk_ONtzhEs67uYIuby3z8LUHZ-COTRmZcJFA5AY_WWTKGcx0wvJIFkSkVOBB0JKxR0-vI2nq=
+                                          nrideux7oTxXtfP-fyHcQh6xMSX2DKIw5JX4GAXhibizqmMDpCM3uraQri_aTlg3FsD34Cdrztu=
+                                          8RGmUFbm8Nw4QnxUJr8bye3-B6Dd8MpDaE4lEpedcqAaH4FW5ffHquVz7r-wJByg5JzVR-wAwIm=
+                                          f52OMZ6eCxAQHEUk8kGf5DffOlG93gVXvkaRQ5t-Mc_JBx6nkFNzE93nksoCU06BUPS_ie5KROK=
+                                          zMjqxblLBr2tzlrcpXZvz87lQu1Yz3xrbiGh7tnUuW1b4I8edXnJwtn1TBqTJk5s4Zpvc0kmyJl=
+                                          1OJHdccBfPLYj-4C443O0Yw/3f1/graOadpmQa2ZNdLHatHNbg/h21/PeLsftLSeDXNKUylcVUN=
+                                          9TDdvQNX6KoZRXbbIrx4UFc" style=3D"color: #565a5d;  font-family: Open Sans, =
+                                          Helvetica, Arial, sans serif; font-size: 14px; font-weight: 400; line-heigh=
+                                          t: 160%">Unsubscribe</a>
+                                       </th>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td height=3D"16"></td>
+                           </tr>
+                           <tr>
+                              <td align=3D"center" colspan=3D"3">
+                                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+                                    style=3D"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:=
+                                    13px;line-height:22px;table-layout:auto;width:144px;" width=3D"144">
+                                    <tr>
+                                       <th width=3D"24px">
+                                          <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajcl=
+                                          rFz56qumlX5OAtbCJMd_FPvwEHJJ-8-3v730FYRdiZ7mt5hFjgNSF85wlY4T6lr1-UFhzF1J449=
+                                          DYsCmnR8mkx9fHHo08_ILPxX5hqwBExlzct_LKoDpY2O_v-FUQxEM78q53tgPxXSamelP9-j--S=
+                                          eY0tvBb7SmlIBqznHLwPniFWuKuJAz/3f1/graOadpmQa2ZNdLHatHNbg/h22/Ff5BqKrmMQ7t7=
+                                          PTA54ccWtOYDMRFS2koHGUdnwd550k" style=3D"line-height: 0; display: block">
+                                          <img alt=3D"facebook" src=3D"https://appboy-images.co=
+                                          m/appboy/communication/assets/image_assets/images/5e01866c167e920348c59e1f/=
+                                          original.png?1577158252">
+                                          </a>
+                                       </th>
+                                       <th width=3D"16px"></th>
+                                       <th width=3D"24px">
+                                          <a href=3D"https://l.engage.canva.com/ss/c/mtWqLnqJK6aD=
+                                          QEpLGYS3ux9pLP57VNKLjQ65NmZu_e4iijbSbAi9eW7qKtCtpW5SexzrlAJNlg5i_UDFzkfP6zY=
+                                          Hnr30P_m8HrQ9IqcRPPpJqh16cKioFjk6EwDG6YZzLS3o0qrhjQQnZQEDPKF7_oRUCioCKtNMaO=
+                                          RjCX3Jljsq6iOdhNWyyObGvxVSWABDHUsGGIoecHtV3g95O_KTNVKzp1faTzEBM_Qkj6Lb3Inus=
+                                          MNMrqzbAvOJPMdQSBBY/3f1/graOadpmQa2ZNdLHatHNbg/h23/3h_GuZRC0YobWFDClFcxHupp=
+                                          g_qesdgMQbHZkP2DWTU" style=3D"line-height: 0; display: block">
+                                          <img alt=3D"twitter" src=3D"https://appboy-images.com=
+                                          /appboy/communication/assets/image_assets/images/5e01866ccda48838c1473107/o=
+                                          riginal.png?1577158252">
+                                          </a>
+                                       </th>
+                                       <th width=3D"16px"></th>
+                                       <th width=3D"24px">
+                                          <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajcl=
+                                          rFz56qumlVxO83WZsjMmrpdK0WEk-PyQSfAy1vN6PbMwxkCGncNvDiveK8vibpGqz8m6evhPlln=
+                                          lhTu5XEgkY3osVdHJDUfUDXfZeyHw9EN5L1MIj-aSp7zhtwgEILcBC4trwfSi9suTcAebHn8lsn=
+                                          Cd5e95Bw2EwMPdsla-wWx8VpyYCu3K/3f1/graOadpmQa2ZNdLHatHNbg/h24/Kl9vfz7J77QdX=
+                                          NvNw7h7kfkCNzMuoXMnIQD0tmDGTAc" style=3D"line-height: 0; display: block">
+                                          <img alt=3D"pinterest" src=3D"https://appboy-images.c=
+                                          om/appboy/communication/assets/image_assets/images/5e01866daf874e03968b2978=
+                                          /original.png?1577158253">
+                                          </a>
+                                       </th>
+                                       <th width=3D"16px"></th>
+                                       <th width=3D"24px">
+                                          <a href=3D"https://l.engage.canva.com/ss/c/lZ-GM7rMZ041=
+                                          tTtfCkoTKRXxFZvYdctphiqWkWaCzskovRsN_Uqf6KsvZWIxlXniRPAVc_NE5OMv-pbJjDbP267=
+                                          EehxBVU6xpuzHzrI1-W8fLH8ebJ8I_Nq8GDHO_aY3O2kg_6UBNYS7uHPjI7a4pmsDkApZJBkliC=
+                                          1esfQABH3SKI4sTQzQB2mYwGyE_vgT/3f1/graOadpmQa2ZNdLHatHNbg/h25/zNGirLPZfzAmF=
+                                          0Nzztw6CMbNT8JG1qSW_vqMzztT4iY" style=3D"line-height: 0; display: block">
+                                          <img alt=3D"instagram" src=3D"https://appboy-images.c=
+                                          om/appboy/communication/assets/image_assets/images/5e01866d5b99ac6f6aaa44d0=
+                                          /original.png?1577158253">
+                                          </a>
+                                       </th>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td height=3D"48px"></td>
+                           </tr>
+                     </table>
+                     </div>
+                  </td>
+               </tr>
+            </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   </div>
+   </td></tr></tbody></table></div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   </div>
+   <!--[if mso | IE]>
+   </td></tr></table>
+   <![endif]-->
+   <img src=3D"https://l.engage.canva.com/ss/o/WidYBisxQHTw4AV5utnA-Q/3f1/graO=
+   adpmQa2ZNdLHatHNbg/ho.gif" alt=3D"" width=3D"1" height=3D"1" border=3D"0" s=
+   tyle=3D"height:1px !important;width:1px !important;border-width:0 !importan=
+   t;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !import=
+   ant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !imp=
+   ortant;padding-right:0 !important;padding-left:0 !important;"/></body> </ht=
+   ml>
