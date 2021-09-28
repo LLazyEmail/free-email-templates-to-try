@@ -1,0 +1,590 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <META NAME="referrer" CONTENT="no-referrer">
+
+    <!--[if gte mso 9]><xml>  <o:OfficeDocumentSettings>   <o:AllowPNG/>   <o:PixelsPerInch>96</o:PixelsPerInch>  </o:OfficeDocumentSettings> </xml><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Grammarly</title>
+
+    <!--[if mso]>  <style type="text/css">  body, table, td, h1, h2, h3, a, span {font-family: Helvetica, Arial, sans-serif !important;}  </style>  <![endif]-->
+    <style type="text/css">
+      u+#body a {
+        color: #4C7AF1;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+      @media only screen and (max-width: 480px) {
+        div>u+#body .stylingblock-content-wrapper.camarker-inner {
+          padding: 0px 16px !important;
+        }
+        div>u+#body .stylingblock-content-wrapper.camarker-inner table {
+          min-width: 100% !important;
+        }
+      }
+    </style>
+    <style type="text/css">
+      /*Font Settings*/
+      @font-face {
+        font-family: 'Circular';
+        font-style: normal;
+        font-weight: 700;
+        src: url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/circular/circular-bold.woff2') format('woff2'),
+          url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/circular/circular-bold.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        src: url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-regular.otf') format('otf'),
+          url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-regular.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        src: url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-bold.otf') format('otf'),
+          url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-bold.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        src: url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-italic.otf') format('otf'),
+          url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-italic.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 700;
+        src: url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-bold-italic.otf') format('otf'),
+          url('https://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/inter/inter-bold-italic.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Akkurat';
+        font-style: normal;
+        font-weight: 400;
+        src: url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-regular.eot?#iefix');
+        src: url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-regular.eot?#iefix') format('eot'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-regular.woff2') format('woff2'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-regular.woff') format('woff'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Akkurat Bold';
+        font-style: normal;
+        font-weight: 700;
+        src: url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-bold.eot?#iefix');
+        src: url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-bold.eot?#iefix') format('eot'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-bold.woff2') format('woff2'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-bold.woff') format('woff'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-bold.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Akkurat Italic';
+        font-style: italic;
+        font-weight: 400;
+        src: url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-italic.eot?#iefix');
+        src: url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-italic.eot?#iefix') format('eot'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-italic.woff2') format('woff2'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-italic.woff') format('woff'),
+          url('http://grammarly-marketing.s3.amazonaws.com/emails-images/fonts/akkurat-italic.ttf') format('truetype');
+      }
+      ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0 !important;
+      }
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      html {
+        -webkit-text-size-adjust: none;
+        -webkit-font-smoothing: antialiased;
+      }
+      a {
+        outline: 0;
+      }
+      img {
+        display: block;
+        outline: 0;
+      }
+      a img {
+        border: none;
+      }
+      /*td {mso-line-height-rule: exactly;}*/
+      table td {
+        border-collapse: collapse;
+      }
+      a[x-apple-data-detectors] {
+        color: #4C7AF1 !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      /**Template CSS**/
+      /* TYPOGRAPHY */
+      h1 {
+        font-family: 'Circular', Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+        color: #2E3543;
+      }
+      h2 {
+        font-family: 'Circular', Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #2E3543;
+      }
+      h3 {
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        color: #2E3543;
+      }
+      td,
+      p,
+      li {
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #60657B;
+      }
+      a {
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4C7AF1;
+        text-decoration: none;
+      }
+      .cta {
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        /*CB STYLES*/
+        .container {
+          width: 100% !important;
+        }
+        .footer {
+          width: auto !important;
+          margin-left: 0;
+        }
+        .mobile-hidden {
+          display: none !important;
+        }
+        .logo {
+          display: block !important;
+          padding: 0 !important;
+        }
+        img {
+          max-width: 100% !important;
+          height: auto !important;
+          max-height: auto !important;
+        }
+        .header img {
+          max-width: 100% !important;
+          height: auto !important;
+          max-height: auto !important;
+        }
+        .photo img {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+        }
+        .drop {
+          display: block !important;
+          width: 100% !important;
+          float: left;
+          clear: both;
+        }
+        .footerlogo {
+          display: block !important;
+          width: 100% !important;
+          padding-top: 15px;
+          float: left;
+          clear: both;
+        }
+        .nav4,
+        .nav5,
+        .nav6 {
+          display: none !important;
+        }
+        .tableBlock {
+          width: 100% !important;
+        }
+        .responsive-td {
+          width: 100% !important;
+          display: block !important;
+          padding: 0 !important;
+        }
+        .fluid,
+        .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        * {
+          -webkit-text-size-adjust: none;
+          -ms-text-size-adjust: none;
+          -webkit-font-smoothing: antialiased;
+        }
+        /*Stop iproducts from auto-resizing text*/
+        .height {
+          height: auto !important;
+        }
+        .hide {
+          display: none !important;
+        }
+        .stack {
+          display: block !important;
+          width: 100% !important;
+        }
+        .w100P {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .blockOnly {
+          display: block !important;
+        }
+        .w95P {
+          width: 95% !important;
+        }
+        .textC {
+          text-align: center !important;
+        }
+        .stylingblock-content-wrapper.camarker-inner {
+          padding: 0px 16px !important;
+        }
+        .sp4024 {
+          height: 24px !important;
+          line-height: 24px !important;
+          font-size: 24px !important;
+        }
+        .sp4032 {
+          height: 32px !important;
+          line-height: 32px !important;
+          font-size: 32px !important;
+        }
+      }
+    </style>
+  </head>
+  <body id="body" bgcolor="#f4f5fb" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; padding:0;">
+    <style type="text/css">
+      div.preheader {
+        display: none !important;
+      }
+    </style>
+    <div class="preheader" style="font-size: 1px; display: none !important;">Unleash the balloons! Free the confetti! Ignite the cannon! Grammarly’s Black Friday sale is here.</div>
+    <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" bgcolor="#f4f5fb">
+      <tr>
+        <td align="center" valign="top">
+          <table cellpadding="0" cellspacing="0" border="0" align="center" width="600" bgcolor="#f4f5fb" class="container" style="margin:0 auto;">
+            <tr>
+              <td valign="top">
+
+                <!--Body-->
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                  <tr>
+                    <td height="23" style="mso-line-height-rule: exactly;line-height:23px; font-size:23px;">&nbsp;</td>
+                  </tr>
+                </table>
+
+                <!--USER INFO-->
+
+                <!--https://www.grammarly.com/-->
+
+                <!--DISCOUNT INFO-->
+                <table style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td class="logoPadding" style="line-height: 45px;" align="left"><img data-assetid="27584" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/a4cad1b9-ba0c-4a95-b1cf-a575841cd1d4.png" style="display: block; padding: 0px; text-align: left; height: 34px; width: 142px; border: 0px none transparent;" width="142" height="34"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                  <tr>
+                    <td height="23" style="mso-line-height-rule: exactly;line-height:23px; font-size:23px;">&nbsp;</td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4024" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#1C1E33">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center"><a href="https://click.send.grammarly.com/?qs=2760a19596db47afb7cf85e3b94d004f8ebafa36a9c708c2eecb187f1641ca6092a916f557b68539d66d53f23d1223ad87ff34834055592710cca48fc9a7eadd" title="" data-linkto="other"><img data-assetid="29217" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/fca29c91-0dd3-408f-b570-c5407d519935.png" style="display: block; padding: 0px; text-align: center; height: 33px; width: 400px; border: 0px none transparent;" width="400" height="33"></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4024" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#1C1E33">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center"><a href="https://click.send.grammarly.com/?qs=2760a19596db47afb7cf85e3b94d004f8ebafa36a9c708c2eecb187f1641ca6092a916f557b68539d66d53f23d1223ad87ff34834055592710cca48fc9a7eadd" title="" data-linkto="other"><img data-assetid="29242" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/df845b15-e3f2-43b7-a705-ea55ba14d176.gif" style="display: block; padding: 0px; text-align: center; height: 209px; width: 400px; border: 0px none transparent;" class="w100P" width="400" height="209"></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4032" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#1C1E33">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px 60px; " class="stylingblock-content-wrapper camarker-inner">
+                      <h1 style="text-align: center;mso-line-height-rule: exactly;font-family: 'Circular', Helvetica, Arial, sans-serif;  font-weight: bold;  font-size:32px;  line-height: 48px;  color:#2E3543;margin:0px;">
+                        <span style="color:#ffffff;">Black Friday Brilliance</span></h1>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td style="mso-line-height-rule: exactly;line-height:24px; font-size:24px;" height="24" bgcolor="#1C1E33">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px 80px; " class="stylingblock-content-wrapper camarker-inner"><span style="color:#ffffff;"><span style="font-family: Inter, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 16px; line-height: 24px;">Thinking of upgrading to Premium? Today is the best day of the year to uplevel your writing skills. Get a stunning <b>55% OFF</b> when you upgrade to an annual plan by midnight.</span></span></td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4032" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#1C1E33">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#1C1E33">
+                  <tr>
+                    <td align="center" class="stylingblock-content-wrapper">
+                      <table cellpadding="0" cellspacing="0" border="0" width="300" class="w95P">
+                        <tr>
+                          <td align="center" style="-webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px;" bgcolor="#5BC09C"><a href="https://click.send.grammarly.com/?qs=2760a19596db47afb7cf85e3b94d004f8ebafa36a9c708c2eecb187f1641ca6092a916f557b68539d66d53f23d1223ad87ff34834055592710cca48fc9a7eadd" target="_blank" style="font-size: 18px; font-family:'Inter', Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; -webkit-border-radius: 24px; -moz-border-radius: 24px; border-radius: 24px; padding: 10px 12px; border: 1px solid #5BC09C; display: inline-block;font-weight:normal;width:300px;" class="cta">Upgrade Now</a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4032" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#1C1E33">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #1C1E33; border: 1px solid #1C1E33; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4032" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#1C1E33">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #FFFFFF; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4032" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#ffffff">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #FFFFFF; border: 10px solid #FFFFFF; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center"><a href="https://click.send.grammarly.com/?qs=2760a19596db47afb7cf85e3b94d004f8ebafa36a9c708c2eecb187f1641ca6092a916f557b68539d66d53f23d1223ad87ff34834055592710cca48fc9a7eadd" title="" data-linkto="other"><img data-assetid="27578" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/041c6c50-376d-40de-803f-d43b9d28f91c.png" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px solid transparent;" width="550"></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="background-color: #FFFFFF; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="sp4032" style="mso-line-height-rule: exactly;line-height:40px; font-size:40px;" height="40" bgcolor="#ffffff">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="stylingblock-content-wrapper camarker-inner">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center">
+                            <table class="w95P" width="520" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td style="mso-line-height-rule: exactly;line-height:35px; font-size:35px;" height="35">
+                                  &nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td width="24" valign="top" align="left">
+                                        <a href="https://click.send.grammarly.com/?qs=2760a19596db47af70a52e75baef9e794dd101a742bb406e18c36d9b39782be6d400dbd1cb3967baa6c77fa0d41056c441f1c4a02127c975" target="_blank" title="facebook"><img alt="Facebook" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/ba5055f5-0e2b-4086-ae91-79c2ce64e792.png" style="display: block;" title="Facebook" width="24" height="24" border="0"></a></td>
+                                      <td width="48" valign="top" align="left">
+                                      </td>
+                                      <td width="24" valign="top" align="left">
+                                        <a href="https://click.send.grammarly.com/?qs=2760a19596db47af8dcf1bd3509820c89e85c07e3b5962096112c8044f32371eefd13db41bf7bcd38a58a5eedd2f929469db2473c19c9182" target="_blank" title="instagram"><img alt="instagram" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/da1c7518-d320-4126-927e-37873a8e1ef6.png" style="display: block;" title="instagram" width="24" height="24" border="0"></a></td>
+                                      <td width="48" valign="top" align="left">
+                                      </td>
+                                      <td width="24" valign="top" align="left">
+                                        <a href="https://click.send.grammarly.com/?qs=2760a19596db47af127594b7642a5af75b9e895ccd1996f2b741d0fc6cb28a497658ff9da32e1585e494e5a181764f40b1723e0a919b3dbf" target="_blank" title="linkedin"><img alt="linkedin" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/4ee1902a-f4e4-46fe-9ea2-7932dbdd4b11.png" style="display: block;" title="linkedin" width="24" height="24" border="0"></a></td>
+                                      <td width="48" valign="top" align="left">
+                                      </td>
+                                      <td width="24" valign="top" align="left">
+                                        <a href="https://click.send.grammarly.com/?qs=2760a19596db47af2c07c03f5486015c382e7ca8251902016d85591d5303ba13d626e555a96230371b811d391e74d571f260df05781418c8" target="_blank" title="twitter"><img alt="twitter" src="https://image.send.grammarly.com/lib/fe9213707567007a7d/m/2/dad37ddf-4498-462d-984a-a437e6c7f93c.png" style="display: block;" title="twitter" width="24" height="24" border="0"></a></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="mso-line-height-rule: exactly;line-height:35px; font-size:35px;" height="35">
+                                  &nbsp;</td>
+                              </tr>
+                            </table>
+                            <table class="w95P" width="520" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td style="mso-line-height-rule: exactly;line-height:1px; font-size:1px;" height="1" bgcolor="#E4E6F2">
+                                  &nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td style="mso-line-height-rule: exactly;line-height:35px; font-size:35px;" height="35">
+                                  &nbsp;</td>
+                              </tr>
+                            </table>
+                            <table class="w95P" width="520" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td style="mso-line-height-rule: exactly;font-family: 'Inter', Helvetica, Arial, sans-serif;color:#8189A9;font-size: 14px;line-height:20px;" valign="top" align="center">
+                                  <a href="#" style="color:#8189A9;" target="_blank">View Web Version</a> &middot; <a href="#" style="color:#8189A9;" target="_blank">Email Preferences</a> <span class="hide">&middot;</span> <a class="blockOnly" href="#" style="color:#8189A9;" target="_blank">Unsubscribe</a><br>
+                                  <br>
+                                  You received this offer for Grammarly Premium because you are currently opted in to receive them via your preference settings. You may adjust your preferences at any time by clicking the link above.<br>
+                                  <br>
+                                  &copy; 2019 Grammarly, Inc. 548 Market St. #35410, San Francisco, CA 94104</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="mso-line-height-rule: exactly;line-height:48px; font-size:48px;" height="48">
+                            &nbsp;</td>
+                        </tr>
+                      </table> <img src="https://gnar.grammarly.com/email-pixel?userId=622371162&email=mikenelson01@gmail.com&templateName=Black%20Friday%20Test%20Email%202019&sentTime=11/29/2019%204:18:44%20PM" style="display:none" width="1" height="1" border="0">
+                    </td>
+                  </tr>
+                </table> <!--/Body-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+   
+  </body>
+</html>

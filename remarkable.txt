@@ -1,0 +1,666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <style type="text/css">
+      span.MsoHyperlink {
+        mso-style-priority: 99;
+        color: inherit;
+      }
+      span.MsoHyperlinkFollowed {
+        mso-style-priority: 99;
+        color: inherit;
+      }
+    </style>
+
+    <!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+    <title>*|MC:SUBJECT|*</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!--[if !mso]>
+<!-->
+    <link href="https://fonts.googleapis.com/css?family=Martel:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,700" rel="stylesheet">
+
+    <!--<![endif]-->
+    <style type="text/css">
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        -webkit-text-size-adjust: 100% !important;
+        -ms-text-size-adjust: 100% !important;
+        -webkit-font-smoothing: antialiased !important;
+      }
+      img {
+        border: 0 !important;
+        outline: none !important;
+      }
+      p {
+        Margin: 0px !important;
+        Padding: 0px !important;
+      }
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0px;
+        mso-table-rspace: 0px;
+      }
+      td,
+      a,
+      span {
+        border-collapse: collapse;
+        mso-line-height-rule: exactly;
+      }
+      .ExternalClass * {
+        line-height: 100%;
+      }
+      .em_defaultlink a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .em_g_img+div {
+        display: none;
+      }
+      .em_white a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .em_black a {
+        color: #000000;
+        text-decoration: none;
+      }
+      .em_gray a {
+        color: #8f8f8f;
+        text-decoration: none;
+      }
+      .em_black_u a {
+        color: #000000;
+        text-decoration: underline;
+      }
+      .tpl-content {
+        padding: 0px !important;
+      }
+      .mcnPreviewText {
+        display: none !important;
+      }
+      @media only screen and (min-width:481px) and (max-width:619px) {
+        .em_main_table {
+          width: 100% !important;
+        }
+        .em_wrapper {
+          width: 100% !important;
+        }
+        .em_hide {
+          display: none !important;
+        }
+        .em_full_img img {
+          width: 100% !important;
+          height: auto !important;
+          max-width: none !important;
+        }
+        .em_center {
+          text-align: center !important;
+        }
+        .em_side10 {
+          width: 10px !important;
+        }
+        .em_aside10 {
+          padding: 0px 10px !important;
+        }
+        .em_h20 {
+          height: 20px !important;
+        }
+        .em_ptop {
+          padding-top: 20px !important;
+        }
+        .em_pbottom {
+          padding-bottom: 20px !important;
+        }
+        .em_auto {
+          height: auto !important;
+        }
+        .em_pbottom50 {
+          padding-bottom: 50px !important;
+        }
+        .em_wrapper1 {
+          width: 46% !important;
+        }
+        .em_w250 {
+          width: 250px !important;
+        }
+        .em_font24 {
+          font-size: 24px !important;
+          line-height: 28px !important;
+          text-align: center !important;
+          padding-bottom: 15px !important;
+        }
+        .em_font14 {
+          font-size: 14px !important;
+          line-height: 18px !important;
+          text-align: center !important;
+          padding-bottom: 15px !important;
+        }
+        .em_wrapper2 {
+          width: 32% !important;
+        }
+        .em_full_img1 img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .em_w320 {
+          width: 320px !important;
+        }
+        .em_tbl1 {
+          width: 120px !important;
+          clear: none !important;
+        }
+        .em_tbl2 {
+          width: 57% !important;
+          clear: none !important;
+        }
+        .em_tbl3 {
+          display: none !important;
+          clear: none !important;
+        }
+        .em_width_378 {
+          width: 100% !important;
+        }
+        .em_left {
+          text-align: left !important;
+        }
+        .em_ptop10 {
+          padding-top: 10px !important;
+        }
+        .em_clear {
+          float: left !important;
+          width: 100% !important;
+          clear: both !important;
+          max-width: 100% !important;
+        }
+        .em_w130 {
+          width: 240px !important;
+        }
+        .em_border {
+          border-top: 3px solid #ffffff !important;
+        }
+        .hide_desktop {
+          display: table !important;
+          float: none !important;
+          width: 100% !important;
+          overflow: visible !important;
+          height: auto !important;
+        }
+      }
+      @media screen and (max-width: 481px) {
+        .em_main_table {
+          width: 100% !important;
+        }
+        .em_wrapper {
+          width: 100% !important;
+        }
+        .em_height {
+          width: 95% !important;
+          height: 40px !important;
+          line-height: 70px !important;
+        }
+        .em_hide {
+          display: none !important;
+        }
+        .em_full_img img {
+          width: 100% !important;
+          height: auto !important;
+          max-width: none !important;
+        }
+        .em_center {
+          text-align: center !important;
+        }
+        .em_side10 {
+          width: 10px !important;
+        }
+        .em_aside10 {
+          padding: 0px 10px !important;
+        }
+        .em_h20 {
+          height: 20px !important;
+        }
+        .em_ptop {
+          padding-top: 20px !important;
+        }
+        .em_pbottom {
+          padding-bottom: 20px !important;
+        }
+        .em_pbottom30 {
+          padding-bottom: 30px !important;
+        }
+        u+.em_body .em_full_wrap {
+          width: 100% !important;
+          width: 100vw !important;
+        }
+        .em_auto {
+          height: auto !important;
+        }
+        .em_pbottom50 {
+          padding-bottom: 50px !important;
+        }
+        .em_wrapper1 {
+          width: 46% !important;
+        }
+        .em_font18 {
+          font-size: 18px !important;
+          line-height: 22px !important;
+        }
+        .em_font12 {
+          font-size: 12px !important;
+          line-height: 15px !important;
+        }
+        .em_w250 {
+          width: 250px !important;
+        }
+        .em_font24 {
+          font-size: 24px !important;
+          line-height: 28px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_font24a {
+          font-size: 21px !important;
+          line-height: 29px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_font24a1 {
+          font-size: 25px !important;
+          line-height: 33px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_font24b {
+          font-size: 19px !important;
+          line-height: 27px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_font24m {
+          font-size: 21px !important;
+          line-height: 23px !important;
+          text-align: center !important;
+          padding-top: 20px !important;
+        }
+        .em_font22a {
+          font-size: 17px !important;
+          line-height: 26px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_font22m {
+          font-size: 17px !important;
+          line-height: 26px !important;
+          text-align: center !important;
+          padding-top: 0px !important;
+        }
+        .em_font33 {
+          font-size: 33px !important;
+          line-height: 41px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_font33l {
+          font-size: 24px !important;
+          line-height: 32px !important;
+          text-align: center !important;
+        }
+        .em_font33a {
+          font-size: 24px !important;
+          line-height: 27px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_font14 {
+          font-size: 14px !important;
+          line-height: 18px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        em_font18 {
+          font-size: 18px !important;
+          line-height: 22px !important;
+          text-align: center !important;
+          padding-bottom: 0px !important;
+        }
+        .em_wrapper2 {
+          width: 32% !important;
+        }
+        .em_font13 {
+          font-size: 13px !important;
+          line-height: 16px !important;
+        }
+        .em_font10 {
+          font-size: 10px !important;
+          line-height: 13px !important;
+        }
+        .em_full_img1 img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .em_tbl1 {
+          width: 120px !important;
+          clear: none !important;
+        }
+        .em_tbl2 {
+          width: 57% !important;
+          clear: none !important;
+        }
+        .em_tbl3 {
+          display: none !important;
+          clear: none !important;
+        }
+        .em_width_378 {
+          width: 100% !important;
+        }
+        .em_left {
+          text-align: left !important;
+        }
+        .em_ptop10 {
+          padding-top: 10px !important;
+        }
+        .em_clear {
+          float: left !important;
+          width: 100% !important;
+          clear: both !important;
+          max-width: 100% !important;
+        }
+        .em_w130 {
+          width: 240px !important;
+        }
+        .em_border {
+          border-top: 3px solid #ffffff !important;
+        }
+        .swapimg {
+          content: url(https://placehold.it/288x200);
+          height: auto !important;
+          width: 100% !important;
+        }
+        .em_full_img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .hide_desktop {
+          display: table !important;
+          float: none !important;
+          width: 100% !important;
+          overflow: visible !important;
+          height: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="em_body" style="margin:0px; padding:0px;" bgcolor="#ffffff">
+
+    <!--*|IF:MC_PREVIEW_TEXT|*-->
+
+    <!--[if !gte mso 9]>
+<!-->
+
+    <!--<![endif]-->
+
+    <!--*|END:IF|*-->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" bgcolor="#ffffff">
+      <tr>
+        <td align="center" valign="top">
+          <table align="center" width="620" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:620px;">
+
+            <!--===================================================Pre_header===================================================-->
+            <tr>
+              <td align="center" valign="top" style="padding:8px 10px">
+                <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" style="width:600px;" class="em_wrapper">
+                  <tr>
+                    <td align="left" valign="top" class="em_defaultlink em_hide" style="font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:10px;line-height:14px;color:#5f5f5f;">*|MC_PREVIEW_TEXT|* <div style="display: none; max-height: 0px; overflow: hidden;">
+                        &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr> <!--//===================================================Pre_header===================================================-->
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top">
+          <table align="center" width="620" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:620px;">
+
+            <!--===================================================Header 1===================================================-->
+            <tr>
+              <td align="center" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td valign="top"> <!--//===================================================Header 1===================================================-->
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                        <tbody>
+                          <tr>
+                            <td valign="top" align="center" class="em_aside10">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                <tr>
+                                  <td valign="top" align="center">
+                                    <table width="620" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper" style="width:620px;">
+                                      <tr>
+                                        <td height="45" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td align="center" valign="top"><a href="https://remarkable.com/" target="_blank" style="text-decoration:none;"><img src="https://gallery.mailchimp.com/ad8a31c37b758dc14a2ab12d4/images/3d17c414-1eb7-4c0e-820e-5db77b0d13af.png" width="230" alt="reMarkable" border="0" style="display:block;font-family:'Work Sans', Arial, sans-serif; font-size:20px; line-height:25px; color:#424242; max-width:230px;" /></a></td>
+                                      </tr>
+                                    </table>
+
+                                    <!--[if gte mso 9]></td><td valign="top"><![endif]-->
+
+                                    <!--[if gte mso 9]></td><td valign="top"><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="70" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <!--===================================================//Header 1===================================================-->
+
+                      <!--===================================================Module 1===================================================-->
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_full_wrap">
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="top" class="em_black em_center em_font33" style="font-family:Martel, Georgia, serif;font-size:32px; line-height:40px; color:#000000; font-weight:700; padding:0px 55px;">Keep your goals with a reMarkable paper tablet</td>
+                          </tr>
+                          <tr>
+                            <td height="70" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top" class="em_hide">
+                              <a href="https://remarkable.com/store/reMarkable-and-marker" target="_blank" style="text-decoration:none;">
+                                <img class="em_img" src="https://gallery.mailchimp.com/ad8a31c37b758dc14a2ab12d4/images/6ab295b8-0a67-4e82-b2c7-9df4926439d1.jpg" width="620" alt="Focus on what matters with reMarkable - please turn on images" style="display:block; font-family:'Work Sans', Helvetica, Arial, sans-serif;  font-size:20px;line-height:23px;color:#000000;font-weight:bold; max-width:620px; background-color:#ffffff;" border="0">
+                              </a>
+                            </td>
+                          </tr>
+
+                          <!--[if !mso 9]>
+<!-->
+                          <tr>
+                            <td height="0">
+                              <div class="hide_desktop" style="display:none;width:0;overflow:hidden;max-height:0!important">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right" class="wrapper">
+                                  <tr>
+                                    <td valign="top" align="center">
+                                      <a href="https://remarkable.com/store/reMarkable-and-marker" target="_blank" style="text-decoration:none;">
+                                        <img class="em_full_img" src="https://gallery.mailchimp.com/ad8a31c37b758dc14a2ab12d4/images/410be7fa-3d7e-40da-8bea-e8a855792ad7.jpg" width="480" style="display:block; font-family:'Work Sans', Helvetica, Arial, sans-serif;  font-size:20px;line-height:23px;color:#000000;font-weight:bold; max-width:480px; background-color:#ffffff;" border="0" alt="Focus on what matters with reMarkable - please turn on images" />
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </td>
+                          </tr>
+
+                          <!--<![endif]-->
+                        </tbody>
+                      </table> <!--//===================================================Module 1===================================================-->
+
+                      <!--===================================================Module 2===================================================-->
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                          <tr>
+                            <td bgcolor="#ffffff" align="center" valign="top" style="padding:0px 55px;" class="em_aside10">
+                              <table width="510" border="0" cellspacing="0" cellpadding="0" align="center" style="width:510px;" class="em_wrapper">
+                                <tr>
+                                  <td height="70" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td align="left" valign="top" class="em_gray em_center em_font24a1 " style="font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:27px; line-height:36px; color:#000000;">Ring in the New Year with a commitment to focus. Reduce your addiction to tech distractions. Get the quiet time you need to finally reach your goals with reMarkable.
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height="44" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td align="left" valign="top" class="em_gray em_center em_font24a1 " style="font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:27px; line-height:36px; color:#000000;"><span style="font-weight:700;" class="em_font24a1">Take $50 off when you buy a new reMarkable today.</span> This offer is for a short time only.
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height="70" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td valign="top" align="center">
+                                    <table border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" align="center" class="">
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                              <tr style="vertical-align: top; text-align: center; padding: 0;" align="center">
+                                                <td style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; float: none; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; border-collapse: collapse !important; vertical-align: top; text-align: center; margin: 0 auto; padding: 0px 0px 0px 0px;" valign="top" align="none" class="center">
+                                                  <div style="text-align: center;" align="center">
+
+                                                    <!--[if mso]>
+ <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://remarkable.com/store/reMarkable-and-marker" style="height:40px;v-text-anchor:middle;width:180px;" arcsize="50%" stroke="f" fillcolor="#ff3a51">
+   <w:anchorlock/>
+   <center>
+ <![endif]-->
+                                                    <a style="color: #ffffff;" href="https://remarkable.com/store/reMarkable-and-marker" target="_blank"><span style="color: #ffffff; display: inline-block; font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 600; line-height: 40px; text-align: center; text-decoration: none; width: 180px;   border-radius:50px; height: 40px; -webkit-text-size-adjust: none; background: #ff3a51; padding: 5px 0px;" class="em_height em_font24m">
+                                Order today</span></a>
+
+                                                    <!--[if mso]>
+   </center>
+ </v:roundrect>
+<![endif]-->
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table> <!--//===================================================Module 2===================================================-->
+
+                      <!--===================================================Footer===================================================-->
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="top">
+                              <table width="620" border="0" cellspacing="0" cellpadding="0" align="center" style="width:620px;" class="em_wrapper">
+                                <tr>
+                                  <td align="center" valign="top" style="padding:0px 20px;" class="em_aside10">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" dir="rtl">
+                                            <tr>
+                                              <td valign="top" align="center">
+                                                <table width="200" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper" style="width:200px;" dir="ltr">
+                                                  <tr>
+                                                    <td height="78" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td align="left" valign="top">
+                                                      <table border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                        <tr>
+                                                          <td align="center" valign="top"><a href="https://remarkable.com/" target="_blank" style="text-decoration:none;"><img src="https://gallery.mailchimp.com/ad8a31c37b758dc14a2ab12d4/images/3d17c414-1eb7-4c0e-820e-5db77b0d13af.png" width="120" alt="reMarkable" border="0" style="display:block;font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:20px; line-height:25px; color:#424242; max-width:197px;" /></a></td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td height="25" class="em_h20" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="em_black em_center" align="left" valign="top" style="font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:10px;line-height:14px;color:#000000;font-weight:300;"><a href="*|ARCHIVE|*" target="_blank" style="text-decoration:underline;color:#000000;">Click here</a> to view in browser
+                                                    </td>
+                                                  <tr>
+                                                    <td height="20" class="em_hide" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                                  </tr>
+                                                </table>
+                                                <table width="335" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" style="width:335px;" dir="ltr">
+                                                  <tr>
+                                                    <td height="77" class="em_h20" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td valign="top" align="right" style="padding-bottom:24px;">
+                                                      <table border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                                        <tr>
+                                                          <td align="center" valign="top">
+                                                            <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                                              <tr>
+                                                                <td align="center" valign="middle" style="font-size:0px; line-height:0px;"><a href="https://www.facebook.com/remarkableAS/" target="_blank" style="text-decoration:none;"><img src="https://gallery.mailchimp.com/ad8a31c37b758dc14a2ab12d4/images/b3a9ef0c-3e0b-42fc-ad0f-93a78400da3d.png" width="25" height="22" alt="fb" style="display:block; font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:15px; color:#000000; font-weight:bold; max-width:25px;" border="0"> </a></td>
+                                                                <td width="18" style="width:18px; font-size:0px; line-height:0px;">&nbsp;</td>
+                                                                <td align="center" valign="middle" style="font-size:0px; line-height:0px;"><a href="https://www.instagram.com/remarkablepaper/" target="_blank" style="text-decoration:none;"><img src="https://gallery.mailchimp.com/ad8a31c37b758dc14a2ab12d4/images/77fc6967-3870-4a0e-84a3-c513cf8e18aa.png" width="25" height="22" alt="insta" style="display:block; font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:15px; color:#000000; font-weight:bold; max-width:25px;" border="0"> </a></td>
+                                                                <td width="20" style="width:20px;font-size:0px; line-height:0px;">&nbsp;</td>
+                                                                <td align="center" valign="middle" style="font-size:0px; line-height:0px;"><a href="https://twitter.com/reMarkablePaper/" target="_blank" style="text-decoration:none;"><img src="https://gallery.mailchimp.com/ad8a31c37b758dc14a2ab12d4/images/d3a55092-8f71-46ca-80ff-a8c89e18901b.png" width="25" height="22" alt="tw" style="display:block; font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:15px; color:#000000; font-weight:bold; max-width:25px;" border="0"> </a></td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="em_black em_center" align="right" valign="middle" style="font-family:'Work Sans', Helvetica, Arial, sans-serif; font-size:10px;line-height:14px;color:#000000;font-weight:300;">© 20&zwnj;19 reMarkable All Rights Reserved<br>Don't want more updates? You can <a href="*|UNSUB|*" target="_blank" style="text-decoration:underline; color:#000000;">unsubscribe</a> from this list</td>
+                                                  </tr>
+                                                </table>
+
+                                                <!--[if gte mso 9]></td><td valign="top"><![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table> <!--//===================================================Footer===================================================-->
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
