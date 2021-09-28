@@ -1,0 +1,361 @@
+<html>
+  <head>
+    <title>Postmates Party: This Week&rsquo;s Trending Restaurants with Free Delivery</title>
+
+    <!--[if !mso]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <!--[if mso]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+    <!--[if lte mso 11]>
+    <style type="text/css">
+      .outlook-group-fix { width: 100% !important; }
+    </style>
+    <![endif]-->
+    <style type="text/css">
+      div[style*="margin: 16px 0"] {
+        margin: 0 !important
+      }
+      .aBn,
+      .x-gmail-data-detectors,
+      .x-gmail-data-detectors * {
+        border-bottom: 0 !important;
+        cursor: default !important;
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important
+      }
+      .a6S {
+        display: none !important;
+        opacity: .01 !important
+      }
+      img.g-img+div {
+        display: none !important
+      }
+      * {
+        -webkit-text-size-adjust: 100%
+      }
+      a[href^=address],
+      a[href^=sms],
+      a[href^=tel] {
+        color: inherit;
+        cursor: default;
+        text-decoration: none
+      }
+      [x-apple-data-detectors] {
+        border-bottom: 0 !important;
+        cursor: default !important;
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important
+      }
+      .ExternalClass {
+        width: 100%
+      }
+      .ExternalClass,
+      .ExternalClass div,
+      .ExternalClass font,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass td {
+        line-height: 100%
+      }
+      * {
+        -ms-text-size-adjust: 100%
+      }
+      table,
+      td {
+        mso-table-lspace: 0 !important;
+        mso-table-rspace: 0 !important
+      }
+      img {
+        -ms-interpolation-mode: bicubic
+      }
+      #outlook a {
+        padding: 0
+      }
+    </style>
+
+    <!--[if !mso]>
+    <style type="text/css">@font-face {
+      font-family: 'Postmates Std';
+      font-weight: 400;
+      font-style: normal;
+      src: local('Postmates Std Regular'),local('PostmatesStd-Regular'),url(https://{your_bucket}.s3.amazonaws.com/{your_key}/cXRWaZPYO22d89.woff) format('woff');
+      };@font-face {
+      font-family: 'Postmates Std';
+      font-weight: 500;
+      font-style: normal;
+      src: local('Postmates Std Medium'),local('PostmatesStd-Medium'),url(https://{your_bucket}.s3.amazonaws.com/{your_key}/cXRWaZPYO1a47f.woff) format('woff');
+      };@font-face {
+      font-family: 'Postmates Std';
+      font-weight: 700;
+      font-style: normal;
+      src: local('Postmates Std Bold'),local('PostmatesStd-Bold'),url(https://{your_bucket}.s3.amazonaws.com/{your_key}/cXRWaZPYO6b40d.woff) format('woff');
+      }
+    </style>
+    <![endif]-->
+    <style type="text/css">
+      @media only screen and (min-device-width:320px) and (max-device-width:374px) {
+        .pm-bdppfd {
+          min-width: 320px !important;
+        }
+      }
+      @media only screen and (min-device-width:375px) and (max-device-width:413px) {
+        .pm-bdppfd {
+          min-width: 375px !important;
+        }
+      }
+      @media only screen and (min-device-width:414px) {
+        .pm-bdppfd {
+          min-width: 414px !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-85k2uf {
+          padding-left: 32px !important;
+          padding-right: 32px !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-3q9a5j {
+          padding-top: 48px !important;
+          padding-bottom: 48px !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-a35fbl {
+          font-size: 28px !important;
+          -webkit-letter-spacing: -1.00px !important;
+          -moz-letter-spacing: -1.00px !important;
+          -ms-letter-spacing: -1.00px !important;
+          letter-spacing: -1.00px !important;
+          line-height: 32px !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-120u4qy {
+          padding-top: 64px !important;
+          padding-bottom: 64px !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-rdqcih {
+          width: auto !important;
+          max-width: inherit !important;
+          display: table-cell !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-rdqcih {
+          padding-bottom: 0 !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-1tc7s5w {
+          width: auto !important;
+          max-width: inherit !important;
+          display: table-cell !important;
+        }
+      }
+      @media (min-width:424px) {
+        .pm-1tc7s5w {
+          padding-bottom: 0 !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="pm-aknnjm e43gsc51" data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.994.0" data-new-gr-c-s-loaded="14.993.0" style="mso-line-height-rule: exactly; width: 100% !important; height: 100% !important; margin: 0 auto !important; padding: 0 !important;">
+    <div class="pm-p04s4j e43gsc53" style="margin: 0; padding: 0; font-size: 100%; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; width: 100% !important; height: 100% !important;">
+      <table bgcolor="#F7F7F7" cellpadding="0" cellspacing="0" class="pm-bdppfd e43gsc52" height="100%" style="padding: 0; margin: 0; width: 100%; height: 100%; background: #F7F7F7; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+        <tbody>
+          <tr valign="top">
+            <td align="center" cellpadding="0" class="pm-n1g1pa e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top;" valign="top">
+              <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                <tbody>
+                  <tr valign="top">
+                    <td cellpadding="0" class="ep92g0l0 pm-1ouu80x e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 600px;" valign="top" width="600">
+                      <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" class="pm-1k3sr7y ep92g0l1" style="padding: 0; margin: 0; width: 100%; background: #ffffff; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                        <tbody>
+                          <tr valign="top">
+                            <td cellpadding="0" class="pm-n1g1pa e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top;" valign="top"><a class="pm-9g1nbu egfrwah0" href="https://click.app.postmates.com/uni/ss/c/YcQOKO_YvI7rHBHFNQwRxrMLClakqLCU62JR5sgDSPCeA1iBxRCqIM5bCkeEjy4Q/3ag/argqVGJGRuWdmErmcvYaeA/h0/D-duXHbJgYwL-j3023THwm6UikjKeud5GrmolbSNgzE" style="outline: none; -webkit-text-decoration: none; text-decoration: none;" target="_blank" universal="true"><img class="pm-14pkre0 e6qdewg0" src="https://appboy-images.com/appboy/communication/assets/image_assets/images/60542c4339f88b1eac63b16a/original.png?1616129091" style="padding: 0px; margin: 0px; display: block; outline: none; text-decoration: none; max-width: 100%; width: 100%;" /></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                <tbody>
+                  <tr valign="top">
+                    <td cellpadding="0" class="ep92g0l0 pm-1ouu80x e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 600px;" valign="top" width="600">
+                      <table bgcolor="#ffd84f" cellpadding="0" cellspacing="0" class="pm-1k3sr7y ep92g0l1" style="padding: 0; margin: 0; width: 100%; background: #ffd84f; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                        <tbody>
+                          <tr valign="top">
+                            <td align="center" cellpadding="0" class="e8daqjm0 pm-85k2uf e12t7exp0" style="padding: 0px 24px; border-collapse: collapse; vertical-align: top; background-color: rgb(252, 250, 246);" valign="top">
+                              <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                                <tbody>
+                                  <tr valign="top">
+                                    <td cellpadding="0" class="e8daqjm1 pm-3q9a5j e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 440px; padding-top: 40px; padding-bottom: 0px;" valign="top" width="440">
+                                      <table cellpadding="0" cellspacing="0" class="pm-15b7l4y e9599ju0" style="padding: 0; margin: 0; table-layout: fixed; width: 100%; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                                        <tbody>
+                                          <tr valign="top">
+                                            <td cellpadding="0" class="pm-n1g1pa e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top;" valign="top">
+                                              <table cellpadding="0" cellspacing="0" class="pm-15b7l4y e9599ju0" style="padding: 0; margin: 0; table-layout: fixed; width: 100%; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                                                <tbody>
+                                                  <tr valign="top">
+                                                    <td cellpadding="0" class="pm-n1g1pa e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top;" valign="top">
+                                                      <p class="pm-aipyf3 evh4d9z6" style="margin: 0; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 18px; font-weight: 400; font-style: normal; -webkit-letter-spacing: -0.08px; -moz-letter-spacing: -0.08px; -ms-letter-spacing: -0.08px; letter-spacing: -0.08px; line-height: 28px; text-transform: none; color: #000000;">Waffle Day is almost here, so why not order a &ldquo;pancake with abs&rdquo; a little early?<br />
+                                                        <br />
+                                                        Whether you take them piled high with berries and powdered sugar or with a side of fried chicken, you can get your favorite waffle delivered.
+                                                      </p>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td style="padding-bottom: 0px; padding-top: 40px;"><a class="pm-1na7e8f euohdq01" href="https://click.app.postmates.com/uni/ss/c/YcQOKO_YvI7rHBHFNQwRxrMLClakqLCU62JR5sgDSPCeA1iBxRCqIM5bCkeEjy4Q/3ag/argqVGJGRuWdmErmcvYaeA/h1/MHfd2pG77-2PU4XN9iR5HMN092AUyC7UWM-IXoNyIVA" style="outline: none; text-decoration: none; font-family: &quot;Postmates Std&quot;, -apple-system, BlinkMacSystemFont, Roboto, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; font-style: normal; letter-spacing: -0.32px; text-transform: none; text-align: center; line-height: 1; color: #8DC8E8; padding: 16px 32px; background: #8DC8E8; border-radius: 50px; display: block;" target="_blank" universal="true"><span style="color:#000000;">Order Now</span></a></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td style="padding-top:40px; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; color: #000000; font-family: 'Postmates Std', 'Helvetica', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 12px; font-smoothing: always; font-style: normal; font-weight: 400; letter-spacing: -0.22px; line-height: 18px; mso-line-height-rule: exactly; text-decoration: none;"><span style="color:#000000;"><span>Fees may vary and apply. Store and offer availability based on user location. Other restrictions may apply.<br />
+																		<br />
+																		Unsubscribe functionality may vary based on your email client. If you are unable to access the link, please contact&nbsp;</span></span><a href="mailto:unsubscribe-help@postmates.com"><span style="color:#000000;">unsubscribe-help@postmates.com</span></a><span style="color:#000000;">&nbsp;to process your unsubscribe request.</span></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                <tbody>
+                  <tr valign="top">
+                    <td cellpadding="0" class="ep92g0l0 pm-1ouu80x e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 600px;" valign="top" width="600">
+                      <table bgcolor="#000000" cellpadding="0" cellspacing="0" class="pm-1k3sr7y ep92g0l1" style="padding: 0; margin: 0; width: 100%; background: #000000; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                        <tbody>
+                          <tr valign="top">
+                            <td align="center" cellpadding="0" class="e8daqjm0 pm-85k2uf e12t7exp0" style="padding: 0px 24px; border-collapse: collapse; vertical-align: top; background-color: rgb(255, 187, 198);" valign="top">
+                              <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                        <tbody>
+                          <tr valign="top">
+                            <td cellpadding="0" class="ep92g0l0 pm-1ouu80x e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 600px;" valign="top" width="600">
+                              <table bgcolor="#000000" cellpadding="0" cellspacing="0" class="pm-1l9amtn ep92g0l1" style="padding: 0; margin: 0; width: 100%; background: #000000; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                                <tbody>
+                                  <tr valign="top">
+                                    <td align="center" cellpadding="0" class="e8daqjm0 pm-85k2uf e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; padding-left: 24px; padding-right: 24px;" valign="top">
+                                      <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                                        <tbody>
+                                          <tr valign="top">
+                                            <td cellpadding="0" class="e8daqjm1 pm-120u4qy e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 440px; padding-top: 40px; padding-bottom: 40px;" valign="top" width="440">
+                                              <table cellpadding="0" cellspacing="0" class="pm-15b7l4y e9599ju0" style="padding: 0; margin: 0; table-layout: fixed; width: 100%; border-collapse: collapse !important; cborder-spacing: 0 !important;" width="100%">
+                                                <tbody>
+                                                  <tr valign="top">
+                                                    <td cellpadding="0" class="pm-a33ohb e12t7exp0" height="18" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 111px; height: 18px; vertical-align: middle; padding-left: 32px" valign="middle" width="111"><a href="https://click.app.postmates.com/ss/c/YcQOKO_YvI7rHBHFNQwRxrMLClakqLCU62JR5sgDSPCeA1iBxRCqIM5bCkeEjy4Q/3ag/argqVGJGRuWdmErmcvYaeA/h2/h99yy8cyPN6_WY8kzAdoxFmYUdoLzhvYPouXui5wwog"><img alt="Postmates Logo" class="pm-t21wtn e6qdewg0" src="https://appboy-images.com/appboy/communication/assets/image_assets/images/5c9d454c18bc0a35e2fd542a/original.png?1553810764" style="padding: 0; margin: 0; display: block; outline: none; -webkit-text-decoration: none; text-decoration: none; height: auto; max-width: 100%; width: 100%; width: 111px; height: 18px; vertical-align: middle;" /></a></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td colspan="2" style="padding-bottom: 60px;">
+                                              <table>
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="column" style="padding-left: 30px; min-width: 210px;"><a data-click-track-id="9055" href="https://click.app.postmates.com/ss/c/YcQOKO_YvI7rHBHFNQwRxuNgfhICeF-a0tRFksEXOtygIyN4Cz2dVPzn22H37oSljdjY0Mn3xF5VY32UXfi7AA/3ag/argqVGJGRuWdmErmcvYaeA/h3/Dd-dxq0nmgcQlKFGVqrRkmYVt0vkRiCVRrC5J5o0pK8" style="background-image: url('https://d1pgqke3goo8l6.cloudfront.net/iNe05lPvTli7RGrQFnnT_appstore.png'); background-size: contain; background-repeat: no-repeat; width: 210px; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; color: #2D3138; font-family: 'Postmates Std', 'Helvetica', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 12px; font-smoothing: always; font-style: normal; font-weight: 700; letter-spacing: 0; line-height: 48px; mso-line-height-rule: exactly; text-decoration: none; text-align: center; text-transform: uppercase; display: block; padding-left: 15px">App Store</a></td>
+                                                    <td class="column" style="padding-right: 15px; min-width: 210px;"><a data-click-track-id="9055" href="https://click.app.postmates.com/ss/c/YcQOKO_YvI7rHBHFNQwRxuNgfhICeF-a0tRFksEXOtwQqi0rfd9XYhY84WjO4uI2D2nrHqSqwrMpsrkKC0MPqw/3ag/argqVGJGRuWdmErmcvYaeA/h4/Gq9ObJGMR91FCUC_y_kLpTkhoqWAfWl0EhCogCRun48" style="background-image: url('https://d1pgqke3goo8l6.cloudfront.net/wSLZ1AQPQ8ioYCftsmIB_playstore.png'); background-size: contain; background-repeat: no-repeat; width: 210px; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; color: #2D3138; font-family: 'Postmates Std', 'Helvetica', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 12px; font-smoothing: always; font-style: normal; font-weight: 700; letter-spacing: 0; line-height: 48px; mso-line-height-rule: exactly; text-decoration: none; text-align: center; text-transform: uppercase; display: block; padding-left: 15px">Play Store</a></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          <tr valign="top">
+                                            <td cellpadding="0" class="pm-n1g1pa e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; padding-left: 30px;" valign="top">
+                                              <hr class="pm-1iuut0n e1k4hm3c0" style="margin: 0; border: 0; width: 107%; height: 1px; background: #262626;" />
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                        <tbody>
+                          <tr valign="top">
+                            <td cellpadding="0" class="ep92g0l0 pm-1ouu80x e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 600px;" valign="top" width="600">
+                              <table bgcolor="#000000" cellpadding="0" cellspacing="0" class="pm-1l9amtn ep92g0l1" style="padding: 0; margin: 0; width: 100%; background: #000000; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                                <tbody>
+                                  <tr valign="top">
+                                    <td align="center" cellpadding="0" class="e8daqjm0 pm-85k2uf e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; padding-left: 24px; padding-right: 24px;" valign="top">
+                                      <table cellpadding="0" cellspacing="0" class="pm-1i200zf e9599ju0" style="padding: 0; margin: 0; border-collapse: collapse !important; border-spacing: 0 !important;">
+                                        <tbody>
+                                          <tr valign="top">
+                                            <td cellpadding="0" class="e8daqjm1 pm-120u4qy e12t7exp0" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 440px; padding-top: 40px; padding-bottom: 40px;" valign="top" width="440">
+                                              <table cellpadding="0" cellspacing="0" class="pm-15b7l4y e9599ju0" style="padding: 0; margin: 0; table-layout: fixed; width: 100%; border-collapse: collapse !important; border-spacing: 0 !important;" width="100%">
+                                                <tbody>
+                                                  <tr valign="top">
+                                                    <td cellpadding="0" class="e7bueza2 pm-rdqcih epxsrc10" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 100%; max-width: 100%; display: block; padding-bottom: 24px; vertical-align: top;" valign="top" width="100%"><a class="pm-lg4ia3 e7bueza0" href="https://click.app.postmates.com/ss/c/_k9-zv2QiC3JZON-Vr2dw9rrOi1XNwiNIjF0GrIDSC7jvXLLv8sM7aqiAZdWXU6t/3ag/argqVGJGRuWdmErmcvYaeA/h5/TSdWfl1LZZhE5UdCceuokkXSifHCA3VwLdVdhb3XOV0" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 16px; font-weight: 500; font-style: normal; -webkit-letter-spacing: -0.10px; -moz-letter-spacing: -0.10px; -ms-letter-spacing: -0.10px; letter-spacing: -0.10px; line-height: 16px; text-transform: none; color: #FFFFFF; margin-bottom: 12px; display: block;" target="_blank" title="Help Center">Help Center</a><a class="pm-lg4ia3 e7bueza0" href="https://click.app.postmates.com/uni/ss/c/YcQOKO_YvI7rHBHFNQwRxqCJ0k7lSUCBpnoUvGMEPYQqpPG0Y0Ff2LhebFGoJnvO/3ag/argqVGJGRuWdmErmcvYaeA/h6/GKZA6pgavnglBpWjrN97Cp7Yin5MyoJXrAYsRlOa9R0" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 16px; font-weight: 500; font-style: normal; -webkit-letter-spacing: -0.10px; -moz-letter-spacing: -0.10px; -ms-letter-spacing: -0.10px; letter-spacing: -0.10px; line-height: 16px; text-transform: none; color: #FFFFFF; margin-bottom: 12px; display: block;" target="_blank" title="Invite Friends" universal="true">Invite Friends</a><a class="pm-lg4ia3 e7bueza0" href="https://click.app.postmates.com/uni/ss/c/YcQOKO_YvI7rHBHFNQwRxkNjO3Wis_v1Q9Wv5TiFFh0xoLMPtPhFkC1tB9PBpyJ5/3ag/argqVGJGRuWdmErmcvYaeA/h7/N1EwTEeImNWUdf6tc4OofKFlucJIUefVZjkQ7n8g3kY" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 16px; font-weight: 500; font-style: normal; -webkit-letter-spacing: -0.10px; -moz-letter-spacing: -0.10px; -ms-letter-spacing: -0.10px; letter-spacing: -0.10px; line-height: 16px; text-transform: none; color: #FFFFFF; margin-bottom: 12px; display: block;" target="_blank" title="Try Unlimited" universal="true">Try Unlimited</a><a class="pm-lg4ia3 e7bueza0" href="https://click.app.postmates.com/ss/c/Ym0IXQhHrUjPDAEoDCXvx_v1Av-MPL0kMHw1nAKV0a6c1hTPcKJRfS9STFGXvaJL/3ag/argqVGJGRuWdmErmcvYaeA/h8/O7sjH-eZZ8FUPuHAXveGbeHf1gtocj34kb3qtfsOLCQ" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 16px; font-weight: 500; font-style: normal; -webkit-letter-spacing: -0.10px; -moz-letter-spacing: -0.10px; -ms-letter-spacing: -0.10px; letter-spacing: -0.10px; line-height: 16px; text-transform: none; color: #FFFFFF; margin-bottom: 12px; display: block;" target="_blank" title="Become a Postmate">Become a Postmate</a><a class="pm-lg4ia3 e7bueza0" href="#" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 16px; font-weight: 500; font-style: normal; -webkit-letter-spacing: -0.10px; -moz-letter-spacing: -0.10px; -ms-letter-spacing: -0.10px; letter-spacing: -0.10px; line-height: 16px; text-transform: none; color: #FFFFFF; margin-bottom: 12px; display: block;" target="_blank" title="Unsubscribe">Unsubscribe</a></td>
+                                                    <td cellpadding="0" class="e7bueza2 pm-1tc7s5w epxsrc10" style="padding: 0; border-collapse: collapse; vertical-align: top; width: 100%; max-width: 100%; display: block; padding-bottom: 0; vertical-align: top;" valign="top" width="100%"><a class="pm-fo2dtq e7bueza1" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 14px; font-weight: 400; font-style: normal; -webkit-letter-spacing: -0.02px; -moz-letter-spacing: -0.02px; -ms-letter-spacing: -0.02px; letter-spacing: -0.02px; line-height: 20px; text-transform: none; color: #8C8C8C; display: block; padding-bottom: 4px;" target="_blank">Postmates Inc</a><a class="pm-fo2dtq e7bueza1" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 14px; font-weight: 400; font-style: normal; -webkit-letter-spacing: -0.02px; -moz-letter-spacing: -0.02px; -ms-letter-spacing: -0.02px; letter-spacing: -0.02px; line-height: 20px; text-transform: none; color: #8C8C8C; display: block; padding-bottom: 4px;" target="_blank">PO Box 78308</a><a class="pm-fo2dtq e7bueza1" style="outline: none; -webkit-text-decoration: none; text-decoration: none; font-family: 'Postmates Std',-apple-system,BlinkMacSystemFont,'Roboto','Droid Sans','Helvetica Neue','Arial',sans-serif; font-size: 14px; font-weight: 400; font-style: normal; -webkit-letter-spacing: -0.02px; -moz-letter-spacing: -0.02px; -ms-letter-spacing: -0.02px; letter-spacing: -0.02px; line-height: 20px; text-transform: none; color: #8C8C8C; display: block; padding-bottom: 4px;" target="_blank">San Francisco, CA 94107 USA</a></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+     </body>
+</html>

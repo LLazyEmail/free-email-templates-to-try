@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <![if !mso]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <![endif]>
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <meta name="x-apple-disable-message-reformatting" />
+    <title>You left something behind</title>
+    <style>
+      @font-face {
+        font-family: 'Plantin';
+        src: url('https://molekule.com/go/static/version1581413737/frontend/mlk/mlk-theme/en_US/fonts/plantin/30BBC3_0_0.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Akkurat';
+        src: url('https://molekule.com/go/static/version1581413737/frontend/mlk/mlk-theme/en_US/fonts/akkurat/lineto-akkurat-pro-light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Akkurat';
+        src: url('https://molekule.com/go/static/version1581413737/frontend/mlk/mlk-theme/en_US/fonts/akkurat/lineto-akkurat-pro-lightitalic.woff') format('woff');
+        font-weight: 300;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: 'Akkurat';
+        src: url('https://molekule.com/go/static/version1581413737/frontend/mlk/mlk-theme/en_US/fonts/akkurat/lineto-akkurat-pro-regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Akkurat';
+        src: url('https://molekule.com/go/static/version1581413737/frontend/mlk/mlk-theme/en_US/fonts/akkurat/lineto-akkurat-pro-italic.woff') format('woff');
+        font-weight: 400;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: 'Akkurat';
+        src: url('https://molekule.com/go/static/version1581413737/frontend/mlk/mlk-theme/en_US/fonts/akkurat/lineto-akkurat-pro-bold.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+      }
+      [style*="Plantin"] {
+        font-family: 'Plantin', serif !important;
+      }
+      [style*="Akkurat"] {
+        font-family: 'Akkurat', sans-serif !important;
+      }
+      body {
+        margin: 0 !important;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .footer a {
+        color: #535354 !important;
+      }
+      .hero:hover a.cta,
+      .help a.cta:hover {
+        background-color: #333333 !important;
+        transition: 0.3s !important;
+      }
+      .hero a.cta,
+      .help a.cta {
+        transition: 0.3s !important;
+      }
+      .cats .hover:hover a,
+      .footer a.link:hover {
+        text-decoration: underline !important;
+      }
+      @media screen and (min-device-width: 768px) and (max-device-width:1024px) {
+        .ipad {
+          width: 284px !important;
+        }
+      }
+      @media screen and (min-device-width: 10px) and (max-width:600px) {
+        .full {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .hide {
+          width: 0 !important;
+          height: 0 !important;
+          font-size: 0 !important;
+          line-height: 0 !important;
+          overflow: hidden !important;
+          float: left !important;
+          display: none !important;
+        }
+        .show {
+          display: block !important;
+          width: 100% !important;
+          height: auto !important;
+          overflow: visible !important;
+          float: none !important;
+          clear: both !important;
+        }
+        table.show {
+          display: table !important;
+        }
+        .block {
+          display: block !important;
+        }
+        .center {
+          margin: 0 auto !important;
+          text-align: center !important;
+          float: none !important;
+          clear: both !important;
+        }
+        .box {
+          width: 90% !important;
+        }
+        .yahooHero {
+          padding: 40px 0 !important;
+        }
+        .noPad {
+          padding: 0 !important;
+        }
+        .noBord {
+          border: 0 !important;
+        }
+        .grid .pad {
+          padding-top: 20px !important;
+        }
+        .hero a.cta,
+        .help a.cta {
+          font-size: 15px !important;
+        }
+        .grid a.cta {
+          width: 165px !important;
+          font-size: 14px !important;
+          letter-spacing: 0.3px !important;
+        }
+        .cats .pad {
+          padding-bottom: 25px !important;
+        }
+        .icons .pad1 {
+          padding-bottom: 50px !important;
+        }
+        .icons .pad2,
+        .hero .pad {
+          padding-top: 15px !important;
+        }
+        .icons .copy {
+          font-size: 14px !important;
+        }
+        .icons table.container {
+          width: 180px !important;
+        }
+        .footer .lineheight {
+          line-height: 2 !important;
+        }
+        .prodCopy {
+          padding-top: 25px !important;
+          font-size: 20px !important;
+          line-height: 24px !important;
+        }
+      }
+      @media screen and (min-device-width:10px) and (max-width:450px) {
+        .header {
+          padding: 30px 0 20px !important;
+        }
+        h1 {
+          font-size: 34px !important;
+          line-height: 1.3 !important;
+        }
+        .help th {
+          font-size: 26px !important;
+          line-height: 1.2 !important;
+        }
+      }
+    </style>
+
+    <!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+    <style type="text/css">
+      .ibx_no_webview {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body style="margin:0;padding:0;background-color:#fff;">
+    <img src="http://ibx1.net/ibx/em/opn/0e8b89b5?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw,," width="1" height="1" style="display:none;" />
+    <img src="http://pixel.bounceexchange.com/open.gif?client_id=3928&email=carly.ciricillo%40gmail.com" width="1" height="1" style="display:none;" />
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full">
+      <![if !mso]>
+      <tr>
+        <td style="font-size:0;line-height:0;color:#fff;">10% off your items</td>
+      </tr>
+      <![endif]>
+      <tr>
+        <td align="center" style="padding:40px 0 25px;font-family:sans-serif, Akkurat;font-size:18px;text-transform:uppercase;letter-spacing:.5px;" class="header">
+          <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="text-decoration:none;color:#333333;" target="_blank">
+            <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/logo1-264x30-20200629.png" width="132" border="0" alt="Molekule" />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full">
+      <tr>
+        <td align="center">
+          <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="text-decoration:none;" target="_blank">
+            <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/hero1-1200x640-20200629.jpg" alt="" style="display:block;border:0;" width="600" class="full" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <![if !mso]><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="text-decoration:none;color:#333333;" target="_blank">
+            <div>
+              <![endif]>
+              <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;" class="hero">
+                <tr>
+                  <td align="center" style="padding:60px 0;" bgcolor="#F4F2F2" class="yahooHero">
+                    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;">
+                      <tr>
+                        <td align="center">
+                          <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:90%;margin:0 auto;">
+                            <tr>
+                              <td align="center" style="padding:0 0 20px;">
+                                <h2 style="margin:0;font-weight:400;font-family:serif, Plantin;font-size:20px;mso-line-height-rule:exactly;line-height:24px;-webkit-font-smoothing:antialiased;">
+                                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="text-decoration:none;color:#333333;" target="_blank">Still deciding?</a>
+                                </h2>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <h1 style="margin:0;font-weight:400;font-family:serif, Plantin;font-size:36px;mso-line-height-rule:exactly;line-height:41px;-webkit-font-smoothing:antialiased;">
+                                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="text-decoration:none;color:#333333;" target="_blank">10% off your purchase</a>
+                                </h1>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="padding:30px 0 0;">
+                                <div>
+
+                                  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="height:50px;v-text-anchor:middle;width:240px;" arcsize="50%" stroke="f" fillcolor="#535354"><w:anchorlock/><center><![endif]--><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="background-color:#535354;border-radius:25px;color:#fff;display:inline-block;font-family:Helvetica, sans-serif;font-size:14px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:240px;-webkit-font-smoothing:antialiased;letter-spacing:0.5px;" class="cta">Shop now with 10% off</a>
+
+                                  <!--[if mso]></center></v:roundrect><![endif]-->
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <![if !mso]>
+            </div>
+          </a>
+          <![endif]>
+        </td>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full grid">
+      <tr>
+        <td align="center" style="padding-top:70px;text-align:center;font-size:0;vertical-align:bottom;">
+
+          <!--[if (gte mso 9)|(IE)]><table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:555px;vertical-align:bottom;"><tr><td style="width:185px;vertical-align:bottom;"><![endif]-->
+          <div align="center" style="width:185px;display:inline-block;vertical-align:bottom;" class="full">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:155px;margin:0;">
+              <tr>
+                <td align="center">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz04NDlmOTlhOTc0MzUyNmEyOGY2NzczNWI2NjZmNzM5NDgwODVkZDNl&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-air&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                    <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/prod1-302x526-20200629.png" alt="" border="0" width="151" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:30px 0 0;font-family:serif, Plantin;font-size:20px;mso-line-height-rule:exactly;line-height:24px;-webkit-font-smoothing:antialiased;" class="prodCopy">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz04NDlmOTlhOTc0MzUyNmEyOGY2NzczNWI2NjZmNzM5NDgwODVkZDNl&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-air&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Molekule Air</a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:30px 0 70px;" class="pad">
+                  <div>
+
+                    <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz04NDlmOTlhOTc0MzUyNmEyOGY2NzczNWI2NjZmNzM5NDgwODVkZDNl&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-air&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="63%" strokecolor="#333333" fillcolor="#fff"><w:anchorlock/><center style="color:#333333;font-family:Helvetica, sans-serif;font-size:12px;font-weight:bold;letter-spacing:0.4px;">Shop Air</center></v:roundrect><![endif]--><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz04NDlmOTlhOTc0MzUyNmEyOGY2NzczNWI2NjZmNzM5NDgwODVkZDNl&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-air&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="border:1px solid #333333;border-radius:25px;color:#333333;display:inline-block;font-family:Helvetica, sans-serif;font-size:12px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;letter-spacing:0.4px;-webkit-font-smoothing:antialiased;mso-hide:all;" class="cta">Shop Air</a></div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if (gte mso 9)|(IE)]></td><td style="width:185px;vertical-align:bottom;"><![endif]-->
+          <div align="center" style="width:185px;display:inline-block;vertical-align:bottom;" class="full">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:155px;margin:0;">
+              <tr>
+                <td align="center">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                    <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/prod2-302x292-20200629.png" alt="" border="0" width="151" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:30px 0 0;font-family:serif, Plantin;font-size:20px;mso-line-height-rule:exactly;line-height:24px;-webkit-font-smoothing:antialiased;" class="prodCopy">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Air Mini+</a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:30px 0 70px;" class="pad">
+                  <div>
+
+                    <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="63%" strokecolor="#333333" fillcolor="#fff"><w:anchorlock/><center style="color:#333333;font-family:Helvetica, sans-serif;font-size:12px;font-weight:bold;letter-spacing:0.4px;">Shop Air Mini+</center></v:roundrect><![endif]--><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="border:1px solid #333333;border-radius:25px;color:#333333;display:inline-block;font-family:Helvetica, sans-serif;font-size:12px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;letter-spacing:0.4px;-webkit-font-smoothing:antialiased;mso-hide:all;" class="cta">Shop Air Mini+</a></div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if (gte mso 9)|(IE)]></td><td style="width:185px;vertical-align:bottom;"><![endif]-->
+          <div align="center" style="width:185px;display:inline-block;vertical-align:bottom;" class="full">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:155px;margin:0;">
+              <tr>
+                <td align="center">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                    <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/prod3-302x292-20200629.png" alt="" border="0" width="151" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:30px 0 0;font-family:serif, Plantin;font-size:20px;mso-line-height-rule:exactly;line-height:24px;-webkit-font-smoothing:antialiased;" class="prodCopy">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Air Mini</a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:30px 0 70px;" class="pad">
+                  <div>
+
+                    <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="63%" strokecolor="#333333" fillcolor="#fff"><w:anchorlock/><center style="color:#333333;font-family:Helvetica, sans-serif;font-size:12px;font-weight:bold;letter-spacing:0.4px;">Shop Air Mini</center></v:roundrect><![endif]--><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="border:1px solid #333333;border-radius:25px;color:#333333;display:inline-block;font-family:Helvetica, sans-serif;font-size:12px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;letter-spacing:0.4px;-webkit-font-smoothing:antialiased;mso-hide:all;" class="cta">Shop Air Mini</a></div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full">
+      <tr>
+        <td align="center" style="padding-top:20px;text-align:center;vertical-align:top;font-size:0;" class="noPad">
+
+          <!--[if (gte mso 9)|(IE)]><table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:450px;"><tr><td style="width:225px;"><![endif]-->
+          <div align="center" style="width:225px;display:inline-block;vertical-align:top;" class="full">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0;">
+              <tr>
+                <td align="center">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1hMjI2MTJiMzkxYmI1OTA3MjMxMmJkYTQ1MDA1ZTE1YzFiZDgyMzk5&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                    <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/vp1-240x240-20200629.png" alt="" border="0" width="120" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:25px 0 40px;">
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:90%;margin:0 auto;">
+                    <tr>
+                      <td align="center" style="font-family:serif, Plantin;font-size:15px;mso-line-height-rule:exactly;line-height:19px;-webkit-font-smoothing:antialiased;">
+                        <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1hMjI2MTJiMzkxYmI1OTA3MjMxMmJkYTQ1MDA1ZTE1YzFiZDgyMzk5&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Free shipping &#38;<span>&nbsp;</span>returns</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding:15px 0 0;font-family:sans-serif, Akkurat;font-size:14px;mso-line-height-rule:exactly;line-height:18px;-webkit-font-smoothing:antialiased;letter-spacing:0.25px;font-weight:300;">
+                        <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1hMjI2MTJiMzkxYmI1OTA3MjMxMmJkYTQ1MDA1ZTE1YzFiZDgyMzk5&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Makes deciding easier,<br>doesn't it?</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if (gte mso 9)|(IE)]></td><td style="width:225px;"><![endif]-->
+          <div align="center" style="width:225px;display:inline-block;vertical-align:top;" class="full">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0;">
+              <tr>
+                <td align="center">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1hMjI2MTJiMzkxYmI1OTA3MjMxMmJkYTQ1MDA1ZTE1YzFiZDgyMzk5&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                    <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/vp2-240x240-20200629.png" alt="" border="0" width="120" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:25px 0 40px;">
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:90%;margin:0 auto;">
+                    <tr>
+                      <td align="center" style="font-family:serif, Plantin;font-size:15px;mso-line-height-rule:exactly;line-height:19px;-webkit-font-smoothing:antialiased;">
+                        <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1hMjI2MTJiMzkxYmI1OTA3MjMxMmJkYTQ1MDA1ZTE1YzFiZDgyMzk5&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">0% APR available</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding:15px 0 0;font-family:sans-serif, Akkurat;font-size:14px;mso-line-height-rule:exactly;line-height:18px;-webkit-font-smoothing:antialiased;letter-spacing:0.25px;font-weight:300;">
+                        <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1hMjI2MTJiMzkxYmI1OTA3MjMxMmJkYTQ1MDA1ZTE1YzFiZDgyMzk5&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Get monthly payments<br>with Affirm.</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full help">
+      <tr>
+        <td align="center" style="padding:10px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" bgcolor="#F4F2F2" style="width:100%;margin:0 auto;">
+            <tr>
+              <td align="center" style="padding:65px 0;" class="yahooHero">
+                <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:90%;margin:0 auto;">
+                  <tr>
+                    <td align="center" style="padding:0 0 30px">
+                      <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                        <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/filter-400x393-20200723.png" width="200" alt="" border="0" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th align="center" style="font-weight:400;font-family:serif, Plantin;font-size:27px;line-height:1;-webkit-font-smoothing:antialiased;">
+                      <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Does Molekule destroy<span>&nbsp;</span>viruses?</a>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding:20px 0 0;">
+                      <p align="center" style="margin:0;padding:0;font-family:sans-serif, Akkurat;font-weight:300;-webkit-font-smoothing:antialiased;font-size:15px;line-height:24px;color:#333333;">Our purifiers work with PECO technology&#8212;and there are many <br class="hide">studies &#40;<a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:underline;color:#2660ff;">all published on our homepage</a>&#41; that show that it not only <br class="hide">captures, but&nbsp;destroys<span>&nbsp;</span>viruses.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full cats">
+      <tr>
+        <td align="center" style="padding:50px 0;text-align:center;vertical-align:top;font-size:0;" class="yahooHero">
+
+          <!--[if (gte mso 9)|(IE)]><table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:485px;"><tr><td style="width:240px;"><![endif]-->
+          <div align="center" style="width:240px;display:inline-block;vertical-align:top;" class="full">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0;">
+              <tr>
+                <td align="left" height="267" valign="middle" style="height:267px;vertical-align:middle;" class="center full pad">
+                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                    <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/cat-352x418-20200629.png" alt="" border="0" width="176" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if (gte mso 9)|(IE)]></td><td style="width:245px;"><![endif]-->
+          <div align="center" style="width:245px;display:inline-block;vertical-align:top;" class="full">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0;">
+              <tr>
+                <td align="center" style="padding:0 0 9px;">
+                  <![if !mso]><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz04NDlmOTlhOTc0MzUyNmEyOGY2NzczNWI2NjZmNzM5NDgwODVkZDNl&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-air&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="text-decoration:none;color:#333333;" target="_blank">
+                    <div>
+                      <![endif]>
+                      <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;" bgcolor="#F4F2F2" class="hover">
+                        <tr>
+                          <td align="center" style="padding:20px 0;">
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:80%;margin:0 auto;" class="box">
+                              <tr>
+                                <td align="left" class="center" style="font-family:serif, Plantin;font-size:20px;line-height:1;-webkit-font-smoothing:antialiased;">
+                                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz04NDlmOTlhOTc0MzUyNmEyOGY2NzczNWI2NjZmNzM5NDgwODVkZDNl&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-air&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Molekule Air</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <![if !mso]>
+                    </div>
+                  </a>
+                  <![endif]>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:0 0 9px;">
+                  <![if !mso]><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" style="text-decoration:none;color:#333333;" target="_blank">
+                    <div>
+                      <![endif]>
+                      <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;" bgcolor="#F4F2F2" class="hover">
+                        <tr>
+                          <td align="center" style="padding:20px 0;">
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:80%;margin:0 auto;" class="box">
+                              <tr>
+                                <td align="left" class="center" style="font-family:serif, Plantin;font-size:20px;line-height:1;-webkit-font-smoothing:antialiased;">
+                                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMThlZjdmOTJhZTU0NGYxMTVhODNlMjM5YzRhMjZiNjJmZjAxOTAy&b=https%3A%2F%2Fmolekule.com%2Fair-purifier-mini&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Air Mini</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <![if !mso]>
+                    </div>
+                  </a>
+                  <![endif]>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="padding:0 0 9px;">
+                  <![if !mso]><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiLGgmc2lnPWEyMjYxMmIzOTFiYjU5MDcyMzEyYmRhNDUwMDVlMTVjMWJkODIzOTk=&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555&h=#replacementfilters" style="text-decoration:none;color:#333333;" target="_blank">
+                    <div>
+                      <![endif]>
+                      <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;" bgcolor="#F4F2F2" class="hover">
+                        <tr>
+                          <td align="center" style="padding:20px 0;">
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:80%;margin:0 auto;" class="box">
+                              <tr>
+                                <td align="left" class="center" style="font-family:serif, Plantin;font-size:20px;line-height:1;-webkit-font-smoothing:antialiased;">
+                                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiLGgmc2lnPWEyMjYxMmIzOTFiYjU5MDcyMzEyYmRhNDUwMDVlMTVjMWJkODIzOTk=&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555&h=#replacementfilters" target="_blank" style="text-decoration:none;color:#333333;">Filters</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <![if !mso]>
+                    </div>
+                  </a>
+                  <![endif]>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <![if !mso]><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiLGgmc2lnPWEyMjYxMmIzOTFiYjU5MDcyMzEyYmRhNDUwMDVlMTVjMWJkODIzOTk=&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555&h=#Replacementparts" style="text-decoration:none;color:#333333;" target="_blank">
+                    <div>
+                      <![endif]>
+                      <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;" bgcolor="#F4F2F2" class="hover">
+                        <tr>
+                          <td align="center" style="padding:20px 0;">
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:80%;margin:0 auto;" class="box">
+                              <tr>
+                                <td align="left" class="center" style="font-family:serif, Plantin;font-size:20px;line-height:1;-webkit-font-smoothing:antialiased;">
+                                  <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiLGgmc2lnPWEyMjYxMmIzOTFiYjU5MDcyMzEyYmRhNDUwMDVlMTVjMWJkODIzOTk=&b=https%3A%2F%2Fmolekule.com%2Fshop&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555&h=#Replacementparts" target="_blank" style="text-decoration:none;color:#333333;">Accessories</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <![if !mso]>
+                    </div>
+                  </a>
+                  <![endif]>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full icons">
+      <tr>
+        <td align="center" style="padding:10px 0;" class="noPad">
+          <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:570px;margin:0 auto;border-top:1px solid #535354;border-bottom:1px solid #535354;" class="box noBord">
+            <tr>
+              <td align="center" style="padding:25px 0;text-align:center;vertical-align:top;font-size:0;" class="noPad">
+
+                <!--[if (gte mso 9)|(IE)]><table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:570px;"><tr><td style="width:285px;"><![endif]-->
+                <div align="center" style="width:285px;display:inline-block;vertical-align:top;" class="full ipad">
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0;border-right:1px solid #535354;" class="noBord">
+                    <tr>
+                      <td align="center" height="60" valign="middle" style="height:60px;" class="full pad1">
+                        <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:129px;margin:0 auto;" class="container">
+                          <tr>
+                            <td align="center" style="font-family:sans-serif, Akkurat;font-weight:300;-webkit-font-smoothing:antialiased;font-size:12px;line-height:1;color:#333333;" class="copy">Stay connected with us</td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="padding:15px 0 0;">
+                              <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;">
+                                <tr>
+                                  <td align="center" style="font-size:10px;font-family:sans-serif;">
+                                    <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz0zMWYxNjZmYTI4YjViNmEyMzIxMDNiYjE4NTU4YTBjNjZlNDY2OGUx&b=https%3A%2F%2Fwww.instagram.com%2Fmolekuleair%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">
+                                      <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/sm1-44x44-20200629.png" alt="Ig" width="22" border="0" />
+                                    </a>
+                                  </td>
+                                  <td align="center" style="font-size:10px;font-family:sans-serif;">
+                                    <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz05NDZmMWVlMmVmODdiY2RkN2NjNDJhMjA4OTc1MjdkNTQ5Y2E1YThh&b=https%3A%2F%2Fwww.facebook.com%2Fmolekuleair%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">
+                                      <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/sm2-44x44-20200629.png" alt="Fb" width="22" border="0" />
+                                    </a>
+                                  </td>
+                                  <td align="center" style="font-size:10px;font-family:sans-serif;">
+                                    <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz00MmFhYzQ1NTZiNzNjM2IxNGY2ZDI3ODE0ZGRmZjUwZjI2M2QzZmYw&b=https%3A%2F%2Ftwitter.com%2Fmolekuleair&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">
+                                      <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/sm3-46x44-20200629.png" alt="Tw" width="22" border="0" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+                <!--[if (gte mso 9)|(IE)]></td><td style="width:285px;"><![endif]-->
+                <div align="center" style="width:285px;display:inline-block;vertical-align:top;" class="full ipad">
+                  <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0;">
+                    <tr>
+                      <td align="center" height="60" valign="middle" style="height:60px;" class="full">
+                        <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:129px;margin:0 auto;" class="container">
+                          <tr>
+                            <td align="center" style="font-family:sans-serif, Akkurat;font-weight:300;-webkit-font-smoothing:antialiased;font-size:12px;line-height:1;" class="copy">
+                              <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMWIxMGRhNDZmNjZhZmZmZjIxMWRhMjVkNDYxYTFmM2IzMDU1MzFm&b=https%3A%2F%2Fhelp.molekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">Visit our help center</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="padding:10px 0 0;" class="pad2">
+                              <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMWIxMGRhNDZmNjZhZmZmZjIxMWRhMjVkNDYxYTFmM2IzMDU1MzFm&b=https%3A%2F%2Fhelp.molekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#333333;">
+                                <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/help-72x72-20200629.png" alt="Get help" border="0" width="36" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;margin:0 auto;" class="full footer">
+      <tr>
+        <td align="center" style="padding:40px 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:90%;margin:0 auto;">
+            <tr>
+              <td align="center" style="padding:0 0 30px;font-family:sans-serif, Akkurat;font-size:14px;line-height:18px;color:#535354;-webkit-font-smoothing:antialiased;">Offer valid on first purchase only. Excludes<span>&nbsp;</span>filters, accessories and Air Pro RX.&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center" style="padding:0 0 20px;">
+                <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz01ZDg3ZTI3ZTJhN2NlZjBiY2MyNjA4M2ZhOGIwODUzMGYyM2E0NGRj&b=https%3A%2F%2Fmolekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;">
+                  <img src="https://assets.bounceexchange.com/assets/uploads/users/4034/molekule/logo2-100x100-20200629.png" alt="" border="0" width="50" />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="padding:0 0 15px;font-family:sans-serif, Akkurat;font-size:16px;line-height:25px;color:#535354;-webkit-font-smoothing:antialiased;"><span style="font-weight:700;">Molekule&#44; Inc.</span><br>1301 Folsom Street<span class="hide">&#44; </span><br style="display:none;" class="show">San Francisco, CA 94103</td>
+            </tr>
+            <tr>
+              <td align="center" style="font-family:sans-serif, Akkurat;font-size:14px;line-height:22px;color:#535354;-webkit-font-smoothing:antialiased;padding:0 0 20px;" class="noPad">Questions? Call us seven days a week 8am-5pm<span>&nbsp;</span>(PT) <br class="hide">at <a href="tel:855-999-9069" target="_blank" style="text-decoration:none;color:#535354;">855-999-9069</a> or visit <a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiJnNpZz1jMWIxMGRhNDZmNjZhZmZmZjIxMWRhMjVkNDYxYTFmM2IzMDU1MzFm&b=https%3A%2F%2Fhelp.molekule.com%2F&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555" target="_blank" style="text-decoration:none;color:#535354;">help.molekule.com</a><br>&nbsp;<br>&#169; 2020 Molekule. All&nbsp;rights&nbsp;reserved.<br><br style="display:none;" class="show"><span class="lineheight"><a href="#" style="text-decoration:none;color:#535354;" target="_blank" class="link">View in browser</a><span class="hide"> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> </span><br style="display:none;" class="show"><a href="http://ibx1.net/ibx/rd2/5f28e0e8b8816/?x2=juuiNz8-SsX77hcQCr81NX6uDEqOEFmh5KCsvTOdiDZ-7rE46ozQ09FwUNqmYhGDANsgqqm2-c_Ms2PRVqMsyJUD7nJTh32LTOWFmfLlp7yWUBRmLFk4WLhpVQZ-urIhlQEoJHocs-QmMJRDeQ6I6eqhPGyc8yGMJTJPa1Z_zWBYro0Z4wUqlNjZVjTHRDywfhapd1ylq-zjtFm333kVhw%2C%2C&bxhmac=YWxnbz1zaGExJnBhcmFtcz14MixiLGgmc2lnPTE5MGJlZTAzNjQ5NTBkZjllNGI1OTJmZjI5ZmUyY2M4MzgwNjNlYzI=&b=https%3A%2F%2Fmolekule.com%2Flegal&q[utm_campaign]=email_sessionrecap_pros_3_of_4_10off&q[utm_medium]=peoplebasedmarketing&q[utm_source]=bouncex&q[utm_term]=behavioralemail&q[ibx_source]=5555555555555&h=#privacy" style="text-decoration:none;color:#535354;" target="_blank" class="link">Privacy Policy</a> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> <a href="#" style="text-decoration:none;color:#535354;" target="_blank" class="link">Unsubscribe</a></span></td>
+            </tr>
+            <tr>
+              <td align="center" style="padding:10px 0;">
+                <div style="display:none;white-space:nowrap;font:15px courier;color:#fff;">
+                  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

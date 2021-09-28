@@ -1,0 +1,799 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <title></title>
+
+    <!--[if !mso]>
+<!-- -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+      #outlook a {
+        padding: 0;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass * {
+        line-height: 100%;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+      p {
+        display: block;
+        margin: 13px 0;
+      }
+    </style>
+
+    <!--[if !mso]>
+<!-->
+    <style type="text/css">
+      @media only screen and (max-width:480px) {
+        @-ms-viewport {
+          width: 320px;
+        }
+        @viewport {
+          width: 320px;
+        }
+      }
+    </style>
+
+    <!--<![endif]-->
+
+    <!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+
+    <!--[if lte mso 11]>
+        <style type="text/css">
+          .outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 {
+          width: 100% !important;
+          max-width: 100%;
+        }
+        .mj-column-px-340 {
+          width: 340px !important;
+          max-width: 340px;
+        }
+        .mj-column-px-440 {
+          width: 440px !important;
+          max-width: 440px;
+        }
+        .mj-column-per-50 {
+          width: 50% !important;
+          max-width: 50%;
+        }
+      }
+    </style>
+    <style type="text/css">
+      /**
+       * None of these CSS stylings are guaranteed to work.
+       * So be sure to allow any of these styles to fail gracefully.
+       */
+      body {
+        background: #e8e8e8;
+        margin: 0;
+      }
+      @media (min-width:480px) {
+        body {
+          margin: 24px 0 !important;
+        }
+      }
+      a {
+        /* not all email clients support color: inherit; so fall back on a fixed color */
+        color: #1e1e1e;
+        color: inherit;
+      }
+      @media only screen and (max-width:480px) {
+        table.full-width-mobile {
+          width: 100% !important;
+        }
+        td.full-width-mobile {
+          width: auto !important;
+        }
+      }
+      /*
+       * This outfit-formula styling won't work on a lot of email clients
+       * Make sure to test any CSS changes here
+       */
+      .outfit-formula-image {
+        border-radius: 8px;
+        vertical-align: middle;
+      }
+      .outfit-formula-image-top-layer {
+        margin-right: -16px;
+        position: relative;
+        box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.12);
+      }
+      .order-table .item>td {
+        vertical-align: top;
+        padding-top: 16px;
+      }
+      .order-table .item-image {
+        padding-right: 16px;
+      }
+      .order-table .item-description,
+      .order-table .item-refunded {
+        color: #787878;
+      }
+      .order-table .item-description a {
+        color: #1e1e1e;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 8px;
+      }
+      .order-table .price {
+        text-align: right;
+      }
+      .order-table .item-image {
+        width: 50px;
+      }
+      .order-table .item-price {
+        width: 80px;
+      }
+      .order-table .item-description,
+      .order-table .item-price {
+        padding: 20px 0;
+      }
+      .order-table .pricing-row {
+        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+      }
+      .order-table .pricing-row td {
+        padding: 12px 0;
+      }
+      .order-table .total-row {
+        font-weight: 600;
+      }
+      .order-details-footer * {
+        line-height: 170% !important;
+      }
+      .rounded-border table,
+      .rounded-border td {
+        /*
+        * By default, MJML doesn't let you have borders with a border-radius.
+        * See https://github.com/mjmlio/mjml/issues/910 for more context.
+        * Adding this style can add inconsistency across clients, so be sure
+        * to test across clients if doing this.
+        */
+        border-collapse: unset !important;
+      }
+    </style>
+  </head>
+  <body style="-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; background:#e8e8e8; margin:0; padding:0">
+    <div>
+
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#ffffff;background-color:#ffffff;Margin:0px auto;max-width:600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff; background-color:#fff; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#fff" width="100%">
+          <tbody>
+            <tr>
+              <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                    <tbody>
+                      <tr>
+                        <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                            <tr>
+                              <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; border-spacing:0; mso-table-lspace:0; mso-table-rspace:0">
+                                  <tbody>
+                                    <tr>
+                                      <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:42px" width="42"><img alt="Thread" height="42" src="https://d1xx3pvec9nqb7.cloudfront.net/media/images/logos/monogram-med-ink-52x52@2x.e761744f97e3.png" style="-ms-interpolation-mode:bicubic; border:0; display:block; height:42px; line-height:100%; outline:none; text-decoration:none; width:100%" width="100%"></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:16px 0; word-break:break-word">
+                                <div style="font-family:Arial;font-size:24px;font-weight:600;line-height:133%;text-align:center;color:#1e1e1e;">Order confirmed</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                <div style="font-family:Arial;font-size:15px;line-height:133%;text-align:center;color:#787878;">Your new clothes will be delivered between <span style="font-weight:600; color:#1e1e1e;">22nd Nov – 26th Nov </span>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+      <div>
+
+        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div style="background:#ffffff;background-color:#ffffff;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff; background-color:#fff; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#fff" width="100%">
+            <tbody>
+              <tr>
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:24px 24px 0; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                  <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                              <tr>
+                                <td align="center" class="h2" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 0 16px; word-break:break-word">
+                                  <div style="font-family:Arial;font-size:18px;font-weight:600;line-height:133%;text-align:center;text-transform:uppercase;color:#1e1e1e;">Order Details</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div style="background:#ffffff;background-color:#ffffff;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff; background-color:#fff; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#fff" width="100%">
+            <tbody>
+              <tr>
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                  <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse:collapse; border-top:1px solid #e8e8e8; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                              <tr>
+                                <td align="left" class="order-table" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <table cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse:collapse; cellspacing:0; color:#1e1e1e; font-family:Arial; font-size:13px; line-height:133%; mso-table-lspace:0; mso-table-rspace:0; table-layout:auto; width:100%">
+                                    <tr class="item">
+                                      <td class="item-image" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-right:16px; padding-top:16px; vertical-align:top; width:50px" width="50" valign="top"><img src="https://d1bwyguot0k3jj.cloudfront.net/yadt/inventory.ItemColourImage/image_new/small/144706268.jpeg?Q7lPdPad" width="50" style="-ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none" height="auto"></td>
+                                      <td class="item-description" style="border-collapse:collapse; color:#787878; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; vertical-align:top" valign="top">
+                                        <a href="https://link.t.thread.com/wf/click?upn=QUUGubCGJ1a3GntdseaEVleLlvhQ2W9bM6NVPw9EZ13KDsm7OEGcOKEWWQV9sAl4sEYTSHdimvBCV3yK0SYPX-2B3XQcyxkgLEGdpWVxDoZyHZDlz1xZHEjiu0-2FAs-2BSIshTDgThrviT0-2Ft-2BRfUa0hudU8-2FcGrdKb6UfgRChb8B2I36dW0q6F-2BrcQGZwYLM-2Br2fmpkFBy9hhHxmRfNpDyE-2FN4BCRKpPTy8J1wt5xTm81ZY-3D_CmwAv3oRa0AH4Hd1bWC6X6p1xqrVRedZKih16VD-2B0xrChseBcTVibMchQcXsGjTeE-2F-2Ba6MiuQeMpPNyu6mWHscwO5mVjTJyblIgiWLu60z2jwHCG70QMVxChVRNfrJQ0UhCx9afqLg3DojDYiY3oCSPvTEaQteqsBnaRPhDVP2W4OFr-2FIiTBNN1Vul2HayqsXY6ZHkuqbRaV6XzKsri48syqRuciJqEylVT9LcBpsJpAfPZl-2FosW8aUBltENi279JbPUlx-2FHrAQtATTurvBmhKc5uV0yiJVVYFOuBnlPPzrBv3LxaB9nxZIxwF7nrGbtqFz7oFqck-2BFa4zU3elP8pnLFCScQLOTy1RgZZK1TnZo-3D" style="color:#1e1e1e; display:block; margin-bottom:8px; text-decoration:none">1/4 Zip Funnel Neck Jumper</a>
+                                        <div>Size: L</div>
+                                      </td>
+                                      <td class="item-price price" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; text-align:right; vertical-align:top; width:50px" width="50" valign="top" align="right">$60.00</td>
+                                      <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-top:16px; vertical-align:top" valign="top"></td>
+                                    </tr>
+                                    <tr class="item">
+                                      <td class="item-image" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-right:16px; padding-top:16px; vertical-align:top; width:50px" width="50" valign="top"><img src="https://d1bwyguot0k3jj.cloudfront.net/yadt/inventory.ItemColourImage/image_new/small/39886359.jpeg?Pmu9DTe4" width="50" style="-ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none" height="auto"></td>
+                                      <td class="item-description" style="border-collapse:collapse; color:#787878; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; vertical-align:top" valign="top">
+                                        <a href="https://link.t.thread.com/wf/click?upn=QUUGubCGJ1a3GntdseaEVleLlvhQ2W9bM6NVPw9EZ10g4PBq-2BEjC7m6j70GNtNcwDaDT9LfHmyKektsnfrnffUCb8ipgui-2BWRUAQWRWmHo3jjSKhq2BntHO6RYOJvDKIVij2987kzhyoo0OI7EzIn35m6ZGMETxfsXbbomFNlUHJfzHsjafyEtndJ-2BMztmmdDtmd-2F547iz8oh7I0ChwnjrLLQoHCHApzNwdTgwiGvKc-3D_CmwAv3oRa0AH4Hd1bWC6X6p1xqrVRedZKih16VD-2B0xrChseBcTVibMchQcXsGjTeE-2F-2Ba6MiuQeMpPNyu6mWHscwO5mVjTJyblIgiWLu60z2jwHCG70QMVxChVRNfrJQ0UhCx9afqLg3DojDYiY3oCSPvTEaQteqsBnaRPhDVP2W4OFr-2FIiTBNN1Vul2Hayqsh9rsNp0mIn7Al78wA99cK-2FeSgsFzfqV-2Bu7Jmpwp9GrtuzkkB-2FbjD-2FpleJkCSMWryQNxFSDo-2BWM-2FbQOAvmDYhQ5AkFTSsu0D44jdlC-2BSijGrl260glFzeML1n2Px1FlmT2yapqUZkToAGwhYebpCjKpcOYdzoPhhRFujgWeWWkNE-3D" style="color:#1e1e1e; display:block; margin-bottom:8px; text-decoration:none">Antill Striped Crew Neck T-shirt</a>
+                                        <div>Size: M</div>
+                                      </td>
+                                      <td class="item-price price" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; text-align:right; vertical-align:top; width:50px" width="50" valign="top" align="right">$17.00</td>
+                                      <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-top:16px; vertical-align:top" valign="top"></td>
+                                    </tr>
+                                    <tr class="item">
+                                      <td class="item-image" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-right:16px; padding-top:16px; vertical-align:top; width:50px" width="50" valign="top"><img src="https://d1bwyguot0k3jj.cloudfront.net/yadt/inventory.ItemColourImage/image_new/small/111364072.jpeg?Lo4soln9" width="50" style="-ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none" height="auto"></td>
+                                      <td class="item-description" style="border-collapse:collapse; color:#787878; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; vertical-align:top" valign="top">
+                                        <a href="https://link.t.thread.com/wf/click?upn=QUUGubCGJ1a3GntdseaEVleLlvhQ2W9bM6NVPw9EZ130vWWNvmInBdMrJctqUA-2BRrXTLUE5GwxKnNQjT92ufbZQx1tvAU-2BdP6v7ToexJbrt052NWYjoY9cggOHhQxAEZdQ7cMNCdNLEdiAu7hSZ10QC4un38UIAQvKCkjgsluMZJeGOu-2BvDiIDpAvXnvt70KJw0DW1DnvTWmvJH8xQzfvcUN0QlS-2BF7C5ZYKFzy05cY-3D_CmwAv3oRa0AH4Hd1bWC6X6p1xqrVRedZKih16VD-2B0xrChseBcTVibMchQcXsGjTeE-2F-2Ba6MiuQeMpPNyu6mWHscwO5mVjTJyblIgiWLu60z2jwHCG70QMVxChVRNfrJQ0UhCx9afqLg3DojDYiY3oCSPvTEaQteqsBnaRPhDVP2W4OFr-2FIiTBNN1Vul2HayqsIvwRkqW4Ok6WzHpFJL5AQgH4BfD0yUOODBOeL4SJgSxcM3wgOs21-2BMvv6aQmVxPNamvOmg4OlofFAvBeJvdLiVOnTEMvh1hsm-2F2kehMqUE5mAFZR8YpeMWK4sk-2FkQFv0goOC4o-2F1Am-2Br9jUydLcwRFBldJw3uZzahLSJlTHoDGw-3D" style="color:#1e1e1e; display:block; margin-bottom:8px; text-decoration:none">Boyd Double Faced Stripe T-shirt</a>
+                                        <div>Size: M</div>
+                                      </td>
+                                      <td class="item-price price" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; text-align:right; vertical-align:top; width:50px" width="50" valign="top" align="right">$21.00</td>
+                                      <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-top:16px; vertical-align:top" valign="top"></td>
+                                    </tr>
+                                    <tr class="item">
+                                      <td class="item-image" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-right:16px; padding-top:16px; vertical-align:top; width:50px" width="50" valign="top"><img src="https://d1bwyguot0k3jj.cloudfront.net/yadt/inventory.ItemColourImage/image_new/small/142090020.jpeg" width="50" style="-ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none" height="auto"></td>
+                                      <td class="item-description" style="border-collapse:collapse; color:#787878; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; vertical-align:top" valign="top">
+                                        <a href="https://link.t.thread.com/wf/click?upn=QUUGubCGJ1a3GntdseaEVleLlvhQ2W9bM6NVPw9EZ10-2F2JnhWWxxLii80QflZqit76f9iB7xv3wY8pB-2F934LFyCDKmYvw4I4U9z1Vf5MzbYyBsSje9HcmA0YF35re0s56iMQLF2CWL4YWJSRlx7GmDgmTwfbiO9DhXenBWsEWPgDfjmV-2B1HlS-2FhACn9fkCPJX2NSjWRcB-2FM8oYR9HiwQHRJyUJ1HUmRgUZnlzGcYenM-3D_CmwAv3oRa0AH4Hd1bWC6X6p1xqrVRedZKih16VD-2B0xrChseBcTVibMchQcXsGjTeE-2F-2Ba6MiuQeMpPNyu6mWHscwO5mVjTJyblIgiWLu60z2jwHCG70QMVxChVRNfrJQ0UhCx9afqLg3DojDYiY3oCSPvTEaQteqsBnaRPhDVP2W4OFr-2FIiTBNN1Vul2HayqsxtjQNnL3BIF3r-2B1ngV5OoDd6Q9GNwzQ4X1byueObRSaxXk72-2FSaVKEPmP5ULWkm1eXFpMXqiJuWD-2Bsandj0yqUByzNGGSClFbjqzcuTTqT0S-2BQJHMUsZUiX-2B-2FhawpKpDB6eELUpbWI-2BPIAQDGTdNVjQgDMK1X1hUovXkQZsPqKA-3D" style="color:#1e1e1e; display:block; margin-bottom:8px; text-decoration:none">Plain Beanie</a>
+                                        <div>Size: One Size</div>
+                                      </td>
+                                      <td class="item-price price" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:20px 0; padding-top:16px; text-align:right; vertical-align:top; width:50px" width="50" valign="top" align="right">$23.00</td>
+                                      <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding-top:16px; vertical-align:top" valign="top"></td>
+                                    </tr>
+                                    <tr class="pricing-row" style="border-bottom:1px solid #e8e8e8; border-top:1px solid #e8e8e8">
+                                      <td colspan="2" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:12px 0">Delivery</td>
+                                      <td class="price" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:12px 0; text-align:right" align="right">$0.00</td>
+                                    </tr>
+                                    <tr class="pricing-row total-row" style="border-bottom:1px solid #e8e8e8; border-top:1px solid #e8e8e8; font-weight:600">
+                                      <td colspan="2" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:12px 0">Total</td>
+                                      <td class="price" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:12px 0; text-align:right" align="right"> $121.00 </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
+      <div>
+
+        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="order-details-footer-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div class="order-details-footer" style="background:#ffffff;background-color:#ffffff;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff; background-color:#fff; border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; width:100%" width="100%" bgcolor="#fff">
+            <tbody style="line-height: 170%;">
+              <tr style="line-height: 170%;">
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:24px 24px 0; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:276px;" ><![endif]-->
+                  <div class="mj-column-per-50 outlook-group-fix" style="font-size: 13px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%; line-height: 170%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody style="line-height: 170%;">
+                        <tr style="line-height: 170%;">
+                          <td style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0 16px 16px 0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0" width="100%">
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:4px 0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; font-weight: 600; text-align: left; color: #1e1e1e; line-height: 170%;">Delivery address:</div>
+                                </td>
+                              </tr>
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; text-align: left; color: #787878; line-height: 170%;">
+                                    <div style="line-height: 170%;">Smiles Davis</div>
+                                    <div style="line-height: 170%;">600 Montgomery St</div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:276px;" ><![endif]-->
+                  <div class="mj-column-per-50 outlook-group-fix" style="font-size: 13px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%; line-height: 170%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody style="line-height: 170%;">
+                        <tr style="line-height: 170%;">
+                          <td style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; padding-bottom:16px; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0" width="100%">
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:4px 0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; font-weight: 600; text-align: left; color: #1e1e1e; line-height: 170%;">Billing address:</div>
+                                </td>
+                              </tr>
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; text-align: left; color: #787878; line-height: 170%;">
+                                    <div style="line-height: 170%;">Smiles Davis</div>
+                                    <div style="line-height: 170%;">600 Montgomery St</div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><![endif]-->
+
+        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="order-details-footer-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div class="order-details-footer" style="background:#ffffff;background-color:#ffffff;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff; background-color:#fff; border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; width:100%" width="100%" bgcolor="#fff">
+            <tbody style="line-height: 170%;">
+              <tr style="line-height: 170%;">
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:276px;" ><![endif]-->
+                  <div class="mj-column-per-50 outlook-group-fix" style="font-size: 13px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%; line-height: 170%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody style="line-height: 170%;">
+                        <tr style="line-height: 170%;">
+                          <td style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0 16px 16px 0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0" width="100%">
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:4px 0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; font-weight: 600; text-align: left; color: #1e1e1e; line-height: 170%;">Payment details:</div>
+                                </td>
+                              </tr>
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; text-align: left; color: #787878; line-height: 170%;"> visa XXXX-XXXX-XXXX-6500 </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:276px;" ><![endif]-->
+                  <div class="mj-column-per-50 outlook-group-fix" style="font-size: 13px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%; line-height: 170%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody style="line-height: 170%;">
+                        <tr style="line-height: 170%;">
+                          <td style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; padding-bottom:16px; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0" width="100%">
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:4px 0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; font-weight: 600; text-align: left; color: #1e1e1e; line-height: 170%;">Order reference:</div>
+                                </td>
+                              </tr>
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; text-align: left; color: #787878; line-height: 170%;">#650050</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><![endif]-->
+
+        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="order-details-footer-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div class="order-details-footer" style="background:#ffffff;background-color:#ffffff;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff; background-color:#fff; border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; width:100%" width="100%" bgcolor="#fff">
+            <tbody style="line-height: 170%;">
+              <tr style="line-height: 170%;">
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                  <div class="mj-column-per-100 outlook-group-fix" style="font-size: 13px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%; line-height: 170%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody style="line-height: 170%;">
+                        <tr style="line-height: 170%;">
+                          <td style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; line-height:170%; mso-table-lspace:0; mso-table-rspace:0" width="100%">
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:4px 0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; font-weight: 600; text-align: left; color: #1e1e1e; line-height: 170%;">Got a question about your order?</div>
+                                </td>
+                              </tr>
+                              <tr style="line-height: 170%;">
+                                <td align="left" style="border-collapse:collapse; font-size:0; line-height:170%; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <div style="font-family: Arial; font-size: 13px; text-align: left; color: #787878; line-height: 170%;">Contact our team <a href="mailto:support@thread.com" style="color:inherit; line-height:170%">support@thread.com</a>, and quote your order reference number.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
+
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#f7f7f7;background-color:#f7f7f7;Margin:0px auto;max-width:600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f7f7f7; background-color:#f7f7f7; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#f7f7f7" width="100%">
+          <tbody>
+            <tr>
+              <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                    <tbody>
+                      <tr>
+                        <td style="border-collapse:collapse; border-top:1px solid #e8e8e8; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0"></table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+      <div>
+
+        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div style="background:#f7f7f7;background-color:#f7f7f7;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f7f7f7; background-color:#f7f7f7; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#f7f7f7" width="100%">
+            <tbody>
+              <tr>
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:24px 24px 0; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:340px;" ><![endif]-->
+                  <div class="mj-column-px-340 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                              <tr>
+                                <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 0 16px; word-break:break-word">
+                                  <div style="font-family:Arial;font-size:24px;font-weight:600;letter-spacing:0.33px;line-height:133%;text-align:center;color:#1e1e1e;">$30 for you, $30 for a friend</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div style="background:#f7f7f7;background-color:#f7f7f7;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f7f7f7; background-color:#f7f7f7; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#f7f7f7" width="100%">
+            <tbody>
+              <tr>
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:12px 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                  <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                              <tr>
+                                <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; border-spacing:0; mso-table-lspace:0; mso-table-rspace:0">
+                                    <tbody>
+                                      <tr>
+                                        <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:200px" width="200"><img alt height="auto" src="https://d1xx3pvec9nqb7.cloudfront.net/media/images/emails/walking_people.fbfa0c5c58c6.jpg" style="-ms-interpolation-mode:bicubic; border:0; display:block; height:auto; line-height:100%; outline:none; text-decoration:none; width:100%" width="100%"></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div style="background:#f7f7f7;background-color:#f7f7f7;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f7f7f7; background-color:#f7f7f7; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#f7f7f7" width="100%">
+            <tbody>
+              <tr>
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:440px;" ><![endif]-->
+                  <div class="mj-column-px-440 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                              <tr>
+                                <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:16px 0; word-break:break-word">
+                                  <div style="font-family:Arial;font-size:15px;line-height:133%;text-align:center;color:#787878;">Share the link below and you'll get $30 off for every friend who places an order over $60 on Thread. Easy.</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="rounded-border-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div class="rounded-border" style="background:#f7f7f7;background-color:#f7f7f7;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f7f7f7; background-color:#f7f7f7; border-collapse:unset; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#f7f7f7" width="100%">
+            <tbody>
+              <tr>
+                <td style="border-collapse:unset; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="copy-text-box-outlook" style="vertical-align:top;width:552px;" ><![endif]-->
+                  <div class="mj-column-per-100 outlook-group-fix copy-text-box" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:unset; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:#fff; border:1px solid #e8e8e8; border-collapse:unset; border-radius:8px; mso-table-lspace:0; mso-table-rspace:0; padding:16px 24px; vertical-align:top" bgcolor="#fff" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:unset; mso-table-lspace:0; mso-table-rspace:0">
+                              <tr>
+                                <td align="center" style="border-collapse:unset; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <div style="font-family:Arial;font-size:15px;line-height:133%;text-align:center;color:#1e1e1e;"><a href="#" style="color:inherit">https://www.thread.com/SaUuYEmkSpzk2VN6mxENdRfT25OFh9YDW</a></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+        <div style="background:#f7f7f7;background-color:#f7f7f7;Margin:0px auto;max-width:600px;">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f7f7f7; background-color:#f7f7f7; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#f7f7f7" width="100%">
+            <tbody>
+              <tr>
+                <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px 36px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                  <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; padding:0; vertical-align:top" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                              <tr>
+                                <td align="center" vertical-align="middle" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate; line-height:100%; min-width:275px; mso-table-lspace:0; mso-table-rspace:0; width:50%" width="50%">
+                                    <tr>
+                                      <td align="center" bgcolor="#1e1e1e" role="presentation" style="background:#1e1e1e; border:none; border-collapse:collapse; border-radius:8px; cursor:auto; mso-table-lspace:0; mso-table-rspace:0; padding:12px 24px" valign="middle"><a href="mailto:?subject=%2430%20off%20new%20clothes%20at%20Thread&amp;body=Here%E2%80%99s%20%2430%20off%20new%20clothes%20at%20Thread!%20https%3A//www.thread.com/SaUuYEmkSpzk2VN6mxENdRfT25OFh9YDW" style="background:#1e1e1e; color:#fff; font-family:Arial; font-size:17px; font-weight:500; letter-spacing:1px; line-height:133%; margin:0; text-decoration:none; text-transform:none" target="_blank">Share your referral link</a></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
+
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="footer-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div class="footer" style="background:#ffffff;background-color:#ffffff;Margin:0px auto;max-width:600px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff; background-color:#fff; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:100%" bgcolor="#fff" width="100%">
+          <tbody>
+            <tr>
+              <td style="border-collapse:collapse; direction:ltr; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0 24px 24px; text-align:center; vertical-align:top" align="center" valign="top">
+
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                    <tbody>
+                      <tr>
+                        <td style="border-collapse:collapse; border-top:none; mso-table-lspace:0; mso-table-rspace:0; padding:24px 0 0; vertical-align:top" valign="top">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0">
+                            <tr>
+                              <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse; border-spacing:0; mso-table-lspace:0; mso-table-rspace:0">
+                                  <tbody>
+                                    <tr>
+                                      <td style="border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; width:125px" width="125"><img alt="Thread" height="26" src="https://d1xx3pvec9nqb7.cloudfront.net/media/images/logos/logo-small-ink-125x26@2x.a6ef7bbbf0c2.png" style="-ms-interpolation-mode:bicubic; border:0; display:block; height:26px; line-height:100%; outline:none; text-decoration:none; width:100%" width="100%"></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="border-collapse:collapse; font-size:0; mso-table-lspace:0; mso-table-rspace:0; padding:0; word-break:break-word">
+                                <div style="font-family:Arial;font-size:11px;line-height:133%;text-align:center;color:#787878;">
+                                  <p style="display:block; margin:13px 0">1 Alie Street, London E1 8DE, UK<br>© 2019 Thread, Inc.</p>
+                                  <a href="#" target="_blank" style="color:inherit">Notification settings</a>.
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    </div>
+    </body>
+</html>
