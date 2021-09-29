@@ -22,3 +22,7 @@ https://codepen.io/collection/AyVBJr
 - https://reallygoodemails.com/
 
 and many more
+
+
+newsletters:
+- https://reallygoodemails.com/emails/the-markup-issue-4
