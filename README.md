@@ -27,13 +27,18 @@ and many more
 newsletters:
 - https://reallygoodemails.com/emails/the-markup-issue-4
 
+## Examples and screenshots
 
+### Billing 
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/billing-amazon-html.png)
 
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/billing-google-html.png)
 
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/billing-stripe.png)
 
+---
+
+### Food newsletters 
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/food1.png)
 
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/food2.png)
@@ -42,11 +47,14 @@ newsletters:
 
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/food4.png)
 
+---
+
+### Startups
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/startups.png)
 
 ![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/startups2.png)
 
-
+---
 
 
 
