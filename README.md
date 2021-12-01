@@ -26,3 +26,28 @@ and many more
 
 newsletters:
 - https://reallygoodemails.com/emails/the-markup-issue-4
+
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/billing-amazon-html.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/billing-google-html.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/billing-stripe.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/food1.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/food2.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/food3.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/food4.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/startups.png)
+
+![xxx](https://raw.githubusercontent.com/LLazyEmail/free-email-templates-to-try/main/images/startups2.png)
+
+
+
+
+
+
