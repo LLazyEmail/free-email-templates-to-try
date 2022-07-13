@@ -58,7 +58,9 @@ newsletters:
 
 
 
-https://www.benchmarkemail.com/ https://www.benchmarkemail.com/email-templates/
+https://www.benchmarkemail.com/
+
+https://www.benchmarkemail.com/email-templates/
 
 
 
