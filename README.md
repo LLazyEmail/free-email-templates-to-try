@@ -79,3 +79,15 @@ https://www.benchmarkemail.com/email-templates/
 * [https://hackernoon.com/cool-newsletters-for-developers-part-1](https://hackernoon.com/cool-newsletters-for-developers-part-1)
 * [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
 
+
+## Documentation site
+
+The repo has a Docusaurus site that lists every template by category, with a link to open each HTML template in the browser and its source on GitHub.
+
+```bash
+npm install
+npm start      # dev server
+npm run build  # static site in build/
+```
+
+`scripts/build-catalog.mjs` runs before every start and build. It copies the templates into `static/templates/` and writes the category pages into `docs/catalog/`; both are generated and git-ignored. Numbered folders such as `01 Food & Recipes` become categories, and everything else at the root goes under Miscellaneous. The site deploys to GitHub Pages from `main` through `.github/workflows/deploy.yml`.

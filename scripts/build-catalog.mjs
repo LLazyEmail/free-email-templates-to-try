@@ -1,0 +1,156 @@
+#!/usr/bin/env node
+// Builds the template catalog for the Docusaurus site.
+// 1. Copies the template folders and files into static/templates/ so each
+//    HTML template can be opened in the browser with its images.
+// 2. Writes one Markdown page per category into docs/catalog/.
+// Both outputs are generated on every start/build and are git-ignored.
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+const STATIC_OUT = path.join(ROOT, 'static/templates');
+const DOCS_OUT = path.join(ROOT, 'docs/catalog');
+const REPO_URL = 'https://github.com/LLazyEmail/free-email-templates-to-try/blob/main';
+
+// Site and tooling paths at the repo root that are not templates.
+const SKIP_ROOT = new Set([
+  '.git',
+  '.github',
+  '.docusaurus',
+  'node_modules',
+  'build',
+  'docs',
+  'src',
+  'static',
+  'scripts',
+  'package.json',
+  'package-lock.json',
+  'docusaurus.config.js',
+  'sidebars.js',
+  '.gitignore',
+  'README.md',
+  'LICENSE',
+  'AGENTS.md',
+]);
+const SKIP_ANYWHERE = new Set(['__MACOSX', '.DS_Store']);
+const MISC = 'Miscellaneous';
+
+const rootEntries = fs
+  .readdirSync(ROOT, {withFileTypes: true})
+  .filter((e) => !SKIP_ROOT.has(e.name) && !SKIP_ANYWHERE.has(e.name));
+
+// 1. Copy templates into static/templates.
+fs.rmSync(STATIC_OUT, {recursive: true, force: true});
+fs.mkdirSync(STATIC_OUT, {recursive: true});
+for (const entry of rootEntries) {
+  fs.cpSync(path.join(ROOT, entry.name), path.join(STATIC_OUT, entry.name), {
+    recursive: true,
+    filter: (src) => !SKIP_ANYWHERE.has(path.basename(src)),
+  });
+}
+
+// 2. Find every HTML template and zip archive.
+function walk(dir, rel = '') {
+  const out = [];
+  for (const e of fs.readdirSync(dir, {withFileTypes: true})) {
+    if (SKIP_ANYWHERE.has(e.name)) continue;
+    const relPath = rel ? `${rel}/${e.name}` : e.name;
+    if (e.isDirectory()) out.push(...walk(path.join(dir, e.name), relPath));
+    else if (/\.(html?|zip)$/i.test(e.name)) out.push(relPath);
+  }
+  return out;
+}
+
+const files = rootEntries
+  .flatMap((e) =>
+    e.isDirectory() ? walk(path.join(ROOT, e.name), e.name) : [e.name],
+  )
+  .filter((f) => /\.(html?|zip)$/i.test(f))
+  // Prefer the built dist/ version when a src/ version sits next to it.
+  .filter((f) => {
+    const m = f.match(/^(.*)\/src\/(index\.html?)$/i);
+    return !(m && fs.existsSync(path.join(ROOT, m[1], 'dist', m[2])));
+  })
+  .sort((a, b) => a.localeCompare(b));
+
+const categoryLabel = (dir) => dir.replace(/^\d+\s+/, '');
+const slugify = (s) =>
+  s
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+const encodePath = (p) =>
+  p
+    .split('/')
+    .map((s) => encodeURIComponent(s).replace(/\(/g, '%28').replace(/\)/g, '%29'))
+    .join('/');
+const escapeCell = (s) => s.replace(/\|/g, '\\|');
+
+function templateName(file, category) {
+  const parts = file.split('/');
+  if (category !== MISC) parts.shift();
+  const base = parts.pop();
+  if (/^index\.html?$/i.test(base)) {
+    const dirs = parts.filter((p) => !/^(dist|src)$/i.test(p));
+    return dirs.join(' / ') || 'index';
+  }
+  return [...parts, base.replace(/\.(html?|zip)$/i, '')].join(' / ');
+}
+
+const categories = new Map();
+for (const file of files) {
+  // Numbered folders ("01 Food & Recipes") are categories; everything else
+  // at the root is grouped under Miscellaneous.
+  const top = file.split('/')[0];
+  const isCategory =
+    /^\d+\s/.test(top) && fs.statSync(path.join(ROOT, top)).isDirectory();
+  const category = isCategory ? top : MISC;
+  if (!categories.has(category)) categories.set(category, []);
+  categories.get(category).push(file);
+}
+
+// 3. Write one page per category.
+fs.rmSync(DOCS_OUT, {recursive: true, force: true});
+fs.mkdirSync(DOCS_OUT, {recursive: true});
+fs.writeFileSync(
+  path.join(DOCS_OUT, '_category_.json'),
+  `${JSON.stringify({label: 'Catalog', position: 2, collapsed: false}, null, 2)}\n`,
+);
+
+const sorted = [...categories.keys()].sort((a, b) => {
+  if (a === MISC) return 1;
+  if (b === MISC) return -1;
+  return a.localeCompare(b, 'en', {numeric: true});
+});
+
+sorted.forEach((category, index) => {
+  const label = category === MISC ? MISC : categoryLabel(category);
+  const rows = categories.get(category).map((file) => {
+    const isZip = /\.zip$/i.test(file);
+    const open = `[${isZip ? 'Download' : 'Open'}](pathname:///templates/${encodePath(file)})`;
+    const source = `[GitHub](${REPO_URL}/${encodePath(file)})`;
+    return `| ${escapeCell(templateName(file, category))} | ${isZip ? 'zip' : 'HTML'} | ${open} | ${source} |`;
+  });
+  const page = [
+    '---',
+    `title: ${JSON.stringify(label)}`,
+    `sidebar_position: ${index + 1}`,
+    '---',
+    '',
+    `# ${label}`,
+    '',
+    `${rows.length} template${rows.length === 1 ? '' : 's'}. This page is generated by \`scripts/build-catalog.mjs\`.`,
+    '',
+    '| Template | Type | Preview | Source |',
+    '| --- | --- | --- | --- |',
+    ...rows,
+    '',
+  ].join('\n');
+  fs.writeFileSync(path.join(DOCS_OUT, `${slugify(label)}.md`), page);
+});
+
+console.log(
+  `Catalog: ${files.length} templates in ${categories.size} categories -> docs/catalog/`,
+);
