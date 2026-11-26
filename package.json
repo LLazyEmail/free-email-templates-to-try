@@ -1,0 +1,28 @@
+{
+  "name": "free-email-templates-to-try-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docusaurus catalog for free-email-templates-to-try",
+  "scripts": {
+    "catalog": "node scripts/build-catalog.mjs",
+    "prestart": "npm run catalog",
+    "prebuild": "npm run catalog",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "docusaurus": "docusaurus"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
+    "@mdx-js/react": "^3.1.0",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
